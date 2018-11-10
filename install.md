@@ -10,6 +10,7 @@
 Splash is a javascript rendering service with an HTTP API.
 It's a lightweight browser with an HTTP API, implemented in Python 3 using Twisted and QT5.
 It's fast, lightweight and state-less which makes it easy to distribute.
+
 Link: https://splash.readthedocs.io/en/stable/install.html#linux-docker
 
 ### TL;DR:
