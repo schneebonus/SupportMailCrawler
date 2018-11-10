@@ -1,0 +1,155 @@
+URL;Name;Versicherte;Typ;Kategorie
+http://bw.aok.de/;AOK Baden-Württemberg;3.932.607;gesetzl;AOK
+http://bayern.aok.de/;AOK Bayern;4.419.142;gesetzl;AOK
+http://bremen.aok.de/;AOK Bremen/Bremerhaven;228.857;gesetzl;AOK
+http://hessen.aok.de/;AOK Hessen;1.556.276;gesetzl;AOK
+http://niedersachsen.aok.de/;AOK Niedersachsen;2.500.000;gesetzl;AOK
+http://nordost.aok.de/;AOK Nordost;1.800.000;gesetzl;AOK
+http://nordwest.aok.de/;AOK Nordwest;2.800.000;gesetzl;AOK
+http://plus.aok.de/;AOK Plus;3.106.029;gesetzl;AOK
+http://rh.aok.de/;AOK Rheinland/Hamburg;2.871.836;gesetzl;AOK
+http://rps.aok.de/;AOK Rheinland-Pfalz/Saarland;1.165.000;gesetzl;AOK
+http://san.aok.de/;AOK Sachsen-Anhalt;733.500;gesetzl;AOK
+http://www.barmer.de/;Barmer Ersatzkasse;9.400.000;gesetzl;Ersatz
+http://www.dak.de/;DAK-Gesundheit;5.800.000;gesetzl;Ersatz
+http://www.hkk.de/;Handelskrankenkasse (hkk);540.000;gesetzl;Ersatz
+http://www.hek.de/;HEK – Hanseatische Krankenkasse;500.000;gesetzl;Ersatz
+http://www.kkh.de/;Kaufmännische Krankenkasse – KKH;1.800.000;gesetzl;Ersatz
+http://www.tk.de/;Techniker Krankenkasse;9.900.000;gesetzl;Ersatz
+http://www.big-direkt.de/;Bundesinnungskrankenkasse Gesundheit;409.000;gesetzl;IKK
+http://www.ikk-classic.de/;IKK classic;3.300.000;gesetzl;IKK
+http://www.ikk-gesundplus.de/;IKK gesund plus;423.063;gesetzl;IKK
+http://www.ikk-suedwest.de/;IKK Südwest;656.607;gesetzl;IKK
+http://www.ikkbb.de/;Innungskrankenkasse Brandenburg und Berlin;212.807;gesetzl;IKK
+http://www.ikk-nord.de/;Innungskrankenkasse Nord;230.005;gesetzl;IKK
+http://www.actimonda.de/;Actimonda BKK;120.019;gesetzl;BKK
+http://www.atlasbkkahlmann.de/;Atlas BKK ahlmann;55.000;gesetzl;BKK
+http://www.audibkk.de/;Audi BKK;602.312;gesetzl;BKK
+http://www.bahn-bkk.de/;Bahn-BKK;582.000;gesetzl;BKK
+http://www.bertelsmann-bkk.de/;Bertelsmann BKK;47.530;gesetzl;BKK
+http://www.bkk-bbraun.de/;Betriebskrankenkasse B. Braun Melsungen AG – betriebsbezogen;14.800;gesetzl;BKK
+http://www.bkk-bpw.de/;Betriebskrankenkasse BPW Bergische Achsen KG – betriebsbezogen;6.550;gesetzl;BKK
+http://www.bmwbkk.de/;Betriebskrankenkasse der BMW AG – betriebsbezogen;157.839;gesetzl;BKK
+http://www.bkk-pfaff.de/;Betriebskrankenkasse der G. M. Pfaff AG Kaiserslautern;29.391;gesetzl;BKK
+http://www.bkk-mtu.de/;Betriebskrankenkasse der MTU Friedrichshafen GmbH – betriebsbezogen;16.500;gesetzl;BKK
+http://www.siemagbkk.de/;Betriebskrankenkasse der Siemag;19.445;gesetzl;BKK
+http://www.evm.de/evm/bkk-evm/;Betriebskrankenkasse EVM – betriebsbezogen;1.500;gesetzl;BKK
+http://www.bkk-ewe.de/;Betriebskrankenkasse EWE – betriebsbezogen;13.532;gesetzl;BKK
+http://www.bkk-gb.de/;Betriebskrankenkasse Groz-Beckert – betriebsbezogen;6.300;gesetzl;BKK
+http://www.krones-bkk.de/;Betriebskrankenkasse Krones – betriebsbezogen;12.901;gesetzl;BKK
+http://www.bkk-mahle.de/;Betriebskrankenkasse Mahle – betriebsbezogen;12.300;gesetzl;BKK
+http://www.bkk-mem.de/;Betriebskrankenkasse MEM Meuselwitz;2.106;gesetzl;BKK
+http://www.bkk-miele.de/;Betriebskrankenkasse Miele – betriebsbezogen;32.600;gesetzl;BKK
+http://www.bkk-mobil-oil.de/;Betriebskrankenkasse Mobil Oil;1.063.700;gesetzl;BKK
+http://www.bkk-pwc.de/;Betriebskrankenkasse PricewaterhouseCoopers – betriebsbezogen;19.001;gesetzl;BKK
+http://www.bkkrwe.de/;Betriebskrankenkasse RWE – betriebsbezogen;59.159;gesetzl;BKK
+http://www.bkk-sbh.de/;Betriebskrankenkasse Schwarzwald-Baar-Heuberg;20.767;gesetzl;BKK
+http://www.bkk-vdn.de/;Betriebskrankenkasse Vereinigte Deutsche Nickel-Werke;33.600;gesetzl;BKK
+http://www.wmf-bkk.de/;Betriebskrankenkasse WMF Württembergische Metallwarenfabrik AG;22.345;gesetzl;BKK
+http://www.bkk24.de/;BKK24;97.169;gesetzl;BKK
+http://www.bkk-achenbach.de/;BKK Achenbach Buschhütten;33.000;gesetzl;BKK
+http://www.bkk-advita.de/;BKK advita;45.000;gesetzl;BKK
+http://www.bkk-aesculap.de/;BKK Aesculap – betriebsbezogen;8.400;gesetzl;BKK
+http://www.bkk-akzo.de/;BKK Akzo Nobel Bayern;40.131;gesetzl;BKK
+http://www.bkkdb.de/;BKK Deutsche Bank AG – betriebsbezogen;80.998;gesetzl;BKK
+http://www.bkk-stadt-augsburg.de/;BKK der Stadt Augsburg – betriebsbezogen;16.250;gesetzl;BKK
+http://www.bkk-diakonie.de/;BKK Diakonie;25.883;gesetzl;BKK
+http://www.bkk-da.de/;BKK Dürkopp Adler;23.622;gesetzl;BKK
+http://www.bkk-euregio.de/;BKK Euregio;32.000;gesetzl;BKK
+http://www.bkkexklusiv.de/;BKK exklusiv;26.500;gesetzl;BKK
+http://www.bkk-faber-castell.de/;BKK Faber-Castell & Partner;67.000;gesetzl;BKK
+http://www.bkk-firmus.de/;BKK firmus;86.000;gesetzl;BKK
+http://www.bkk-freudenberg.de/;BKK Freudenberg;23.789;gesetzl;BKK
+http://www.bkkgs.de/;BKK Gildemeister Seidensticker;183.297;gesetzl;BKK
+http://www.bkk-grillo.de/;BKK Grillo-Werke AG – betriebsbezogen;1.150;gesetzl;BKK
+http://www.bkk-henschelplus.de/;BKK Henschel Plus;22.636;gesetzl;BKK
+http://www.bkk-hmr.de/;BKK Herford Minden Ravensberg;20.000;gesetzl;BKK
+http://www.bkk-herkules.de/;BKK Herkules;33.086;gesetzl;BKK
+http://www.karlmayer-bkk.de/;BKK Karl Mayer – betriebsbezogen;3.700;gesetzl;BKK
+http://www.bkk-kba.de/;BKK KBA – betriebsbezogen;9.400;gesetzl;BKK
+http://www.bkk-linde.de/;BKK Linde;89.540;gesetzl;BKK
+http://www.bkk-melitta.de/;BKK Melitta Plus;49.709;gesetzl;BKK
+http://www.bkkpfalz.de/;BKK Pfalz;206.353;gesetzl;BKK
+http://www.bkk-provita.de/;BKK Provita;119.000;gesetzl;BKK
+http://www.bkk-public.de/;BKK Public;4.448;gesetzl;BKK
+http://www.bkk-rrw.de/;BKK Rieker Ricosta Weisser – betriebsbezogen;3.000;gesetzl;BKK
+http://www.bkk-salzgitter.de/;BKK Salzgitter – betriebsbezogen;65.561;gesetzl;BKK
+http://www.bkk-scheufelen.de/;BKK Scheufelen;65.000;gesetzl;BKK
+http://www.bkk-technoform.de/;BKK Technoform;14.504;gesetzl;BKK
+http://www.bkk-verbundplus.de/;BKK Verbundplus;81.108;gesetzl;BKK
+http://www.meine-krankenkasse.de/;BKK Verkehrsbau Union;498.000;gesetzl;BKK
+http://www.bkk-vital.de/;BKK Vital;9.200;gesetzl;BKK
+http://www.bkk-voralb.de/;BKK Voralb Heller Leuze Traub – betriebsbezogen;11.000;gesetzl;BKK
+http://www.bkk-werra-meissner.de/;BKK Werra-Meissner;40.000;gesetzl;BKK
+http://www.bkk-wf.de/;BKK Wirtschaft & Finanzen;23.833;gesetzl;BKK
+http://www.bkk-wuerth.de/;BKK Würth – betriebsbezogen;12.500;gesetzl;BKK
+http://www.bkk-zf-partner.de/;BKK ZF & Partner;91.085;gesetzl;BKK
+http://www.bosch-bkk.de/;Bosch BKK;210.692;gesetzl;BKK
+http://www.brandenburgische-bkk.de/;Brandenburgische BKK;10.200;gesetzl;BKK
+http://www.continentale-bkk.de/;Continentale Betriebskrankenkasse;50.000;gesetzl;BKK
+http://www.daimler-bkk.com/;Daimler Betriebskrankenkasse – betriebsbezogen;271.154;gesetzl;BKK
+http://www.debeka-bkk.de/;Debeka BKK;79.229;gesetzl;BKK
+http://www.die-bergische-kk.de/;Die Bergische Krankenkasse;71.889;gesetzl;BKK
+http://www.energie-bkk.de/;Energie-Betriebskrankenkasse;98.404;gesetzl;BKK
+http://www.ey-bkk.de/;Ernst & Young BKK – betriebsbezogen;10.124;gesetzl;BKK
+http://www.bkk-textilgruppe-hof.de/;Gemeinsame Betriebskrankenkasse der Gesellschaften der Textilgruppe Hof;5.400;gesetzl;BKK
+http://www.wieland-bkk.de/;Gemeinsame Betriebskrankenkasse der Wieland-Werke AG – betriebsbezogen;12.300;gesetzl;BKK
+http://www.heimat-krankenkasse.de/;Heimat Krankenkasse;123.107;gesetzl;BKK
+http://www.merck-bkk.de/;Merck BKK – betriebsbezogen;28.000;gesetzl;BKK
+http://www.metzinger-bkk.de/;Metzinger Betriebskrankenkasse;27.179;gesetzl;BKK
+http://www.mhplus-krankenkasse.de/;Mhplus Betriebskrankenkasse;553.542;gesetzl;BKK
+http://www.novitas-bkk.de/;Novitas BKK;410.216;gesetzl;BKK
+http://www.pronovabkk.de/;Pronova BKK;675.000;gesetzl;BKK
+http://www.ruv-bkk.de/;R+V Betriebskrankenkasse;157.614;gesetzl;BKK
+http://www.salus-bkk.de/;Salus BKK;150.623;gesetzl;BKK
+http://www.die-schwenninger.de/;Schwenninger Betriebskrankenkasse;326.221;gesetzl;BKK
+http://www.securvita.de/krankenkasse/;Securvita BKK;225.000;gesetzl;BKK
+http://www.sbk.org/;Siemens-Betriebskrankenkasse;1.045.117;gesetzl;BKK
+http://www.skd-bkk.de/;SKD BKK;51.055;gesetzl;BKK
+http://www.xn--sdzucker-bkk-dlb.de/;Südzucker BKK – betriebsbezogen;9.300;gesetzl;BKK
+http://www.tbk-gesundheit.de/;Thüringer Betriebskrankenkasse;13.258;gesetzl;BKK
+http://www.tui-bkk.de/;TUI BKK;17.277;gesetzl;BKK
+http://www.viactiv.de/;Viactiv BKK;725.400;gesetzl;BKK
+http://www.knappschaft.de/;Knappschaft;1.643.663;gesetzl;KBS
+http://www.svlfg.de/;Landwirtschaftliche Krankenkasse;654.516;gesetzl;SVLFG
+http://www.debeka.de/;Debeka;3.881.742;privat;-
+http://www.dkv.com/;DKV (Victoria);4.424.312;privat;-
+http://www.allianz.com/;Allianz;2.562.739;privat;-
+http://www.axa.de/;Axa (Colonia und DBV-Winterthur);1.488.680;privat;-
+http://www.signal-iduna.de/;Signal Iduna (mit Deutscher Ring);1.968.536;privat;-
+http://www.central.de/;Central Krankenversicherung;1.766.699;privat;-
+http://www.vkb.de/;Versicherungskammer Bayern;1.091.219;privat;-
+http://www.barmenia.de/;Barmenia;1.237.781;privat;-
+http://www.continentale.de/;Continentale;1.294.071;privat;-
+http://www.hallesche.de/;Hallesche;650.297;privat;-
+http://www.huk.de/;HUK-Coburg;984.955;privat;-
+http://www.hansemerkur.de/;HanseMerkur;1.410.553;privat;-
+http://www.gothaer.de/;Gothaer;575.335;privat;-
+http://www.lkh.de/;Landeskrankenhilfe LKH;385.171;privat;-
+http://www.sdk.de/;Süddeutsche Krankenversicherung;644.472;privat;-
+http://www.deutscherring-kranken.de/;Deutscher Ring;640.032;privat;-
+http://www.ukv.de/;Union Krankenversicherung;1.123.073;privat;-
+http://www.inter.de/;Inter;367.266;privat;-
+http://www.universa.de/;Universa;359.773;privat;-
+http://www.muenchener-verein.de/;Münchener Verein;276.243;privat;-
+http://www.ruv.de/;R+V;695.896;privat;-
+http://www.ergodirekt.de/;Ergo Direkt;1.317.009;privat;-
+http://www.arag.com/;ARAG;533.912;privat;-
+http://www.lvm.de/;LVM;326.709;privat;-
+http://www.alte-oldenburger.de/;Alte Oldenburger Krankenversicherung;162.316;privat;-
+http://www.nuernberger.de/;Nürnberger;251.084;privat;-
+http://www.wuerttembergische.de/;Württembergische Krankenversicherung;302.376;privat;-
+http://www.vrk.de/;PAX-Familienfürsorge Krankenversicherung;162.219;privat;-
+http://www.mannheimer.de/;Mannheimer Versicherungen;77.247;privat;-
+http://www.envivas.de/;Envivas Krankenversicherung;385.742;privat;-
+http://www.devk.de/;DEVK;340.041;privat;-
+http://www.vgh.de/;Provinzial;151.340;privat;-
+http://www.famk.de/;Freie Arztkasse;28.705;privat;-
+http://www.concordia.de/;Concordia;91.962;privat;-
+http://www.vigo-krankenversicherung.de/;Vigo Krankenversicherung(Düsseldorfer Versicherung);18.429;privat;-
+http://www.mecklenburgische.de/;Mecklenburgische;49.279;privat;-
+http://www.ligakranken.de/;LIGA Krankenversicherung katholischer Priester VVaG;3.832;privat;-
+http://www.aka-dortmund.de/;Augenoptiker Ausgleichskasse;2.614;privat;-
+http://www.praenatura.de/opel-aktivplus/;Opel Aktiv Plus;88.801;privat;-
+http://www.stmartinusvvag.de/;St. Martinus Kranken- und Sterbekasse;816;privat;-
+http://www.kuk-bf-hannover.de/;Krankenunterstützungskasse der Berufsfeuerwehr Hannover;1.345;privat;-
