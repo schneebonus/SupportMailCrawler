@@ -14,15 +14,17 @@
 
 # Typical sites that contain email addresses.
 # Everything is lowercase.
-potential_sites_en = ["impressum", "support", "contact", "imprint",
-    "team", "privacy", "police", "faq", "about", "help", "legal",
-    "service"]
+potential_sites_en = ["impressum", "support", "contact", "imprint", "privacy"]
 potential_sites_de = ["kontakt", "datenschutz", "über"]
-potential_sites_debug = ["curriculum"]
-potential_sites = potential_sites_en + potential_sites_de + potential_sites_debug
+potential_sites_debug = []
+potential_sites = set(potential_sites_en + potential_sites_de + potential_sites_debug)
+
+# ignored files
+ignore = [".exe", ".png", ".pdf", ".jpg"]
 
 # Header of the crawler.
 # Changed the User-Agent to old Mozilla - not everybody likes crawlers.
+# currently not used
 headers = {
     'User-Agent': 'Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
 }
@@ -70,41 +72,44 @@ VERBOSE = False
 
 def build_url(baseurl, path):
     # Returns a list in the structure of urlparse.ParseResult
-    url_parts = list(urllib.parse.urlparse(baseurl))
-    url_parts[2] = path
-    return urllib.parse.urlunparse(url_parts)
+    url_base = urllib.parse.urlparse(baseurl)
+    url_new = urllib.parse.urlparse(path)
+
+    if url_new.scheme == "":
+        url_new = url_new._replace(scheme=url_base.scheme)
+    if url_new.netloc == "":
+        url_new = url_new._replace(netloc=url_base.netloc)
+
+    return urllib.parse.urlunparse(url_new)
 
 def get_promising_urls(soup, base):
     global VERBOSE
     global potential_sites
+    global ignore
 
-
-    found_sites = []
-    for link in soup.find_all('a', href=True):
+    found_sites = set()
+    counter = 0
+    soup_links = set(soup.find_all('a', href=True))
+    for link in soup_links:
         for site in potential_sites:
-            if link.string is not None and site in link.string.lower():
-                # ToDo: rewrite this section!
+            if (link.string is not None and site in link.string.lower()) or site in str(link['href']).lower():
                 if link['href'] not in found_sites:
                     if VERBOSE:
-                        print("\t\t'" + site + "' in '" + link.string.strip() + "'")
-                    site = link['href']
-                    if site.startswith("http://") or site.startswith("https://"):
-                        check_this_site = site
-                    elif site.startswith("mailto:"):
-                        check_this_site = ""
-                    elif site.endswith(".exe") or site.endswith(".pdf"):
-                        # ToDo: exclude more filetypes
-                        check_this_site = ""
-                    elif site.startswith("//www."):
-                        check_this_site = "https:" + site
-                    else:
-                        check_this_site = build_url(base, site)
+                        print("\t\t'found " + site + ": " + str(link['href']))
+                    new_link = link['href']
 
-                    # do not crawl other domains
-                    base_domain = tldextract.extract(base).domain
-                    check_domain = tldextract.extract(check_this_site).domain
-                    if base_domain == check_domain:
-                        found_sites.append(check_this_site)
+                    ignored = False
+                    for i in ignore:
+                        if new_link.lower().strip().endswith(i):
+                            ignored = True
+
+                    if not ignored:
+                        check_this_site = build_url(base, new_link)
+                        # do not crawl other domains
+                        base_domain = tldextract.extract(base).domain
+                        check_domain = tldextract.extract(check_this_site).domain
+                        if base_domain == check_domain and check_this_site != "":
+                            found_sites.add(check_this_site)
     return found_sites
 
 def get_promising_mails(soup):
@@ -120,24 +125,25 @@ def process_url(target):
     global VERBOSE
     global loader
 
-    # check for redirects (thanks aok!)
     try:
+        # check for redirects (thanks aok!)
         request = requests.get(target, allow_redirects=True, timeout=10)
         if len(request.history) > 0:
             target = request.url
             if VERBOSE:
                 print("Redirected to: " + request.url)
-
+        request.connection.close()
         if VERBOSE:
             print("\nProcessing: " + target)
         email_addresses = set()
-        links = []
+        links = set()
         soup = loader.load_and_soup(target)
         email_addresses = get_promising_mails(soup)
         links= get_promising_urls(soup, target)
         return email_addresses, links
-    except Exception:
-        return set(), set()
+    except Exception as e:
+        print(e)
+        return set("error"), set()
 
 def strip_emails(results):
     emails = set()
