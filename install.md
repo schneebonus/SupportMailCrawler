@@ -20,6 +20,7 @@ Link: https://splash.readthedocs.io/en/stable/install.html#linux-docker
 # Usage:
 
 python3 mail-crawler.py <crawling_depth> -u <target>
+  
 python3 mail-crawler.py <crawling_depth> -l <list.csv>#
 
 Optional: add -v for verbose mode
@@ -29,4 +30,5 @@ Optional: add -v for verbose mode
 ### Examples:
 
 python3 mail-crawler.py 2 -u https://privacyscore.org
+
 python3 mail-crawler.py 3 -l lists/InstitutionsOfHigherEducation.csv
