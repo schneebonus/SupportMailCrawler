@@ -10,6 +10,7 @@
 Splash is a javascript rendering service with an HTTP API.
 It's a lightweight browser with an HTTP API, implemented in Python 3 using Twisted and QT5.
 It's fast, lightweight and state-less which makes it easy to distribute.
+
 Link: https://splash.readthedocs.io/en/stable/install.html#linux-docker
 
 ### TL;DR:
@@ -19,8 +20,9 @@ Link: https://splash.readthedocs.io/en/stable/install.html#linux-docker
 
 # Usage:
 
-python3 mail-crawler.py <crawling_depth> -u <target>
-python3 mail-crawler.py <crawling_depth> -l <list.csv>#
+python3 mail-crawler.py <crawling_depth> --url <target_url>
+  
+python3 mail-crawler.py <crawling_depth> --list <list.csv>
 
 Optional: add -v for verbose mode
 
@@ -29,4 +31,5 @@ Optional: add -v for verbose mode
 ### Examples:
 
 python3 mail-crawler.py 2 -u https://privacyscore.org
+
 python3 mail-crawler.py 3 -l lists/InstitutionsOfHigherEducation.csv
