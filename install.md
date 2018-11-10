@@ -21,7 +21,7 @@ Link: https://splash.readthedocs.io/en/stable/install.html#linux-docker
 
 python3 mail-crawler.py <crawling_depth> -u <target>
   
-python3 mail-crawler.py <crawling_depth> -l <list.csv>#
+python3 mail-crawler.py <crawling_depth> -l <list.csv>
 
 Optional: add -v for verbose mode
 
