@@ -17,6 +17,6 @@ Optional: add -v for verbose mode
 
 ### Examples:
 
-python3 mail-crawler.py 2 -u https://privacyscore.org
+python3 mail-crawler.py 2 --url https://privacyscore.org
 
-python3 mail-crawler.py 3 -l lists/InstitutionsOfHigherEducation.csv
+python3 mail-crawler.py 3 --list lists/InstitutionsOfHigherEducation.csv
