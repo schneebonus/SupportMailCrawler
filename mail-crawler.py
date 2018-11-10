@@ -14,7 +14,8 @@
 
 # Typical sites that contain email addresses.
 # Everything is lowercase.
-potential_sites_en = ["impressum", "support", "contact", "imprint", "privacy"]
+potential_sites_en = ["impressum", "support", "contact", "imprint", "privacy",
+    "team", "faq", "service", "policy", "imprint"]
 potential_sites_de = ["kontakt", "datenschutz", "über"]
 potential_sites_debug = []
 potential_sites = set(potential_sites_en + potential_sites_de + potential_sites_debug)
@@ -99,8 +100,12 @@ def get_promising_urls(soup, base):
                     new_link = link['href']
 
                     ignored = False
+
+                    if new_link.lower().strip().startswith("mailto:"):
+                        ignored = True
+
                     for i in ignore:
-                        if new_link.lower().strip().endswith(i):
+                        if new_link.lower().strip().endswith(i) and not ignored:
                             ignored = True
 
                     if not ignored:
