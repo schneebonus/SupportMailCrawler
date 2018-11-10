@@ -16,6 +16,7 @@ class RequestsLoader(AbstractBaseClassLoader):
         try:
             resp = requests.get(target, allow_redirects=True, headers=RequestsLoader.headers)
             text = resp.text
+            resp.connection.close()
         except Exception as e:
             print("exception")
             text = ""

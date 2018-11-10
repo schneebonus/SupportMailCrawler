@@ -17,8 +17,9 @@ class SplashLoader(AbstractBaseClassLoader):
     def render_and_js(target):
         slash_server = "localhost"
         slash_port = 8050
-        url = "http://" + slash_server + ":" + str(slash_port) + "/render.html?url=" + target + "&timeout=10&wait=0&images=0"
+        url = "http://" + slash_server + ":" + str(slash_port) + "/render.html?url=" + target + "&timeout=10&wait=0.1&images=0"
         re = requests.get(url)
+        re.connection.close()
         text = re.text
         return text
 
