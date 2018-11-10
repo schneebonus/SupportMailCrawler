@@ -9,6 +9,9 @@ class RequestsLoader(AbstractBaseClassLoader):
         'User-Agent': 'Mozilla/5.0 (X11; Fedora; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.77 Safari/537.36'
     }
 
+    def init():
+        pass
+
     def load_and_soup(target):
         text = ""
         try:
@@ -21,3 +24,6 @@ class RequestsLoader(AbstractBaseClassLoader):
 
         soup = BeautifulSoup(text, "lxml")
         return soup
+
+    def cleanup():
+        pass

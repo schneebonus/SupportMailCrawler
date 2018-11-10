@@ -14,6 +14,9 @@ from bs4 import BeautifulSoup
 from .AbstractBaseClassLoader import AbstractBaseClassLoader
 
 class SplashLoader(AbstractBaseClassLoader):
+    def init():
+        pass
+
     def render_and_js(target):
         slash_server = "localhost"
         slash_port = 8050
@@ -29,3 +32,6 @@ class SplashLoader(AbstractBaseClassLoader):
         text = SplashLoader.render_and_js(target)
         soup = BeautifulSoup(text, "lxml")
         return soup
+
+    def cleanup():
+        pass

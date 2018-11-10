@@ -212,6 +212,7 @@ def Main():
     VERBOSE = args.verbose
 
     if args.url:
+        loader.init()
         done_urls, emails = crawl(args.url, args.depth, set())
         if VERBOSE:
             print("\nResult:")
@@ -220,6 +221,7 @@ def Main():
         for email in sorted(results):
             print(email)
     if args.list:
+        loader.init()
         VERBOSE = False
         hits = 0
         file = open(args.list, "r")
@@ -238,6 +240,7 @@ def Main():
             else:
                 print("\tNO HITS! TODO!")
         print(str(hits) + " of " + str(len(lines) - 2))
+        loader.cleanup()
 
 if __name__ == "__main__":
     Main()
