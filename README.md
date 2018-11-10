@@ -7,9 +7,9 @@ Details about dependencies are in install.md.
 
 # Usage:
 
-python3 mail-crawler.py <crawling_depth> -u <target>
+python3 mail-crawler.py <crawling_depth> --url <url>
   
-python3 mail-crawler.py <crawling_depth> -l <list.csv>
+python3 mail-crawler.py <crawling_depth> --list <list.csv>
 
 Optional: add -v for verbose mode
 
