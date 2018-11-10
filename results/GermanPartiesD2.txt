@@ -1,0 +1,82 @@
+1/9	http://www.cdu.de/	6
+		cdunet@cdu.de
+		datenschutz@cdu.de
+		info@cdu.deust.-idnr
+		pressestelle@cdu.de
+		widerruf@cdu.de
+2/9	http://www.spd.de/	3
+		datenschutzbeauftragter@spd.de
+		max.mustermann@muster.de
+		parteivorstand@spd.de
+3/9	http://www.csu.de/	7
+		csu@edelweiss72.de
+		datenschutzbeauftragter@csu-bayern.de
+		info@csu-bayern.de
+		landesleitung@csu-bayern.de
+		poststelle@lda.bayern.de
+		redaktion@csu-bayern.de
+		support@csu-bayern.de
+4/9	http://www.gruene.de/	10
+		berlin@ressourcenmangel.de
+		bewerbung@gruene.de
+		datenschutz@gruene.de
+		design@gruene.de
+		finanzen@gruene.de
+		geschaeftsfuehrung@gruene.de
+		info@gruene.de
+		readaktion@gruene.de
+		redaktion@gruene.de
+		versand@gruene.de
+5/9	http://www.die-linke.de/	4
+		bundesgeschaeftsstelle@die-linke.de
+		datenschutz@die-linke.de
+		info@dig-berlin.de
+		websupport@minuskel.de
+6/9	http://www.fdp.de/	5
+		datenschutz@fdp.de
+		info@fdp.de
+		info@heimat-berlin.com
+		marco.mendorf@fdp.de
+		redaktion@liberale.de
+7/9	http://www.afd.de/	6
+		bgs@alternativefuer.de
+		bundesgeschaeftsstelle@alternativefuer.de
+		datenschutz@afd.de
+		julius.schoor@ids-law.de
+		kontakt@afd.de
+		njulius.schoor@ids-law.de
+8/9	http://www.die-partei.de/	2
+		datenschutz@die-partei.de
+		verwaltung@die-partei.de
+9/9	http://www.piratenpartei.de/	30
+		bgs@piratenpartei.de
+		datenschutzbeauftragter@piratenpartei.de
+		fragen@piratenpartei.de
+		g.koerber@piratenbrandenburg.de
+		geschaeftsstelle@piratenpartei.de
+		holger.gier@piratenpartei-saarland.de
+		info@piraten-thueringen.de
+		mitglieder@piratenpartei.de
+		patrick.breyer@piratenpartei.de
+		press@pp-international.net
+		presse@berlin.piratenpartei.de
+		presse@juliareda.eu
+		presse@piraten-rlp.de
+		presse@piraten-sachsen.de
+		presse@piratenpartei-bayern.de
+		presse@piratenpartei-bw.de
+		presse@piratenpartei-hamburg.de
+		presse@piratenpartei-hessen.de
+		presse@piratenpartei-nrw.de
+		presse@piratenpartei-sh.de
+		presse@piratenpartei.de
+		simon.kowalewski@berlin.piratenpartei.de
+		uteelisabeth.gabelmann@piratenpartei.de
+		vorstand@bremen.piratenpartei.de
+		vorstand@junge-piraten.org
+		vorstand@piraten-lsa.de
+		vorstand@piraten-mv.de
+		vorstand@piraten-nds.de
+		vorstand@piratenpartei.de
+		webmaster@piratenpartei.de
+9 of 9

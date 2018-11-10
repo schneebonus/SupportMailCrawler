@@ -1,9 +1,7 @@
 from .AbstractBaseClassLoader import AbstractBaseClassLoader
-
 import requests
 from bs4 import BeautifulSoup
 
-from .AbstractBaseClassLoader import AbstractBaseClassLoader
 
 class RequestsLoader(AbstractBaseClassLoader):
 

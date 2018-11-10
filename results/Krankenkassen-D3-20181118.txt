@@ -1,0 +1,198 @@
+1/154	http://bw.aok.de/	4
+		datenschutz@bw.aok.de
+		hv.datenschutz-team@bw.aok.de
+		info@bw.aok.de
+		service@bw.aok.de
+2/154	http://bayern.aok.de/	2
+		datenschutz@by.aok.de
+		info@service.by.aok.de
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 265, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+http.client.RemoteDisconnected: Remote end closed connection without response
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 367, in increment
+    raise six.reraise(type(error), error, _stacktrace)
+  File "/usr/lib/python3.7/site-packages/urllib3/packages/six.py", line 692, in reraise
+    raise value.with_traceback(tb)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 384, in _make_request
+    six.raise_from(e, None)
+  File "<string>", line 3, in raise_from
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 380, in _make_request
+    httplib_response = conn.getresponse()
+  File "/usr/lib64/python3.7/http/client.py", line 1321, in getresponse
+    response.begin()
+  File "/usr/lib64/python3.7/http/client.py", line 296, in begin
+    version, status, reason = self._read_status()
+  File "/usr/lib64/python3.7/http/client.py", line 265, in _read_status
+    raise RemoteDisconnected("Remote end closed connection without"
+urllib3.exceptions.ProtocolError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "mail-crawler.py", line 146, in process_url
+    soup = loader.load_and_soup(target)
+  File "/home/null/Nextcloud/workspaces/python/SupportMailCrawler/loaders/SplashLoader.py", line 29, in load_and_soup
+    text = SplashLoader.render_and_js(target)
+  File "/home/null/Nextcloud/workspaces/python/SupportMailCrawler/loaders/SplashLoader.py", line 21, in render_and_js
+    re = requests.get(url)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 498, in send
+    raise ConnectionError(err, request=request)
+requests.exceptions.ConnectionError: ('Connection aborted.', RemoteDisconnected('Remote end closed connection without response'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib64/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 196, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f91e98c7c50>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8050): Max retries exceeded with url: /render.html?url=https://www.aok.de/pk/bremen/inhalt/offizieller-gesundheitspartner/&timeout=10&wait=0.1&images=0&filter=nofonts,easylist (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91e98c7c50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "mail-crawler.py", line 146, in process_url
+    soup = loader.load_and_soup(target)
+  File "/home/null/Nextcloud/workspaces/python/SupportMailCrawler/loaders/SplashLoader.py", line 29, in load_and_soup
+    text = SplashLoader.render_and_js(target)
+  File "/home/null/Nextcloud/workspaces/python/SupportMailCrawler/loaders/SplashLoader.py", line 21, in render_and_js
+    re = requests.get(url)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8050): Max retries exceeded with url: /render.html?url=https://www.aok.de/pk/bremen/inhalt/offizieller-gesundheitspartner/&timeout=10&wait=0.1&images=0&filter=nofonts,easylist (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91e98c7c50>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 171, in _new_conn
+    (self._dns_host, self.port), self.timeout, **extra_kw)
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 79, in create_connection
+    raise err
+  File "/usr/lib/python3.7/site-packages/urllib3/util/connection.py", line 69, in create_connection
+    sock.connect(sa)
+ConnectionRefusedError: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 600, in urlopen
+    chunked=chunked)
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 354, in _make_request
+    conn.request(method, url, **httplib_request_kw)
+  File "/usr/lib64/python3.7/http/client.py", line 1229, in request
+    self._send_request(method, url, body, headers, encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1275, in _send_request
+    self.endheaders(body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1224, in endheaders
+    self._send_output(message_body, encode_chunked=encode_chunked)
+  File "/usr/lib64/python3.7/http/client.py", line 1016, in _send_output
+    self.send(msg)
+  File "/usr/lib64/python3.7/http/client.py", line 956, in send
+    self.connect()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 196, in connect
+    conn = self._new_conn()
+  File "/usr/lib/python3.7/site-packages/urllib3/connection.py", line 180, in _new_conn
+    self, "Failed to establish a new connection: %s" % e)
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPConnection object at 0x7f91e98d7128>: Failed to establish a new connection: [Errno 111] Connection refused
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 449, in send
+    timeout=timeout
+  File "/usr/lib/python3.7/site-packages/urllib3/connectionpool.py", line 638, in urlopen
+    _stacktrace=sys.exc_info()[2])
+  File "/usr/lib/python3.7/site-packages/urllib3/util/retry.py", line 398, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPConnectionPool(host='localhost', port=8050): Max retries exceeded with url: /render.html?url=https://www.aok.de/pk/bremen/footer-navigation/service/hilfe/&timeout=10&wait=0.1&images=0&filter=nofonts,easylist (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91e98d7128>: Failed to establish a new connection: [Errno 111] Connection refused'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "mail-crawler.py", line 146, in process_url
+    soup = loader.load_and_soup(target)
+  File "/home/null/Nextcloud/workspaces/python/SupportMailCrawler/loaders/SplashLoader.py", line 29, in load_and_soup
+    text = SplashLoader.render_and_js(target)
+  File "/home/null/Nextcloud/workspaces/python/SupportMailCrawler/loaders/SplashLoader.py", line 21, in render_and_js
+    re = requests.get(url)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 75, in get
+    return request('get', url, params=params, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/api.py", line 60, in request
+    return session.request(method=method, url=url, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 524, in request
+    resp = self.send(prep, **send_kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/sessions.py", line 637, in send
+    r = adapter.send(request, **kwargs)
+  File "/usr/lib/python3.7/site-packages/requests/adapters.py", line 516, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPConnectionPool(host='localhost', port=8050): Max retries exceeded with url: /render.html?url=https://www.aok.de/pk/bremen/footer-navigation/service/hilfe/&timeout=10&wait=0.1&images=0&filter=nofonts,easylist (Caused by NewConnectionError('<urllib3.connection.HTTPConnection object at 0x7f91e98d7128>: Failed to establish a new connection: [Errno 111] Connection refused'))

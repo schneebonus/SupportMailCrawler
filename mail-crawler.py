@@ -33,13 +33,15 @@ headers = {
 ##### enable loader
 from loaders.RequestsLoader import RequestsLoader
 from loaders.SplashLoader import SplashLoader
+from loaders.SeleniumChromeLoader import SeleniumChromeLoader
 
 # choose loader here:
 # RequestsLoader - Loads html by just using requests.get
 #   (fast but no js and rendering)
 # SplashLoader - Loads rendered html by using a dockerized splash-browser
-#   (slow but with js and rendering)
-loader = SplashLoader
+#   (slow but with js and rendering - has a ton of memory leaks)
+# SeleniumChromeLoader - Use webdriver and chrome in headless mode
+loader = SeleniumChromeLoader
 
 ##### enabled parsers
 # Cloudflare Protextion
@@ -68,6 +70,7 @@ import requests
 import re
 import argparse
 import tldextract
+import traceback
 
 VERBOSE = False
 
@@ -145,10 +148,12 @@ def process_url(target):
         soup = loader.load_and_soup(target)
         email_addresses = get_promising_mails(soup)
         links= get_promising_urls(soup, target)
-        return email_addresses, links
     except Exception as e:
-        print(e)
-        return set("error"), set()
+        tb = traceback.format_exc()
+        print(tb)
+        email_addresses = set()
+        links = set()
+    return email_addresses, links
 
 def strip_emails(results):
     emails = set()
