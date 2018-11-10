@@ -1,0 +1,97 @@
+URL;Name;Type;Rank
+http://www.deutsche-bank.de/;Deutsche Bank AG;privat;1
+http://www.commerzbank.de/;Commerzbank AG;privat;2
+http://www.kfw.de/;Kreditanstalt für Wiederaufbau;öfftl.;3
+http://www.dzbank.de/;DZ Bank AG / WGZ Bank AG (no login);genoss.;no rank
+http://www.hypovereinsbank.de/;Unicredit Bank AG;privat;5
+http://www.bw-bank.de/;Landesbank Baden-Württemberg (instead of lbbw.de);öfftl.;6
+http://www.bayernlb.com/;Bayerische Landesbank;öfftl.;7
+http://www.nordlb.de/;Norddeutsche Landesbank;öfftl.;8
+http://www.helaba.de/;Hessische Landesabnk;öfftl.;9
+http://www.postbank.de/;Postbank AG;privat;10
+http://www.ing-diba.de/;ING-Diba AG;privat;11
+http://www.nrwbank.de/;NRW.Bank;öfftl.;12
+http://www.deka.de/;Deka Bank;öfftl.;13
+http://www.hsh-nordbank.de/;HSH Nordbank;öfftl.;14
+http://www.rentenbank.de/;Landwirtschaftliche Rentenbank (no login);öfftl.;15
+http://www.dkb.de/;DKB Deutsche Kreditbank AG;öfftl.;17
+http://www.l-bank.de/;Landeskreditbank Baden-Württemberg - Förderbank (no login);öfftl.;18
+http://www.pfandbriefbank.com/;Deutsche Pfandbriefbank AG (no login);privat;19
+http://www.schwaebisch-hall.de/;Bausparkasse Schwäbisch Hall AG;genoss.;20
+http://www.hypothekenbankfrankfurt.com/;Hypothekenbank Frankfurt;privat;21
+http://www.aareal-bank.com/;Aareal Bank AG (no login);privat;22
+http://www.volkswagenbank.de/;Volkswagen Bank GmbH;privat;23
+http://www.lbb.de/;Landesbank Berlin AG;öfftl.;24
+http://www.haspa.de/;Hamburger Sparkasse AG;öfftl.;25
+http://www.santander.de/;Santander Consumer Bank AG;privat;26
+http://www.dghyp.de/;DG Hyp Deutsche Genossenschafts- Hypothekenbank AG (no login);genoss.;27
+http://www.muenchenerhyp.de/;Münchener Hypothekenbank;genoss.;28
+http://www.wlbank.de/;WL Bank AG Westfälische Landschaft Bodenkreditbank;genoss.;29
+http://www.apobank.de/;Deutsche Apotheker- und Ärztebank e.G.;genoss.;30
+http://www.bhw.de/;BHW Bausparkasse AG;privat;31
+http://www.dexia.de/;Dexia Kommunalbank Deutschland AG;privat;32
+http://www.bremerlandesbank.de/;Bremer Landesbank Kreditanstalt Oldenburg;öfftl.;33
+http://www.berlinhyp.de/;Berlin Hyp AG;öfftl.;34
+http://www.deutsche-hypo.de/;Deutsche Hypothekenbank (no login);privat;35
+http://www.dvbbank.com/;DVB Bank SE;privat;36
+http://www.sparkasse-koelnbonn.de/;Sparkasse KölnBonn;öfftl.;37
+http://www.ksk-koeln.de/;Kreissparkasse Köln;öfftl.;38
+http://www.mercedes-benz-bank.de/;Mercedes-Benz Bank AG (no login);privat;39
+http://www.bmwbank.de/;BMW Bank GmbH;privat;40
+http://www.seb.de/;SEB AG;privat;41
+http://www.lfa.de/;LfA Förderbank Bayern;öfftl.;42
+http://www.wuestenrot.de/;Wüstenrot Bausparkasse AG;privat;43
+http://www.hsbc.de/;HSBC Trinkaus & Burkhardt AG;privat;44
+http://www.ikb.de/;IKB Deutsche Industriebank AG;privat;45
+http://www.ibb.de/;IBB Investitionsbank Berlin (no login);öfftl.;46
+http://www.ib-sh.de/;Investitionsbank Schleswig-Holstein (no login);öfftl.;47
+http://www.frankfurter-sparkasse.de/;Frankfurter Sparkasse AG;öfftl.;48
+http://www.sskm.de/;Stadtsparkasse München;öfftl.;49
+http://www.comdirekt.de/;Comdirect Bank AG;privat;50
+http://www.targobank.de/;Targobank AG & Co. KGaA;privat;51
+http://www.saarlb.de/;Landesbank Saar;öfftl.;52
+http://www.sparda-bw.de/;Sparda-Bank Baden-Württemberg;genoss.;53
+http://www.ilb.de/;Investitionsbank des Landes Brandenburg (no login);öfftl.;54
+http://www.olb.de/;Oldenburgische Landesbank AG;öfftl.;55
+http://www.sparkasse-hannover.de/;Sparkasse Hannover;öfftl.;56
+http://www.lbs.de/;Landesbausparkassen;öfftl.;no rank
+http://www.ostsaechsische-sparkasse-dresden.de/;Ostsächsische Sparkasse Dresden;öfftl.;60
+http://www.berliner-volksbank.de/;Berliner Volksbank e.G.;genoss.;61
+http://www.wuestenrotdirect.de/;Wüstenrot Bank AG Pfandbriefbank;privat;62
+http://www.mbs.de/;Mittelbrandenburgische Sparkasse in Potsdam;öfftl.;63
+http://www.naspa.de/;Nassauische Sparkasse;öfftl.;64
+http://www.sparkasse-bremen.de/;Die Sparkasse Bremen;öfftl.;65
+http://www.sskduesseldorf.de/;Stadtsparkasse Düsseldorf;öfftl.;66
+http://www.sparkasse-pforzheim-calw.de/;Sparkasse Pforzheim Calw;öfftl.;67
+http://www.kskmse.de/;Kreissparkasse München Starnberg Ebersberg;öfftl.;68
+http://www.sparkasse-nuernberg.de/;Sparkasse Nürnberg;öfftl.;69
+http://www.sparkasse-aachen.de/;Sparkasse Aachen;öfftl.;70
+http://www.ksklb.de/;Kreissparkasse Ludwigsburg;öfftl.;71
+http://www.sparda-sw.de/;Sparda-Bank Südwest e.G.;genoss.;72
+http://www.sozialbank.de/;Bank für Sozialwirtschaft AG;genoss.;73
+http://www.bbbank.de/;BB Bank e.G.;genoss.;74
+http://www.sparkasse-leipzig.de/;Sparkasse Leipzig;öfftl.;75
+http://www.sparkasse-muensterland-ost.de/;Sparkasse Münsterland-Ost;öfftl.;76
+http://www.debeka.de/;Debeka Bausparkasse AG;privat;77
+http://www.frankfurter-volksbank.de/;Frankfurter Volksbank e.G.;genoss.;78
+http://www.easycredit.de/;TeamBank AG;genoss.;79
+http://www.sparda-west.de/;Sparda-Bank West e.G.;genoss.;80
+http://www.sparkasse-dortmund.de/;Sparkasse Dortmund;öfftl.;81
+http://www.duesshyp.de/;Düsseldorfer Hypothekenbank AG (no login);privat;82
+http://www.lzo.com/;Landessparkasse zu Oldenburg;öfftl.;83
+http://www.ksk-es.de/;Kreissparkasse Esslingen-Nürtingen;öfftl.;84
+http://www.sparkasse-krefeld.de/;Sparkasse Krefeld;öfftl.;85
+http://www.sab.sachsen.de/;Sächsische Aufbaubank - Förderbank (no login);öfftl.;86
+http://www.sparkasse-heilbronn.de/;Kreissparkasse Heilbronn;öfftl.;87
+http://www.sparkasse-essen.de/;Sparkasse Essen;öfftl.;88
+http://www.kskbb.de/;Kreissparkasse Böblingen;öfftl.;90
+http://www.kskwn.de/;SWN Kreissparkasse Waiblingen;öfftl.;91
+http://www.toyota.de/finanzdienste/;Toyota Kreditbank GmbH (no login);privat;92
+http://www.sparkasse-karlsruhe.de/;Sparkasse Karlsruhe Ettlingen;öfftl.;93
+http://www.sparkasse-mainfranken.de/;Sparkasse Mainfranken Würzburg;öfftl.;94
+http://www.suedwestbank.de/;Südwestbank AG;privat;95
+http://www.eb.de/;Evangelische Bank e.G.;genoss.;96
+http://www.sparkasse-wuppertal.de/;Stadtsparkasse Wuppertal;öfftl.;97
+http://www.sparkasse-westmuensterland.de/;Sparkasse Westmünsterland;öfftl.;98
+http://www.sparkasse-heidelberg.de/;Sparkasse Heidelberg;öfftl.;99
+http://www.sparkasse-saarbruecken.de/;Sparkasse Saarbrücken;öfftl.;100

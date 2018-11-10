@@ -1,0 +1,53 @@
+URL;Conference Name;Conference Abbreviation;CORE Ranking;Society
+http://www.sigsac.org/ccs/CCS2017/;ACM Conference on Computer and Communications Security;CCS;A*;ACM
+http://www.ieee-security.org/TC/SP2017/;IEEE Symposium on Security and Privacy;S&P;A*;IEEE
+http://www.usenix.org/conference/usenixsecurity17;Usenix Security Symposium;USENIX-Security;A*;Usenix
+http://www.acsac.org/;Annual Computer Security Applications Conference;ACSAC;A;ACSA
+http://www.ntnu.edu/esorics2017;European Symposium On Research In Computer Security;ESORICS;A;-
+http://csf2017.tecnico.ulisboa.pt/;IEEE Computer Security Foundations Symposium (was CSFW);CSF;A;IEEE
+http://dbsec2017.ittc.ku.edu/;IFIP WG 11.3 Working Conference on Data and Applications Security (also known as DBSEC);DBSEC;A;IFIP
+http://www.waset.org/conference/2017/06/san-francisco/ICSPC;International Conference on Security in Pervasive Computing;ICSPC;A;WASET
+http://asiacrypt.iacr.org/2017/;International Conference on the Theory and Application of Cryptology and Information Security;ASIACRYPT;A;IACR
+http://www.internetsociety.org/events/ndss-symposium/ndss-symposium-2017;Usenix Network and Distributed System Security Symposium;NDSS;A;Internet Society
+http://asiaccs2017.com/;ACM Symposium on Information Computer and Communications Security;AsiaCCS;B;ACM
+http://www.waset.org/conference/2017/06/copenhagen/ICCISIS;Computational Intelligence in Security for Information Systems;CISIS;B;WASET
+http://scn.di.unisa.it/;Conference on Security and Cryptography for Networks;SCN;B;-
+http://fc17.ifca.ai/;Financial Cryptography and Data Security Conference;FC;B;IFCA
+http://ifipsec.org/2017/;IFIP Information Security & Privacy Conference;IFIP SEC;B;IFIP
+http://nsclab.org/ispec2017/;Information Security Practice and Experience Conference;ISPEC;B;-
+http://isc2017.vgu.edu.vn/;Information Security Conference;ISC;B;-
+http://cy2sec.comm.eng.osaka-u.ac.jp/acns2017/;International Conference on Applied Cryptography and Network Security;ACNS;B;-
+http://www.ares-conference.eu/;International Conference on Availability Reliability and Security;ARES;B;-
+http://safecomp17.fbk.eu/;International Conference on Computer Safety Reliability and Security;SAFECOMP;B;EWICS
+http://crypto.ie.cuhk.edu.hk/cans17/;International Conference on Cryptology and Network Security;CANS;B;-
+http://www.waset.org/conference/2017/06/san-francisco/ICICS/home;International Conference on Information and Communications Security;ICICS;B;WASET
+http://www.secrypt.icete.org/;International Conference on Information Security and Cryptography;SECRYPT;B;-
+http://www.icisc.org/;International Conference on Information Security and Cryptology;ICISC;B;-
+http://www.waset.org/conference/2017/05/paris/ICISS;International Conference on Information Systems Security;ICISS;B;WASET
+http://research.comnet.aalto.fi/NSS2017/;International Conference on network and System Security;NSS;B;-
+http://it.snnu.edu.cn/;International Conference on Provable Security;ProvSec;B;-
+http://securecomm.org/;International Conference on Security and Privacy for Communication Networks;SecureComm;B;EAI
+http://www.ds.unipi.gr/trustbus2017/;International Conference on Trust Privacy and Security in Digital Business;TrustBus;B;-
+http://www.iwsec.org/2017/;International Workshop on Security;IWSEC;B;-
+http://petsymposium.org/;Privacy Enhancing Technologies Symposium;PETS;B;-
+http://meeting.xidian.edu.cn/conference/inscrypt2017/;SKLOIS Conference on Information Security and Cryptology;Inscrypt;B;-
+http://www.usenix.org/conference/soups2017;Symposium On Usable Privacy and Security;SOUPS;B;Usenix
+http://www.ucalgary.ca/pst2017/;Annual Conference on Privacy Security and Trust;PST;C;IEEE
+http://www.isi-conf.org/;IEEE International Conference on Intelligence and Security Informatics;ISI;C;IEEE
+http://www.iet.unipi.it/m.cococcioni/cisda17web/;IEEE Symposium on Computational Intelligence for Security and Defence Applications;IEEE CISDA;C;IEEE
+http://www.ele.uri.edu/ieee-ssci2017/CICS.htm;IEEE Symposium on Computational Intelligence in Cyber Security;IEEE CICS;C;IEEE
+http://www.cerias.purdue.edu/site/symposium/;Information Security Symposium;CERIAS;C;CERIAS
+http://www.cis-lab.org/cis2017/index.php;International Conference on Computational Intelligence and Security;CIS;C;-
+http://www.inc.cuhk.edu.hk/icits2017/;International Conference on Information Theoretic Security;ICITS;C;-
+http://conferences.imt-atlantique.fr/crisis/2017/;International Conference on Risks and Security of Internet and Systems;CRiSIS;C;-
+http://www.sinconf.org/;International Conference on Security of Information and Networks;SIN;C;-
+http://gordion.casaccia.enea.it/critis2017/;International Workshop on Critical Information Infrastructures Security;CRITIS;C;-
+http://www.ihmmsec.org/;Information Hiding and Multimedia Security Workshop;IH&MMSec;C;ACM
+http://www.wisa.or.kr/;International Workshop on Information Security Applications;WISA;C;-
+https://www.cl.cam.ac.uk/events/spw2017/;International Workshop on Security Protocols;IWSP;C;-
+http://vizsec.org/;International Workshop on Visualization for Cyber Security;VizSec;C;IEEE
+http://www.nspw.org/2017;New Security Paradigms Workshop;NSPW;C;-
+http://www.cs.bgu.ac.il/~fradmin/SSS17/;Symposium on Stabilization Safety and Security of Distributed Systems;SSS;C;-
+http://www.dcs.gla.ac.uk/~karen/usec/;Usable Security Workshop;USEC;C;Internet Society
+http://www.wistp.org/;Workshop in Information Security Theory and Practices;WISTP;C;IFIP
+http://privacyforum.eu/;Annual Privacy Forum;APF;None;ENISA

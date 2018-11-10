@@ -1,0 +1,18 @@
+URL;Name;First release date;Last stable release date;Programming language;Graphical toolkit;License
+http://cinnamon-spices.linuxmint.com/;Cinnamon;2011;2017-07-02;C, JavaScript, Python;GTK+;GPL
+http://www.enlightenment.org/;Enlightenment (E);1997;2017-02-16;C;EFL;BSD license
+http://www.equinox-project.org/;Equinox Desktop Environment (EDE);2003-01-06;2014-06-21;C++;FLTK;GPL, LGPL
+http://www.etoileos.com/;Étoilé;2006-02-22;2012-04-11;Objective-C;GNUstep;MIT, BSD license
+http://www.gnome.org/;GNOME;1999-03-03;2017-05-08;C, C++, Vala, Python, JavaScript;GTK+;GPL, LGPL
+http://www.kde.org/;KDE (KDE5, KDE Plasma Workspaces, formerly K Desktop Environment or simply KDE);1998-07-12;2017-02-14;C++, QML;Qt;LGPL
+http://lxde.org/;LXDE (Lightweight X11 Desktop Environment);2006;2016-02-20;C;GTK+;GPL, LGPL
+http://lxqt.org/;LXQt;2014-05-07;2017-01-02;C, C++;Qt;GPL, LGPL
+https://mate-desktop.org/;MATE;2011-08-19;2017-03-13;C, C++, Python;GTK+;LGPL, GPL
+http://elementary.io/;Pantheon;2011 (?);2016-08-21 (?);Vala;GTK+;GPL
+http://rox.sourceforge.net/desktop/;ROX Desktop;2000 (?);2011-10-09;C, Python;GTK+;GPL
+http://trinitydesktop.org/;Trinity Desktop Environment (TDE);2010-04-29;2016-11-07;C++;Qt;GPL (and other)
+http://www.yunit.io/;Yunit (former Unity);2010-06-09;2016-05-25;C, C++, Python, Vala, QML;GTK+;GPL, LGPL
+http://xfce.org/;Xfce;1996;2015-02-28;C;GTK+;GPL, LGPL, BSD license
+http://budgie-desktop.org/home/;Budgie;?;?;?;?;?
+http://artemis-project.github.io/;Artemis;?;?;?;?;?
+http://cdesktopenv.org/;CDE;?;?;?;?;?
