@@ -42,7 +42,7 @@ class SpokenEMailParser(AbstractBaseClassParser):
         filtered_text = SpokenEMailParser.filter_obfuscation(text)
         for email in re.findall(r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+[a-zA-Z0-9])", filtered_text):
             if "regex:"+email not in email_addresses  and not email.endswith(".png"):
-                email_addresses.add("regex:"+email.lower())
+                email_addresses.add("regex:"+email.lower().strip())
                 if VERBOSE:
                     print("\t\tTextToEmail: " + email)
         return email_addresses

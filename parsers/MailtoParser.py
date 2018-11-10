@@ -12,7 +12,7 @@ class MailtoParser(AbstractBaseClassParser):
                     print("\t\t" + link['href'])
                 if link['href'] not in email_addresses and not link['href'].startswith("mailto:?") :
                     split = link['href'].split("?")[0]
-                    email_addresses.add(split.lower())
+                    email_addresses.add(split.lower().strip())
         return email_addresses
 
     def extract_mail_addresses(soup, VERBOSE):

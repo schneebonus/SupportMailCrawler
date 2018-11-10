@@ -9,7 +9,7 @@ class UnCryptMailtoParser(AbstractBaseClassParser):
         for decryptionModule in decryptionModules:
             result = decryptionModule.UnCryptMailto(s)
             if result.startswith("mailto"):
-                return result
+                return result.lower().strip()
         else:
             return None
 

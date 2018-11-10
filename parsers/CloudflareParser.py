@@ -26,7 +26,7 @@ class CloudflareParser(AbstractBaseClassParser):
                     # todo: untested! could not find a site!
                     ciphertext= link['data-cfemail']
                 cleartext = CloudflareParser.cf_decode_email(ciphertext)
-                cleartext_emails.add(cleartext.lower())
+                cleartext_emails.add(cleartext.lower().strip())
                 if VERBOSE:
                     print("\t\tCloudflareProtection: " + cleartext)
         return cleartext_emails
