@@ -20,9 +20,27 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
                     }]
 
         option = webdriver.ChromeOptions()
+        option.add_argument("--disable-background-networking")
+        option.add_argument("--safebrowsing-disable-auto-update")
+        option.add_argument("--disable-syn")
+        option.add_argument("--metrics-recording-only")
+        option.add_argument("--disable-default-apps")
+        option.add_argument("--mute-audio")
+        option.add_argument("--no-first-run")
+        option.add_argument("--disable-background-timer-throttling")
+        option.add_argument("--disable-client-side-phishing-detection")
+        option.add_argument("--disable-popup-blocking")
+        option.add_argument("--disable-prompt-on-repost")
+        option.add_argument("--enable-automation")
+        option.add_argument("--password-store=basic")
+        option.add_argument("--use-mock-keychain")
+        option.add_argument("--disable-component-update")
+        option.add_argument("--disable-notifications")
+        option.add_argument("--disable-hang-monitor")
+        option.add_argument("--disable-gpu")
+        option.add_argument("--disable-images")
         #option.headless = True
         chrome_prefs = {}
-        option.experimental_options["prefs"] = chrome_prefs
         chrome_prefs["profile.default_content_settings"] = {"images": 2}
         chrome_prefs["profile.managed_default_content_settings"] = {"images": 2}
         chrome_prefs["custom_handlers.enabled"] = True
