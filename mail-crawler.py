@@ -152,9 +152,10 @@ def process_url(target):
         email_addresses = get_promising_mails(soup)
         links= get_promising_urls(soup, target)
     except Exception as e:
-        # tb = traceback.format_exc()
+        tb = traceback.format_exc()
         print("Error: " + target + ":")
         print(e)
+        print(tb)
         email_addresses = set()
         links = set()
     return email_addresses, links
