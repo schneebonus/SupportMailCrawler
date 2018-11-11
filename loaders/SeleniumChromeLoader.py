@@ -49,7 +49,7 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
 
     def deobfuscate(text, target):
         text = SeleniumChromeLoader.clickDecrypt(text, target)
-        text = SeleniumChromeLoader.UnCryptMailtoReplace(text)
+        # text = SeleniumChromeLoader.UnCryptMailtoReplace(text)
         text = SeleniumChromeLoader.TextObfuscationReplace(text)
         return text
 

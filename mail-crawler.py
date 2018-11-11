@@ -225,6 +225,7 @@ def Main():
         results = filter_results_from_regex(emails)
         for email in sorted(results):
             print(email)
+        loader.cleanup()
     if args.list:
         loader.init()
         VERBOSE = False
