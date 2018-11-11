@@ -45,17 +45,17 @@ from loaders.SeleniumChromeLoader import SeleniumChromeLoader
 loader = SeleniumChromeLoader
 
 ##### enabled parsers
-# Cloudflare Protextion
+# Cloudflare Protection (deprecated)
 from parsers.CloudflareParser import CloudflareParser
 # a href="mailto...
 from parsers.MailtoParser import MailtoParser
 # regex for something@something.something
 from parsers.RegexParser import RegexParser
-# look for spoken chars like at or [at] instead of @
+# look for spoken chars like at or [at] instead of @ (deprecated)
 from parsers.SpokenEMailParser import SpokenEMailParser
-# handle "javascript:linkTo_UnCryptMailto..."
+# handle "javascript:linkTo_UnCryptMailto..." (deprecated)
 from parsers.UncryptMailtoParser import UnCryptMailtoParser
-parsers = [CloudflareParser, MailtoParser, RegexParser, SpokenEMailParser, UnCryptMailtoParser]
+parsers = [MailtoParser, RegexParser]
 ############################### Warning! ##########################
 ##################### Don't read below this line! #################
 ########################### Super ugly code! ######################

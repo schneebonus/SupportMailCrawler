@@ -15,3 +15,7 @@ class AbstractBaseClassLoader(ABC):
     @abstractmethod
     def cleanup():
         pass
+
+    @abstractmethod
+    def execute_js(js):
+        pass

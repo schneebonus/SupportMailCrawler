@@ -1,3 +1,6 @@
+### WARNING: DEPRECATED!!!
+### Solved by executing in loader
+
 import re
 from bs4 import BeautifulSoup, SoupStrainer
 from .AbstractBaseClassParser import AbstractBaseClassParser
@@ -31,7 +34,6 @@ class SpokenEMailParser(AbstractBaseClassParser):
         text = text.replace(nonBreakSpace, '')
         for at in at_list:
             text = text.replace(at, "@")
-        pass
         for dot in dot_list:
             text = text.replace(dot, ".")
         return text

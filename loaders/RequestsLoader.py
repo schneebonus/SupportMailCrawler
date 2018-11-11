@@ -1,3 +1,6 @@
+### WARNING: DEPRECATED!!!
+### Can't handle javascript
+
 from .AbstractBaseClassLoader import AbstractBaseClassLoader
 import requests
 from bs4 import BeautifulSoup
@@ -26,4 +29,7 @@ class RequestsLoader(AbstractBaseClassLoader):
         return soup
 
     def cleanup():
+        pass
+
+    def execute_js(js):
         pass

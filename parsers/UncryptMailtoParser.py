@@ -1,3 +1,6 @@
+### WARNING: DEPRECATED!!!
+### Solved by executing js
+
 # Parses for a href="mailto:..."
 from bs4 import BeautifulSoup, SoupStrainer
 import re

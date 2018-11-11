@@ -1,3 +1,6 @@
+### WARNING: DEPRECATED!!!
+### Memory Leaks from Hell!!!
+
 # Requires Splash!
 # Splash is a javascript rendering service with an HTTP API.
 # It's a lightweight browser with an HTTP API, implemented in Python 3 using Twisted and QT5.
@@ -34,4 +37,7 @@ class SplashLoader(AbstractBaseClassLoader):
         return soup
 
     def cleanup():
+        pass
+
+    def execute_js(js):
         pass

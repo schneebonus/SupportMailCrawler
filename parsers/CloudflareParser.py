@@ -1,3 +1,6 @@
+### WARNING: DEPRECATED!!!
+### Solved by executing js
+
 # Searchs for Cloudflare-Protected E-Mail-Addresses.
 # Decrypts cloudflares email obfuscation.
 # Sources for decryption:
