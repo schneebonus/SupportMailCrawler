@@ -21,7 +21,8 @@ potential_sites_debug = []
 potential_sites = set(potential_sites_en + potential_sites_de + potential_sites_debug)
 
 # ignored files
-ignore = [".exe", ".png", ".pdf", ".jpg"]
+ignore_files = [".exe", ".png", ".pdf", ".jpg"]
+ignore_protocols = ["mailto:", "tel:", "javascript:"]
 
 # Header of the crawler.
 # Changed the User-Agent to old Mozilla - not everybody likes crawlers.
@@ -89,7 +90,8 @@ def build_url(baseurl, path):
 def get_promising_urls(soup, base):
     global VERBOSE
     global potential_sites
-    global ignore
+    global ignore_files
+    global ignore_protocols
 
     found_sites = set()
     counter = 0
@@ -104,10 +106,11 @@ def get_promising_urls(soup, base):
 
                     ignored = False
 
-                    if new_link.lower().strip().startswith("mailto:"):
-                        ignored = True
+                    for p in ignore_protocols:
+                        if new_link.lower().strip().startswith(p):
+                            ignored = True
 
-                    for i in ignore:
+                    for i in ignore_files:
                         if new_link.lower().strip().endswith(i) and not ignored:
                             ignored = True
 
@@ -149,8 +152,9 @@ def process_url(target):
         email_addresses = get_promising_mails(soup)
         links= get_promising_urls(soup, target)
     except Exception as e:
-        tb = traceback.format_exc()
-        print(tb)
+        # tb = traceback.format_exc()
+        print("Error: " + target + ":")
+        print(e)
         email_addresses = set()
         links = set()
     return email_addresses, links
