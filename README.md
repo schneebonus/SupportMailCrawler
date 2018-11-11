@@ -1,6 +1,8 @@
 # SupportMailCrawler
 Searches popular support sites for support email addresses. For example, the imprint or the contact page will be used.
 
+Do not think about using this project as an email harvester. By using a real browser, the crawler is slow, resource-intensive and poor in scaling.
+
 # Install
 
 Details about dependencies are in install.md.
@@ -8,7 +10,7 @@ Details about dependencies are in install.md.
 # Usage:
 
 python3 mail-crawler.py <crawling_depth> --url <target_url>
-  
+
 python3 mail-crawler.py <crawling_depth> --list <list.csv>
 
 Optional: add -v for verbose mode
