@@ -38,8 +38,8 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         option.add_argument("--disable-notifications")
         option.add_argument("--disable-hang-monitor")
         option.add_argument("--disable-gpu")
-        option.add_argument("--headless")
-        #option.headless = True
+        #option.add_argument("--headless")
+        option.headless = True
         chrome_prefs = {}
         chrome_prefs["profile.default_content_settings"] = {"images": 2}
         chrome_prefs["profile.managed_default_content_settings"] = {"images": 2}
@@ -90,14 +90,19 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         while m:
             # grep function call
             js = m.group(0).replace("javascript:","")
-
             # replace location.href with return
-            original_function = SeleniumChromeLoader.execute_js("linkTo_UnCryptMailto")
-            return_function = original_function.replace("location.href=", "return ")
-            SeleniumChromeLoader.execute_js(return_function)
+            original_function = SeleniumChromeLoader.driver.execute_script("var text = linkTo_UnCryptMailto.toString(); return text")
+            #print("\nidentified uncrypt function:\n" + original_function)
+            return_function = original_function.replace("location.href =", "return").replace("linkTo_UnCryptMailto", "linkTo_UnCryptMailto_return")
+            #print("\nreplaced 'location.href' with return value!")
+            #print("\ninjected uncrypt function with return value:\n" + return_function)
 
             # call the return function and replace js call with real value
-            text = SeleniumChromeLoader.execute_js(js)
+            js = js.replace("linkTo_UnCryptMailto", "linkTo_UnCryptMailto_return")
+            #print("\nexecuting:\n" + js)
+            email = SeleniumChromeLoader.driver.execute_script(return_function + "; return " + js)
+            #print("\nresult of decryption is: "+  email)
+            text = text.replace(m.group(0), email)
             m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
         return text
 
