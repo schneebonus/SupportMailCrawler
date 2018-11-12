@@ -60,7 +60,7 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         SeleniumChromeLoader.driver.quit()
 
     def execute_js(js):
-        js_execute = "return " + js
+        js_execute = js
         result = SeleniumChromeLoader.driver.execute_script(js_execute)
 
         return result
