@@ -7,17 +7,17 @@ import re
 import time
 import urllib.parse as urlparse
 
+
 class SeleniumChromeLoader(AbstractBaseClassLoader):
     driver = None
 
     def init():
         # ToDo: change!!!
-        protocols = [{
-                        'default' : True,
-                        'protocol' : 'mailto',
-                        'title' : 'privacyscore-mailhandler',
-                        'url' : 'https://privacyscore.org/imprint/?grabme=%s'
-                    }]
+        protocols = [{'default': True,
+                      'protocol': 'mailto',
+                      'title': 'privacyscore-mailhandler',
+                      'url': 'https://privacyscore.org/imprint/?grabme=%s'
+                      }]
 
         option = webdriver.ChromeOptions()
         option.add_argument("--disable-background-networking")
@@ -38,16 +38,18 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         option.add_argument("--disable-notifications")
         option.add_argument("--disable-hang-monitor")
         option.add_argument("--disable-gpu")
-        #option.add_argument("--headless")
+        # option.add_argument("--headless")
         option.headless = True
         chrome_prefs = {}
         chrome_prefs["profile.default_content_settings"] = {"images": 2}
-        chrome_prefs["profile.managed_default_content_settings"] = {"images": 2}
+        chrome_prefs["profile.managed_default_content_settings"] = {
+            "images": 2}
         chrome_prefs["custom_handlers.enabled"] = True
         chrome_prefs["custom_handlers.registered_protocol_handlers"] = protocols
         option.experimental_options["prefs"] = chrome_prefs
         CHROMEDRIVER_PATH = "/usr/bin/chromedriver"
-        SeleniumChromeLoader.driver = webdriver.Chrome(CHROMEDRIVER_PATH, chrome_options=option)
+        SeleniumChromeLoader.driver = webdriver.Chrome(
+            CHROMEDRIVER_PATH, chrome_options=option)
 
     def load_and_soup(target):
         SeleniumChromeLoader.driver.get(target)
@@ -66,51 +68,75 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         return result
 
     def deobfuscate(text, target):
-        text = SeleniumChromeLoader.clickDecryptWithoutMailHandler(text, target)
+        text = SeleniumChromeLoader.clickDecryptWithoutMailHandler(
+            text, target)
         # text = SeleniumChromeLoader.UnCryptMailtoReplace(text)
         text = SeleniumChromeLoader.TextObfuscationReplace(text)
+        text = SeleniumChromeLoader.remove_hidden_spans(text)
         return text
 
     def clickDecrypt(text, target):
         m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
         while m:
-            js = m.group(0).replace("javascript:","")
+            js = m.group(0).replace("javascript:", "")
             result = SeleniumChromeLoader.execute_js(js)
             redirected = SeleniumChromeLoader.driver.current_url
             parsed = urlparse.urlparse(redirected)
             print(redirected)
             email = urlparse.parse_qs(parsed.query)['grabme'][0]
             text = text.replace(m.group(0), email)
-            m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
+            m = re.search(
+                'javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
             SeleniumChromeLoader.driver.get(target)
         return text
 
-    def clickDecryptWithoutMailHandler(text, target):
-        m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
-        while m:
-            # grep function call
-            js = m.group(0).replace("javascript:","")
-            # replace location.href with return
-            original_function = SeleniumChromeLoader.driver.execute_script("var text = linkTo_UnCryptMailto.toString(); return text")
-            #print("\nidentified uncrypt function:\n" + original_function)
-            return_function = original_function.replace("location.href =", "return").replace("linkTo_UnCryptMailto", "linkTo_UnCryptMailto_return")
-            #print("\nreplaced 'location.href' with return value!")
-            #print("\ninjected uncrypt function with return value:\n" + return_function)
+    def replace_return(original_function):
+        return_function = original_function.replace(
+            "window.location.href=", "return ")
+        return_function = return_function.replace(
+            "window.location.href =", "return")
+        return_function = return_function.replace(
+            "location.href =", "return")
+        return_function = return_function.replace(
+            "location.href=", "return ")
+        return return_function
 
-            # call the return function and replace js call with real value
-            js = js.replace("linkTo_UnCryptMailto", "linkTo_UnCryptMailto_return")
-            #print("\nexecuting:\n" + js)
-            email = SeleniumChromeLoader.driver.execute_script(return_function + "; return " + js)
-            #print("\nresult of decryption is: "+  email)
-            text = text.replace(m.group(0), email)
-            m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
+    # https://www.universa.de/ueber-uns/impressum/impressum.htm
+    def remove_hidden_spans(text):
+        soup = BeautifulSoup(text, "lxml")
+        for hidden_span in soup.find_all('span', {'style': 'display:none'}):
+            hidden_span.clear()
+        return soup.prettify()
+
+    def clickDecryptWithoutMailHandler(text, target):
+        encryption_functions = ["linkTo_UnCryptMailto", "decryptMail"]
+        for encryption_function in encryption_functions:
+            m = re.search(r'javascript:' + encryption_function +
+                          r'\(\'(.+?)\'\)', text)
+            while m:
+                # grep function call (and remove javascript:)
+                js = m.group(0).replace("javascript:", "")
+                # replace location.href with return
+                original_function = SeleniumChromeLoader.driver.execute_script(
+                    "var t = " + encryption_function + ".toString(); return t")
+                return_function = SeleniumChromeLoader.replace_return(
+                    original_function)
+                # execute js and grab the email address
+                email = SeleniumChromeLoader.driver.execute_script(
+                    return_function + "; return " + js)
+                # clean original html and replace js-call with its result
+                text = text.replace(m.group(0), email)
+                # process with next linkTo_UnCryptMailto
+                m = re.search(
+                    r'javascript:' + encryption_function + r'\(\'(.+?)\'\);', text)
         return text
 
     def dumbDecrypt(cypher):
-        offset = range(-10, 10); email = ""
+        offset = range(-10, 10)
+        email = ""
         for o in offset:
             # execute js in site context
-            js = "return decryptString(\""+cypher+"\","+str(o)+")"
+            js = "return decryptString(\"" + cypher + "\"," + str(o) + ")"
             result = SeleniumChromeLoader.driver.execute_script(js)
             if result.startswith("mailto:") and "@" in result:
                 email = result
@@ -123,11 +149,12 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
             cypher = m.group(1)
             plain = SeleniumChromeLoader.dumbDecrypt(cypher)
             text = text.replace(m.group(0), plain)
-            m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
+            m = re.search(
+                'javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
         return text
 
     def TextObfuscationReplace(text):
-        open_chars = [" ", "[", " [","(", " (", "{", " {"]
+        open_chars = [" ", "[", " [", "(", " (", "{", " {"]
         at_chars = ["at", "@"]
         close_chars = [" ", "]", "] ", ")", ") ", "}", "} "]
         dot_chars = ["dot", "punkt", "."]
@@ -135,12 +162,12 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         at_list = []
         for o, c in zip(open_chars, close_chars):
             for a in at_chars:
-                at_list.append(o+a+c)
+                at_list.append(o + a + c)
 
         dot_list = []
         for o, c in zip(open_chars, close_chars):
             for d in dot_chars:
-                dot_list.append(o+d+c)
+                dot_list.append(o + d + c)
 
         nonBreakSpace = u'\xa0'
         text = text.replace(nonBreakSpace, '')

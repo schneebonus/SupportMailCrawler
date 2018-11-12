@@ -1,13 +1,14 @@
-### WARNING: DEPRECATED!!!
-### Solved by executing in loader
+# WARNING: DEPRECATED!!!
+# Solved by executing in loader
 
 import re
 from bs4 import BeautifulSoup, SoupStrainer
 from .AbstractBaseClassParser import AbstractBaseClassParser
 
+
 class SpokenEMailParser(AbstractBaseClassParser):
 
-    open_chars = [" ", "[", " [","(", " (", "{", " {"]
+    open_chars = [" ", "[", " [", "(", " (", "{", " {"]
     at_chars = ["at", "@"]
     close_chars = [" ", "]", "] ", ")", ") ", "}", "} "]
     dot_chars = ["dot", "punkt", "."]
@@ -16,14 +17,14 @@ class SpokenEMailParser(AbstractBaseClassParser):
         at_list = []
         for o, c in zip(SpokenEMailParser.open_chars, SpokenEMailParser.close_chars):
             for a in SpokenEMailParser.at_chars:
-                at_list.append(o+a+c)
+                at_list.append(o + a + c)
         return at_list
 
     def generate_dot_list():
         dot_list = []
         for o, c in zip(SpokenEMailParser.open_chars, SpokenEMailParser.close_chars):
             for d in SpokenEMailParser.dot_chars:
-                dot_list.append(o+d+c)
+                dot_list.append(o + d + c)
         return dot_list
 
     def filter_obfuscation(text):
@@ -43,8 +44,8 @@ class SpokenEMailParser(AbstractBaseClassParser):
         text = str(soup)
         filtered_text = SpokenEMailParser.filter_obfuscation(text)
         for email in re.findall(r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+[a-zA-Z0-9])", filtered_text):
-            if "regex:"+email not in email_addresses  and not email.endswith(".png"):
-                email_addresses.add("regex:"+email.lower().strip())
+            if "regex:" + email not in email_addresses and not email.endswith(".png"):
+                email_addresses.add("regex:" + email.lower().strip())
                 if VERBOSE:
                     print("\t\tTextToEmail: " + email)
         return email_addresses
