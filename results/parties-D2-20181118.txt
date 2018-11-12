@@ -1,0 +1,29 @@
+1/9	http://www.cdu.de/	4
+		cdunet@cdu.de
+		datenschutz@cdu.de
+		info@cdu.de
+		widerruf@cdu.de
+2/9	http://www.spd.de/	2
+		datenschutzbeauftragter@spd.de
+		parteivorstand@spd.de
+3/9	http://www.csu.de/	1
+		info@csu-bayern.de
+4/9	http://www.gruene.de/	2
+		info@gruene.de
+		versand@gruene.de
+5/9	http://www.die-linke.de/	2
+		bundesgeschaeftsstelle@die-linke.de
+		datenschutz@die-linke.de
+6/9	http://www.fdp.de/	4
+		info@fdp.de
+		info@heimat-berlin.com
+		marco.mendorf@fdp.de
+		redaktion@liberale.de
+7/9	http://www.afd.de/	2
+		bgs@alternativefuer.de
+		kontakt@afd.de
+8/9	http://www.die-partei.de/	1
+		datenschutz@die-partei.de
+9/9	http://www.piratenpartei.de/	1
+		patrick.breyer@piratenpartei.de
+9 of 9

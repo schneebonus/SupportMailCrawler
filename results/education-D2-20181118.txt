@@ -1,0 +1,2029 @@
+1/426	http://www.fh-aachen.de/	1
+		lex@fh-aachen.de
+2/426	http://www.rwth-aachen.de/	2
+		dsb@rwth-aachen.de
+		rektorat@rwth-aachen.de
+3/426	http://www.hs-aalen.de/	22
+		andreas.schuerle@hs-aalen.de
+		astrid.zeman@hs-aalen.de
+		carmen.roell@hs-aalen.de
+		christa.holzbrecher@hs-aalen.de
+		eveline.rettenmeier@hs-aalen.de
+		fabian.bussmann@hs-aalen.de
+		gisella.dibenedetto@hs-aalen.de
+		heiko.buczinski@hs-aalen.de
+		internet@hs-aalen.de
+		janina.minder@hs-aalen.de
+		julia.ivanov@hs-aalen.de
+		kai.elser@hs-aalen.de
+		linda.asbrock@hs-aalen.de
+		monika.theiss@hs-aalen.de
+		n.a.
+		nadine.riedelsheimer@hs-aalen.de
+		sabine.stradinger@hs-aalen.de
+		saskia.burgbacher@hs-aalen.de
+		stefanie.erhardt@hs-aalen.de
+		susanne.gentner@hs-aalen.de
+		tugba.demirer@hs-aalen.de
+		valentin.krieger@hs-aalen.de
+4/426	http://www.hs-albsig.de/	2
+		datenschutzbeauftragter@hs-albsig.de
+		info@hs-albsig.de
+5/426	http://www.alanus.edu/	8
+		bibliothek@alanus.edu
+		catharina.schreiber@alanus.edu
+		hochschulmarketing@alanus.edu
+		info@alanus.edu
+		international.office@alanus.edu
+		kd@um74.de
+		presse@alanus.edu
+		sabine.hendrikx@alanus.edu
+6/426	http://www.allensbach-hochschule.de/	4
+		beratung@allensbach-hochschule.de
+		info@allensbach-hochschule.de
+		kanzler@allensbach-hochschule.de
+		studienberatung@allensbach-hochschule.de
+7/426	http://www.fhvd.de/	1
+		rente@fhvd-sh.de
+8/426	http://www.oth-aw.de/	2
+		ca.wagner@oth-aw.de
+		m.brautsch@oth-aw.de
+9/426	http://www.hs-ansbach.de/	3
+		julia.spengruber@hs-ansbach.de
+		laurakristin.mueller@hs-ansbach.de
+		messe@hs-ansbach.de
+10/426	http://www.h-ab.de/	1
+		info@h-ab.de
+11/426	http://fh-polizei.sachsen-anhalt.de/	1
+		datenschutzbeauftragter.fhs@polizei.sachsen-anhalt.de
+12/426	http://www.hs-augsburg.de/	2
+		datenschutz@hs-augsburg.de
+		info@hs-augsburg.de
+13/426	http://www.uni-augsburg.de/	2
+		klaus.prem@presse.uni-augsburg.de
+		wwwadm@uni-augsburg.de
+14/426	http://hdbw-hochschule.de/	2
+		datenschutz@hdbw-hochschule.de
+		info@hdbw-hochschule.de
+15/426	http://www.dguv.de/	1
+		info@dguv.de
+16/426	http://www.accadis.com/	1
+		info@accadis.com
+17/426	http://www.iubh.de/	2
+		info@iubh.de
+		info@plan-a.de
+18/426	http://www.fhr.nrw.de/	1
+		poststelle@fhr.nrw.de
+19/426	http://diploma.de/	1
+		info@diploma.de
+20/426	http://www.uni-bamberg.de/	4
+		existenzgruendung.fft@uni-bamberg.de
+		heller@daik.de
+		post@uni-bamberg.de
+		transfer.fft@uni-bamberg.de
+21/426	http://www.hfk-bayreuth.de/	1
+		verwaltung@hfk-bayreuth.de
+22/426	http://www.uni-bayreuth.de/	29
+		anne.schraml@uni-bayreuth.de
+		archiv@uni-bayreuth.de
+		bayreuth.academy@uni-bayreuth.de
+		bianca.graf@uni-bayreuth.de
+		bigsas@uni-bayreuth.de
+		birgit.thies@bayceer.uni-bayreuth.de
+		bwl6@uni-bayreuth.de
+		bwl9@uni-bayreuth.de
+		campus-kulmbach@uni-bayreuth.de
+		dekanat.fnh@uni-bayreuth.de
+		fimt.thurnau@uni-bayreuth.de
+		fwmr@uni-bayreuth.de
+		gudrun.brauner@uni-bayreuth.de
+		info@bfm-bayreuth.de
+		info@esg-bayreuth.de
+		info@iik-bayreuth.de
+		info@nmbgmbh.de
+		iwalewa@uni-bayreuth.de
+		katrin.reum@uni-bayreuth.de
+		khg@uni-bayreuth.de
+		kontakt@fofamu.de
+		lindenhof@lbv.de
+		matthias.kaiser@uni-bayreuth.de
+		redaktion@campus-tv.com
+		schreibzentrum@uni-bayreuth.de
+		sekretariat.irl@uni-bayreuth.de
+		sekretariat.metalle@uni-bayreuth.de
+		stefan.kollboeck@nmbgmbh.de
+		uni.promotion@uni-bayreuth.de
+23/426	http://www.akkon-hochschule.de/	1
+		info@akkon-hochschule.de
+24/426	http://www.ash-berlin.eu/	1
+		ash@ash-berlin.eu
+25/426	http://www.berlin.bard.edu/	5
+		admissions@berlin.bard.edu
+		communications@berlin.bard.edu
+		finaid@berlin.bard.edu
+		p.nash@berlin.bard.edu
+		t.oneill@berlin.bard.edu
+26/426	http://www.bauinternational-berlin.de/	2
+		info@bauinternational-berlin.de
+		info@berlin-international.de
+27/426	http://www.bbw-hochschule.de/	2
+		info@bbw-hochschule.de
+		katharina.stahr@bbw-hochschule.de
+28/426	http://www.btk-fh.de/	8
+		admissions.berlin@ue-germany.com
+		admissions.hamburg@ue-germany.com
+		examination.office.berlin@ue-germany.de
+		examination.office.hamburg@ue-germany.de
+		finance.berlin@gusgermany.de
+		finance.hamburg@gusgermany.de
+		studentservice.berlin@ue-germany.de
+		studentservice.hamburg@ue-germany.de
+29/426	http://www.businessschool-berlin.de/	3
+		info@businessschool-berlin-potsdam.de
+		info@businessschool-berlin.de
+		lena.scholtke@businessschool-berlin.de
+30/426	http://www.beuth-hochschule.de/	6
+		ananda.pitt@beuth-hochschule.de
+		andrea.vonkopp@beuth-hochschule.de
+		barth@beuth-hochschule.de
+		georg.tietze@beuth-hochschule.de
+		jedtke@beuth-hochschule.de
+		schwab@beuth-hochschule.de
+31/426	http://www.dekra-hochschule-berlin.de/	5
+		anna.marta.potocka@dekra.com
+		info@dekra-hochschule-berlin.de
+		kueran.hasselhuhn@dekra.com
+		michaela.pape@dekra.com
+		studienberatung@dekrahochschule.de
+32/426	http://www.design-akademie-berlin.de/	8
+		datenschutz.hsbe@srh.de
+		datenschutzbeauftragter-srh@symbion-ag.de
+		denz@design-akademie-berlin.de
+		idler@design-akademie-berlin.de
+		info@design-akademie-berlin.de
+		info@srh-hochschule-berlin.de
+		spiekermann@design-akademie-berlin.de
+		study@design-akademie-berlin.de
+33/426	http://www.dffb.de/	1
+		vasb@qsso.qr
+Error: http://www.duw-berlin.de/:
+ConnectionError
+34/426	http://www.duw-berlin.de/	0
+	NO HITS! TODO!
+35/426	http://www.escpeurope.eu/	4
+		info.de@escpeurope.eu
+		info.es@escpeurope.eu
+		info.pl@escpeurope.eu
+		info.uk@escpeurope.eu
+36/426	http://www.esmod.de/	2
+		mailto:info@viathea-gmbh.de
+		regex:info@viathea-gmbh.de
+37/426	http://de.esmt.org/	2
+		ff@esmt.org
+		info@esmt.org
+38/426	http://www.eh-berlin.de/	2
+		info@eh-berlin.de
+		webadmin@eh-berlin.de
+39/426	http://www.hdpk.de/	2
+		giovanni.spanu@srh.de
+		studienberatung@hdpk.de
+40/426	http://www.hmkw.de/	39
+		a.bienen@hmkw.de
+		a.oezatilgan@hmkw.de
+		a.schwabe@hmkw.de
+		b.avaedi@hmkw.de
+		c.hochstaetter@hmkw.de
+		f.stutterheim@hmkw.de
+		h.elsenbroich@hmkw.de
+		j.brunsendorf@hmkw.de
+		j.gerdes@hmkw.de
+		j.listemann@hmkw.de
+		j.muhlack@hmkw.de
+		j.sieverling@hmkw.de
+		l.rasche@hmkw.de
+		m.groeger@hmkw.de
+		m.linnemann@hmkw.de
+		m.schroeppel@hmkw.de
+		m.wittig@hmkw.de
+		n.herget@hmkw.de
+		n.hesse@hmkw.de
+		n.steinmeier@hmkw.de
+		o.dutt@hmkw.de
+		pruefungsamt-koeln@hmkw.de
+		pruefungsamt@hmkw.de
+		s.alkhafagi@hmkw.de
+		s.boettcher@hmkw.de
+		s.forstmeyer@hmkw.de
+		s.groeger@hmkw.de
+		s.meister@hmkw.de
+		s.prietz@hmkw.de
+		s.sawant@hmkw.de
+		s.vorbeck@hmkw.de
+		s.wermke@hmkw.de
+		studienberatung-frankfurt@hmkw.de
+		studienberatung-koeln@hmkw.de
+		support@myhmkw.de
+		t.bozovic@hmkw.de
+		v.nuessmann@hmkw.de
+		verwaltung-koeln@hmkw.de
+		y.abdeta-debelo@hmkw.de
+41/426	http://www.htw-berlin.de/	6
+		angelika.marter@htw-berlin.de
+		johannes.kosuch@htw-berlin.de
+		pressestelle@htw-berlin.de
+		studienberatung@htw-berlin.de
+		studierendenservice@htw-berlin.de
+		webmaster@htw-berlin.de
+42/426	http://www.hwtk.de/	5
+		baden-baden@hwtk.de
+		cara.bitterwolf@hwtk.de
+		demis.mohr@hwtk.de
+		info@hwtk.de
+		studienberatung.berlin@hwtk.de
+43/426	http://www.hwr-berlin.de/	43
+		anja.goldner@hwr-berlin.de
+		anne.hingst@hwr-berlin.de
+		berit.adam@hwr-berlin.de
+		bettina.hohn@hwr-berlin.de
+		carina.krueger@hwr-berlin.de
+		carolin.hagelskamp@hwr-berlin.de
+		christian.erdmann@hwr-berlin.de
+		christian.pracher@hwr-berlin.de
+		christoph.tangermann@hwr-berlin.de
+		christopher.ayres@hwr-berlin.de
+		dagmar.lueck-schneider@hwr-berlin.de
+		daniela.bund@hwr-berlin.de
+		doerte.busch@hwr-berlin.de
+		erik.kraatz@hwr-berlin.de
+		florian.furtak@hwr-berlin.de
+		fran.osrecki@hwr-berlin.de
+		gabriele.ringk@hwr-berlin.de
+		gabriele.steckmeister@hwr-berlin.de
+		heike.gardein@hwr-berlin.de
+		heike.guthoff@hwr-berlin.de
+		ines.noack@hwr-berlin.de
+		isabella.nolte@hwr-berlin.de
+		jens.tessmann@hwr-berlin.de
+		kerstin.wuestner@hwr-berlin.de
+		kristina.bautze@hwr-berlin.de
+		manja.lade@hwr-berlin.de
+		marc.eckebrecht@hwr-berlin.de
+		marco.schickel@hwr-berlin.de
+		margarita.elkina@hwr-berlin.de
+		marianne.egger@hwr-berlin.de
+		martin.dastig@hwr-berlin.de
+		martina.wendler@hwr-berlin.de
+		nils.otter@hwr-berlin.de
+		olaf.winkel@hwr-berlin.de
+		oliver.schierz@hwr-berlin.de
+		robert.knappe@hwr-berlin.de
+		sabine.keibel@hwr-berlin.de
+		schneider@difu.de
+		stephan.tomerius@hwr-berlin.de
+		thekla.praetorius@hwr-berlin.de
+		tobias.ringeisen@hwr-berlin.de
+		ulrike.kaczinski@hwr-berlin.de
+		vera.klueppel@hwr-berlin.de
+44/426	http://www.fu-berlin.de/	1
+		info-service@fu-berlin.de
+45/426	http://www.go-bs.de/	2
+		datenschutz@bcw-gruppe.de
+		studienberatung@go-bs.de
+46/426	http://www.hertie-school.org/	6
+		behr@hertie-school.org
+		executive@hertie-school.org
+		grad-admissions@hertie-school.org
+		info@hertie-school.org
+		pressoffice@hertie-school.org
+		stolzenburg@hertie-school.org
+47/426	http://www.my-campus-berlin.com/	3
+		aninfo@my-campus-berlin.comoder
+		info@akwiso.de
+		info@my-campus-berlin.com
+48/426	http://www.hfm-berlin.de/	1
+		rektorat@hfm-berlin.de
+49/426	http://www.hfs-berlin.de/	6
+		mail@die-netzmacher.de
+		presse@hfs-berlin.de
+		puppenspiel@hfs-berlin.de
+		regie@hfs-berlin.de
+		rektorat@hfs-berlin.de
+		schauspiel@hfs-berlin.de
+50/426	http://www.hu-berlin.de/	2
+		datenschutz@uv.hu-berlin.de
+		praesidentin@hu-berlin.de
+51/426	http://www.ib-hochschule.de/	2
+		info@ib-gis.de
+		info@ib-hochschule.de
+52/426	http://www.ipu-berlin.de/	1
+		info@ipu-berlin.de
+53/426	http://www.khsb-berlin.de/	5
+		margit.wagner@khsb-berlin.de
+		mechthild.schuchert@khsb-berlin.de
+		nicole.thomas@khsb-berlin.de
+		petra.mund@khsb-berlin.de
+		weiterbildung@khsb-berlin.de
+54/426	http://www.kh-berlin.de/	14
+		a.goerner@kh-berlin.de
+		agata.kycia@kh-berlin.de
+		berzina@kh-berlin.de
+		bettina.hermann@kommaacht.de
+		cfm@kh-berlin.de
+		design@green-zone.de
+		e.glomb@kh-berlin.de
+		fransenwaldhor@kh-berlin.de
+		k.muenzberg@kh-berlin.de
+		m.schneider@kh-berlin.de
+		sara.d.rodriguez@gmail.com
+		sauer@kh-berlin.de
+		sekretariat.rektorin@kh-berlin.de
+		wolf@kh-berlin.de
+55/426	http://www.mediadesign.de/	1
+		info@mediadesign.de
+56/426	http://www.psychologische-hochschule.de/	1
+		studienberatung@psychologische-hochschule.de
+57/426	http://www.srh-hochschule-berlin.de/	1
+		info@srh-hochschule-berlin.de
+58/426	http://www.steinbeis-hochschule.de/	1
+		photoswipe@4.1.2
+59/426	http://www.tu-berlin.de/	1
+		k-3-ds@tu-berlin.de
+60/426	http://www.touroberlin.com/	2
+		info@touroberlin.de
+		ormenachem.lazar@touro.edu
+61/426	http://www.udk-berlin.de/	8
+		alumni@udk-berlin.de
+		beratung@udk-berlin.de
+		marketing@udk-berlin.de
+		presse@udk-berlin.de
+		socialmedia@udk-berlin.de
+		studyguide@udk-berlin.de
+		udkkasse@udk-berlin.de
+		ursula.hennig@intra.udk-berlin.de
+62/426	http://www.quadriga-hochschule.com/	3
+		00info@quadriga-hochschule.com
+		henrik.thiesmeyer@quadriga.eu
+		info@quadriga-hochschule.com
+63/426	http://www.hs-anhalt.de/	1
+		praesident@hs-anhalt.de
+64/426	http://www.hochschule-biberach.de/	1
+		info@hochschule-bc.de
+65/426	http://www.fh-bielefeld.de/	20
+		andrea.junge@fh-bielefeld.de
+		birgit.korff@fh-bielefeld.de
+		charlene.boehmer@fh-bielefeld.de
+		christiane.seele@fh-bielefeld.de
+		dagmar.heybrock@fh-bielefeld.de
+		gabriele.mische@fh-bielefeld.de
+		havva.oersoglu@fh-bielefeld.de
+		heike.poertner@fh-bielefeld.de
+		ingrid.dabrock@fh-bielefeld.de
+		jacqueline.heinemann@fh-bielefeld.de
+		karin.rietenberg@fh-bielefeld.de
+		marita.braeuer@fh-bielefeld.de
+		marlies.lengfeld@fh-bielefeld.de
+		michael.kriegisch@fh-bielefeld.de
+		oliver.christoph@fh-bielefeld.de
+		petra.blumenthal@fh-bielefeld.de
+		petra.wallmeyer-andres@fh-bielefeld.de
+		silke.arlitt@fh-bielefeld.de
+		silke.rosenhaeger@fh-bielefeld.de
+		stefan.meise@fh-bielefeld.de
+66/426	http://fh-diakonie.de/	5
+		alexa.vonhoeren@fhdd.de
+		info@fh-diakonie.de
+		pruefungsamt@fhdd.de
+		rektorat@fhdd.de
+		sekretariat@fhdd.de
+67/426	http://www.fh-mittelstand.de/	9
+		bamberg@fh-mittelstand.de
+		berlin@fh-mittelstand.de
+		bielefeld@fh-mittelstand.de
+		fischer@fh-mittelstand.de
+		hannover@fh-mittelstand.de
+		koeln@fh-mittelstand.de
+		pulheim@fh-mittelstand.de
+		rostock@fh-mittelstand.de
+		schwerin@fh-mittelstand.de
+68/426	http://www.uni-bielefeld.de/	1
+		medien@uni-bielefeld.de
+69/426	http://www.th-bingen.de/	1
+		dialog@th-bingen.de
+70/426	http://www.ebz-business-school.de/	1
+		werbung@e-b-z.de
+71/426	http://www.evh-bochum.de/	2
+		hier-empfänger@einsetzen.de
+		nger@einsetzen.de
+72/426	http://www.hochschule-bochum.de/	3
+		dietmar.pritzlaff@hs-bochum.de
+		kit@hs-bochum.de
+		norbert.dohms@hs-bochum.de
+73/426	http://www.hs-gesundheit.de/	6
+		haustechnik@hs-gesundheit.de
+		info@hs-gesundheit.de
+		presse@hs-gesundheit.de
+		sebastian.brenner@hs-gesundheit.de
+		studierendenservice@hs-gesundheit.de
+		zsb@hs-gesundheit.de
+74/426	http://www.ruhr-uni-bochum.de/	2
+		dsb@rub.de
+		webmaster@ruhr-uni-bochum.de
+75/426	http://www.thga.de/	1
+		dirk.hansel@thga.de
+76/426	http://www.s-hochschule.de/	1
+		info@s-hochschule.de
+77/426	http://www.uni-bonn.de/	1
+		john@verwaltung.uni-bonn.de
+78/426	http://www.h-brs.de/	2
+		datenschutzbeauftragte@h-brs.de
+		praesident@h-brs.de
+79/426	http://www.th-brandenburg.de/	6
+		heike.wolff@th-brandenburg.de
+		info@th-brandenburg.de
+		ltg-hhb@th-brandenburg.de
+		ltg-pvo@th-brandenburg.de
+		studienberatung@th-brandenburg.de
+		zgt@th-brandenburg.de
+80/426	http://www.mhb-fontane.de/	2
+		international@mhb-fontane.de
+		julian.mollin@mhb-fontane.de
+81/426	http://www.hbk-bs.de/	1
+		webmaster@hbk-bs.de
+82/426	http://tu-braunschweig.de/	3
+		datenschutz@tu-braunschweig.de
+		praesidentin@tu-braunschweig.de
+		webredaktion@tu-braunschweig.de
+83/426	http://www.hs-bremen.de/	2
+		info@hs-bremen.de
+		karin.luckey@hs-bremen.de
+Error: http://www.apollon-hochschule.de/:
+TooManyRedirects
+84/426	http://www.apollon-hochschule.de/	0
+	NO HITS! TODO!
+85/426	http://www.iubh-dualesstudium.de/	2
+		annette.demmel@spb-dpo-services.com
+		datenschutz@iubh.de
+86/426	http://www.hfk-bremen.de/	1
+		pressestelle@hfk-bremen.de
+87/426	http://www.hfoev.bremen.de/	1
+		daniela.fischer@hfoev.bremen.de
+88/426	http://www.jacobs-university.de/	10
+		admission@jacobs-university.de
+		admissions-officer@bigsss-bremen.de
+		foundationyear@jacobs-university.de
+		graduateadmission@jacobs-university.de
+		h.boettcher@jacobs-university.de
+		info@jacobs-university.de
+		international@jacobs-university.de
+		medprep@jacobs-university.de
+		study@jacobs-university.de
+		summerprograms@jacobs-university.de
+89/426	http://www.uni-bremen.de/	4
+		akrueger@lis.bremen.de
+		content@uni-bremen.de
+		isabell.harder@vw.uni-bremen.de
+		schule@uni-bremen.de
+90/426	http://www.hs-bremerhaven.de/	1
+		zivilklausel@hs-bremerhaven.de
+91/426	http://www.eufh.de/	6
+		c.cowan@eufh.de
+		f.neugebauer@eufh.de
+		i.dzhura@eufh.de
+		info@eufh-med.de
+		info@eufh.de
+		s.fillep@eufh.de
+92/426	http://www.hsbund.de/	3
+		bdsb@hsbund.de
+		poststelle@hsbund.de-mail.de
+		postzb@hsbund.de
+93/426	http://www.genialdual.de/	1
+		datenschutzbeauftragter@hs21.de
+94/426	http://www.campus-calw.de/	1
+		info@hochschule-calw.de
+95/426	http://www.tu-chemnitz.de/	3
+		datenschutzbeauftragter@verwaltung.tu-chemnitz.de
+		rektor@tu-chemnitz.de
+		saechsdsb@slt.sachsen.de
+96/426	http://www.tu-clausthal.de/	4
+		info@tu-clausthal.de
+		presse@tu-clausthal.de
+		studienberatung@tu-clausthal.de
+		webmaster@tu-clausthal.de
+97/426	http://www.hs-coburg.de/	3
+		info@in2code.de
+		poststelle@hs-coburg.de
+		pressestelle@hs-coburg.de
+98/426	http://www.b-tu.de/	14
+		biotechnology-ms@b-tu.de
+		cybersecurity-ms@b-tu.de
+		doreen.roeschel@b-tu.de
+		environment-bs@b-tu.de
+		environment-ms@b-tu.de
+		heritageconservation-ma@b-tu.de
+		hydroinformatics-ms@b-tu.de
+		internationaladmission@b-tu.de
+		powerengineering-ms@b-tu.de
+		rene.grube@b-tu.de
+		studium@b-tu.de
+		susett.tanneberger@b-tu.de
+		urbandesign-ms@b-tu.de
+		worldheritage-ma@b-tu.de
+99/426	http://www.eh-darmstadt.de/	3
+		info@eh-darmstadt.de
+		presse@eh-darmstadt.de
+		studienstandort.hephata@eh-darmstadt.de
+100/426	http://www.h-da.de/	4
+		bewerbung-master.ssc@h-da.de
+		kontakt@h-da.de&subject=hochschule%20darmstadt
+		master@h-da.de
+101/426	http://www.tu-darmstadt.de/	1
+		presse@tu-darmstadt.de
+102/426	http://www.th-deg.de/	6
+		datenschutz@th-deg.de
+		info@primuss.de
+		info@th-deg.de
+		kanzler@th-deg.de
+		poststelle@datenschutz-bayern.de
+		webredaktion@th-deg.de
+103/426	http://www.hfm-detmold.de/	2
+		info@hfm-detmold.de
+		info@louis.info
+104/426	http://www.fh-dortmund.de/	1
+		sekretariat.fb3@fh-dortmund.de
+105/426	http://www.ism.de/	3
+		datenschutz@ism.de
+		ism.dortmund@ism.de
+		presse@ism.de
+106/426	http://www.tu-dortmund.de/	2
+		livia.rueger@tu-dortmund.de
+		server@tu-dortmund.de
+107/426	http://www.di-uni.de/	1
+		info@di-uni.de
+108/426	http://www.kirchenmusik-dresden.de/	3
+		datenschutzbeauftragter@evlks.de
+		keycdn@06.11.2018
+		kirchenmusik-dresden@evlks.de
+109/426	http://www.ehs-dresden.de/	2
+		alumnitag@ehs-dresden.de
+		rektorat@ehs-dresden.de
+110/426	http://www.fh-dresden.eu/	2
+		info@fh-dresden.eu
+		sdallmann@fh-dresden.eu
+111/426	http://www.hfbk-dresden.de/	2
+		datenschutz@hfbk-dresden.de
+		saechsdsb@slt.sachsen.de
+112/426	http://www.hfmdd.de/	3
+		stopspam_11a815008c70e6e49f4da967e330da64
+		stopspam_4cd95aba1e8232635cc70d43447d8d80
+		stopspam_b519e72a95b8d79a7cfb43b4f7b12678
+113/426	http://www.htw-dresden.de/	2
+		info@htw-dresden.de
+		karina.reinhardt@htw-dresden.de
+114/426	http://www.palucca.eu/	1
+		info@palucca.eu
+115/426	http://www.tu-dresden.de/	7
+		informationssicherheit@tu-dresden.de
+		jens.syckor@tu-dresden.de
+		matthias.herber@tu-dresden.de
+		medienzentrum@tu-dresden.de
+		pressestelle@tu-dresden.de
+		rektor@tu-dresden.de
+		saechsdsb@slt.sachsen.de
+116/426	http://www.uni-due.de/	2
+		webmaster@uni-due.de
+		webredaktion@uni-due.de
+117/426	http://www.hs-duesseldorf.de/	33
+		%20norbert.bartscher@hs-duesseldorf.de
+		20norbert.bartscher@hs-duesseldorf.de
+		andreas.jahr@hs-duesseldorf.de
+		dekanat.fb4@hs-duesseldorf.de
+		dekanin.wirtschaft@hs-duesseldorf.de
+		elisabeth.holder@hs.duesseldorf.de
+		empfang@hs-duesseldorf.de
+		fmdauto@hs-duesseldorf.de
+		harry.vetter@hs-duesseldorf.de
+		henning.mohren@hs-duesseldorf.de
+		horst.peters@hs-duesseldorf.de
+		isabelle.abram@hs.duesseldorf.de
+		jasmin.clement@hs-duesseldorf.de
+		joachim.schaarschmidt@hs-duesseldorf.de
+		kathrin.oeser@hs-duesseldorf.de
+		louisa.georg@hs-duesseldorf.de
+		mario.adam@hs-duesseldorf.de
+		maryvonne.wellen@hs-duesseldorf.de
+		michael.moebius@hs-duesseldorf.de
+		monika.schrewe@hs-duesseldorf.de
+		philipp.teufel@hs-duesseldorf.de
+		pressestelle@hs-duesseldorf.de
+		sabrina.guder-pietsch@hs-duesseldorf.de
+		sadrick.schmidt@hs-duesseldorf.de
+		servicedesk@hs-duesseldorf.de
+		stefan.korschildgen@hs-duesseldorf.de
+		studienberatung@hs-duesseldorf.de
+		uwe.reinhardt@hs-duesseldorf.de
+		webadmin.wirtschaft@hs-duesseldorf.de
+		webmaster.soz-kult@hs-duesseldorf.de
+		webredaktion.medien@hs-duesseldorf.de
+		webredaktion.pbsa@hs-duesseldorf.de
+		webredaktion@hs-duesseldorf.de
+Error: http://www.fliedner-fachhochschule.de/:
+ReadTimeout
+118/426	http://www.fliedner-fachhochschule.de/	0
+	NO HITS! TODO!
+119/426	http://www.hhu.de/	3
+		datenschutzbeauftragter@hhu.de
+		kommunikation@hhu.de
+		kommunikation@zuv.uni-duesseldorf.de
+120/426	http://www.ist-hochschule.de/	1
+		info@ist-hochschule.de
+121/426	http://www.kunstakademie-duesseldorf.de/	3
+		datenschutz@hfmt-koeln.de
+		postmaster@kunstakademie-duesseldorf.de
+		wibke.petras@kunstakademie-duesseldorf.de
+122/426	http://www.rsh-duesseldorf.de/	4
+		info@rsh-duesseldorf.de
+		institut@musikundmedien.net
+		medien@hs-duesseldorf.de
+		rsh@rsh-duesseldorf.de
+123/426	http://www.hnee.de/	5
+		praesident@hnee.de
+		presse@hnee.de
+		security@hnee.de
+		veranstaltungen@hnee.de
+		webmaster@hnee.de
+124/426	http://www.fachhochschule-edenkoben.de/	3
+		poststelle@fa-xx.fin-rlp.de
+		poststelle@fhochschule.fin-rlp.de
+		poststelle@hochschule.fin-rlp.de
+125/426	http://www.ku.de/	2
+		info@ku.de
+		pressestelle@ku.de
+126/426	http://www.nordakademie.de/	1
+		anette.schwarz-rostock@nordakademie.de
+127/426	http://www.th-elstal.de/	3
+		datenschutzfragen@baptisten.de
+		misskalt@baptisten.de
+		mkisskalt@baptisten.de
+128/426	http://www.hs-emden-leer.de/	3
+		familienservice@hs-emden-leer.de
+		info@hs-emden-leer.de
+		webmaster@hs-emden-leer.de
+129/426	http://www.fham.de/	1
+		sales@fham.de
+130/426	http://www.fh-erfurt.de/	2
+		datenschutz@fh-erfurt.de
+		rektorat@fh-erfurt.de
+131/426	http://www.uni-erfurt.de/	2
+		claudia.behnke@uni-erfurt.de
+		webmaster@uni-erfurt.de
+132/426	http://fau.de/	5
+		alumni@fau.de
+		norbert.gaertner@fau.de
+		presse@fau.de
+		webredaktion@fau.de
+		zuv-wtt@fau.de
+133/426	http://www.folkwang-uni.de/	5
+		info@folkwang-uni.de
+		info@orchesterzentrum.de
+		karten@folkwang-uni.de
+		lebenslanges-lernen@folkwang-uni.de
+		pop@folkwang-uni.de
+134/426	http://www.fom.de/	2
+		info@fom.de
+		studienberatung@fom.de
+135/426	http://www.hs-esslingen.de/	1
+		info@hs-esslingen.de
+136/426	http://th-ewersbach.de/	2
+		datenschutz@feg.de
+		info@the.feg.de
+137/426	http://www.hs-flensburg.de/	2
+		infopoint@hs-flensburg.de
+		studierendensekretariat@hs-flensburg.de
+138/426	http://www.uni-flensburg.de/	2
+		info@intera.de
+		praesidium@uni-flensburg.de
+139/426	http://frankfurt-university.de/	7
+		bachelor@io.fra-uas.de
+		master@io.fra-uas.de
+		post@fra-uas.de
+		pressestelle@fra-uas.de
+		webredaktion@fra-uas.de
+140/426	http://www.frankfurt-school.de/	2
+		f.mueller@fs.de
+		info@frankfurt-school.de
+141/426	http://www.hfmdk-frankfurt.de/	1
+		datenschutz@orga.hfmdk-frankfurt.de
+142/426	http://www.uni-frankfurt.de/	1
+		webmaster@uni-frankfurt.de
+143/426	http://www.sankt-georgen.de/	6
+		bibliothek@sankt-georgen.de
+		joachimski@orden.de
+		meckel@sankt-georgen.de
+		rektorat@sankt-georgen.de
+		vorstand@sankt-georgen.de
+		webmaster@sankt-georgen.de
+144/426	http://www.provadis-hochschule.de/	2
+		info@provadis-hochschule.de
+		melanie.mirgeler@provadis-hochschule.de
+145/426	http://www.staedelschule.de/	4
+		datenschutz@staedelschule.de
+		mailing@staedelschule.de
+		u003edatenschutz@staedelschule.de
+		u003emailing@staedelschule.de
+146/426	http://www.europa-uni.de/	0
+	NO HITS! TODO!
+147/426	http://www.tu-freiberg.de/	4
+		datenschutz%40zuv.tu-freiberg.de
+		datenschutz@zuv.tu-freiberg.de
+		saechsdsb%40slt.sachsen.de
+		saechsdsb@slt.sachsen.de
+148/426	http://www.uni-freiburg.de/	10
+		europa@zv.uni-freiburg.de
+		ias@uni-freiburg.de
+		info@pr.uni-freiburg.de
+		info@swfr.de
+		info@verwaltung.uni-freiburg.de
+		international@service.uni-freiburg.de
+		io@uni-freiburg.de
+		studienberatung@service.uni-freiburg.de
+		ulrich.lickert@uniklinik-freiburg.de
+		webmaster@uni-freiburg.de
+149/426	http://www.eh-freiburg.de/	2
+		marketing@eh-freiburg.de
+		sued@datenschutz.ekd.de
+150/426	http://www.mh-freiburg.de/	1
+		info@mh-freiburg.de
+151/426	http://hkdm.de/	24
+		a.liebsch@macromedia.de
+		al.storch@macromedia.de
+		c.lehmann@macromedia.de
+		c.schlottmann@macromedia.de
+		d.egbringhoff@macromedia.de
+		daj.schulz@macromedia.de
+		fashion@hkdm.de
+		ha.benz@macromedia.de
+		i.opdehipt@macromedia.de
+		international@macromedia.de
+		j.frankenfeld@macromedia.de
+		ki.schroeder@macromedia.de
+		l.kaufmann@macromedia.de
+		m.foeste@macromedia.de
+		r.gloeden@macromedia.de
+		s.churlahl@macromedia.de
+		s.langenberg@macromedia.de
+		s.muller@macromedia.de
+		s.taeubrich@macromedia.de
+		studienberatung@macromedia.de
+		studienberatungfreiburg@macromedia.de
+		t.stauder-jung@macromedia.de
+		va.keller@macromedia.de
+		y.benhamida@macromedia.de
+152/426	http://www.kh-freiburg.de/	6
+		479w@2x.jpeg
+		767w@2x.jpeg
+		leaflet@1.3.1
+		siegel_efqm@2x.jpeg
+		siegel_weltoffene-hochschule@2x.jpeg
+		siegel_wr@2x.jpeg
+153/426	http://www.ph-freiburg.de/	5
+		engelhard@ph-freiburg.de
+		epp@ph-freiburg.de
+		poststelle@ph-freiburg.de
+		thomsing@ph-freiburg.de
+		webmaster@ph-freiburg.de
+154/426	http://www.thh-friedensau.de/	2
+		hochschule@thh-friedensau.de
+		irina.heinz@thh-friedensau.de
+155/426	http://www.zu.de/	1
+		karl-schlecht-mit-logo_oben_klein-6add5290c19686bg446829079ff31f98@2x.jpg
+156/426	http://www.hs-fulda.de/	14
+		babel@hlb.hs-fulda.de
+		benjamin.zentgraf@verw.hs-fulda.de
+		christel.kotzan@hlb.hs-fulda.de
+		christopher-mark.hahn@verw.hs-fulda.de
+		gesa.pusch-thomas@hs-fulda.de
+		ilona.jehn@verw.hs-fulda.de
+		karin.papendieck@oe.hs-fulda.de
+		katja.richter@verw.hs-fulda.de
+		leo.roth@verw.hs-fulda.de
+		manuela.till@verw.hs-fulda.de
+		marcus.fessler@verw.hs-fulda.de
+		markus.hundertmark@et.hs-fulda.de
+		monika.wieczorek@verw.hs-fulda.de
+		personalrat@hs-fulda.de
+157/426	http://thf-fulda.de/	1
+		rektorat@thf-fulda.de
+158/426	http://www.wlh-fuerth.de/	1
+		info@wlh-fuerth.de
+159/426	http://www.hs-furtwangen.de/	3
+		info@hs-furtwangen.de
+		onlineredaktion@hs-furtwangen.de
+		stei@hs-furtwangen.de
+160/426	http://www.hs-geisenheim.de/	2
+		annette.reineke@hs-gm.de
+		beate.berkelmann-loehnertz@hs-gm.de
+161/426	http://www.fhoev.nrw.de/	6
+		britta.mertens@fhoev.nrw.de
+		christian.olthaus@fhoev.nrw.de
+		hier_die_emailadresse_eintragen
+		homepage@fhoev.nrw.de
+		registrieren@beispiel.de
+162/426	http://www.w-hs.de/	2
+		matthias.rheinlaender@w-hs.de
+		maximilian.czelinski@w-hs.de
+163/426	http://www.srh-gesundheitshochschule.de/	1
+		info@srh-gesundheitshochschule.de
+164/426	http://www.fthgiessen.de/	2
+		as@dsb.netzwerk-m.de
+		info@fthgiessen.de
+165/426	http://www.uni-giessen.de/	3
+		datenschutz
+		poststelle
+		praesident
+166/426	http://www.thm.de/	2
+		info@thm.de
+		webredaktion@thm.de
+167/426	http://www.vfhs-thueringen.de/	3
+		vfhs-ksa@bzgth.thueringen.de
+		vfhs-st@bzgth.thueringen.de
+		vfhs@bzgth.thueringen.de
+168/426	http://www.uni-goettingen.de/	4
+		datenschutz@uni-goettingen.de
+		poststelle@lfd.niedersachsen.dewenden
+		praesidentin@uni-goettingen.de
+		pressestelle@uni-goettingen.de
+169/426	http://www.pfh.de/	1
+		info@pfh.de
+170/426	http://www.uni-greifswald.de/	1
+		pressestelle@uni-greifswald.de
+171/426	http://www.fh-guestrow.de/	2
+		foerderverein@fh-guestrow.de
+		u.kammin@fh-guestrow.de
+172/426	http://www.hochschule-bundesbank.de/	0
+	NO HITS! TODO!
+173/426	http://www.fernuni-hagen.de/	5
+		helpdesk@fernuni-hagen.de
+		info@fernuni-hagen.de
+		web-studium@fernuni-hagen.de;
+174/426	http://www.burg-halle.de/	1
+		salzwedel@burg-halle.de
+175/426	http://www.ehk-halle.de/	1
+		sekretariat@ehk-halle.de
+176/426	http://www.uni-halle.de/	3
+		datenschutzbeauftragte@verwaltung.uni-halle.de
+		pr@uni-halle.de
+		rektor@uni-halle.de
+177/426	http://www.law-school.de/	1
+		info@law-school.de
+178/426	http://www.brand-acad.de/	2
+		info@brand-acad.de
+		wolfgang.maas@brand-acad.com
+179/426	http://www.ebc-hochschule.de/	4
+		berlin@ebc-hochschule.de
+		duesseldorf@ebc-hochschule.de
+		hamburg@ebc-hochschule.de
+		heidorn.rebecca@ebc-hochschule.de
+180/426	http://www.euro-fh.de/	3
+		 datenschutz@euro‐fh.de
+		datenschutz@euro-fh.de
+		mailbox@datenschutz.hamburg.de
+181/426	http://www.ev-hochschule-hh.de/	2
+		datenschutz@rauheshaus.de
+		info@rauheshaus.de
+182/426	http://www.hcu-hamburg.de/	2
+		hcu-datenschutz@vw.hcu-hamburg.de
+		hcu-kommunikation@vw.hcu-hamburg.de
+183/426	http://www.hamburger-fh.de/	1
+		info@hfh-fernstudium.de
+184/426	http://www.hsba.de/	1
+		info@hsba.de
+185/426	http://www.hsu-hh.de/	5
+		adsbunibwh@bundeswehr.org
+		bmvgrii4@bmvg.bund.de
+		poststelle@bfdi.bund.de
+		pressestelle@hsu-hh.de
+		service@hsu-hh.de
+186/426	http://www.haw-hamburg.de/	1
+		datenschutz@haw-hamburg.de
+187/426	http://www.hfbk-hamburg.de/	2
+		presse@hfbk.hamburg.de
+		webmaster@hfbk.hamburg.de
+188/426	http://www.hfmt-hamburg.de/	8
+		asta@hfmt-hamburg.de
+		bilinc.ercan-catanzaro@hfmt.hamburg.de
+		dieter.hellfeuer@hfmt-hamburg.de
+		praesident@hfmt-hamburg.de
+		social.media@hfmt-hamburg.de
+		studium@hfmt.hamburg.de
+		veranstaltungen@hfmt-hamburg.de
+		website@hfmt-hamburg.de
+189/426	http://www.hamburg.de/fb/norddeutsche-akademie-fuer-finanzen-und-steuerrecht-hamburg/	1
+		hamburg-de-logo@2x.jpg
+190/426	http://www.iss-hamburg.de/	1
+		contact@iss-hamburg.de
+191/426	http://www.the-klu.org/	6
+		birgit.kappert@the-klu.org
+		info@the-klu.org
+		maike.baroch@the-klu.org
+		melanie.winkelmann@the-klu.org
+		servicedesk@the-klu.org
+		unsubscribe@the-klu.org
+192/426	http://www.medicalschool-hamburg.de/	3
+		datenschutz@medicalschool-hamburg.de
+		info@medicalschool-hamburg.de
+		tina.wehowski@medicalschool-hamburg.de
+193/426	http://www.tuhh.de/	16
+		asta@tuhh.de
+		career.service@tuhh.de
+		datenschutz@tuhh.de
+		g.schneider@tuhh.de
+		h.werner@tuhh.de
+		praesident@tuhh.de
+		pressestelle@tuhh.de
+		s.knutzen@tuhh.de
+		scheunert@tuhh.de
+		sekretariat_bs@tuhh.de
+		stefan.heinrich@tuhh.de
+		studienberatung@tuhh.de
+		timm-giel@tuhh.de
+		tuandyou@tuhh.de
+		webmaster@tuhh.de
+		wilberg@tuhh.de
+194/426	http://www.uni-hamburg.de/	1
+		duechting@uni-hamburg.de
+195/426	http://www.hsw-hameln.de/	2
+		info@hsw-hameln.de
+		mertens@hsw-hameln.de
+196/426	http://www.hshl.de/	19
+		aleksandra.jablonski@hshl.de
+		britta.morzick@hshl.de
+		christine.witte@hshl.de
+		florentine.crostack@hshl.de
+		info@hshl.de
+		johannes.zenke@hshl.de
+		josephine.albert@hshl.de
+		katharina.brendt@hshl.de
+		katharina.martins@hshl.de
+		kerstin.hohmann@hshl.de
+		kristin.twilfer@hshl.de
+		maria.maar@hshl.de
+		marina.moll@hshl.de
+		markus.uloth@hshl.de
+		melanie.rambeck@hshl.de
+		michael.schabdach@hshl.de
+		monika.zimmer@hshl.de
+		sarah.bienemann@hshl.de
+		stephanie.passgang@hshl.de
+197/426	http://www.fh-hamm.de/	2
+		loren.senci@srh.de
+		studienberatung.hsha@srh.de
+198/426	http://www.fhdw-hannover.de/	3
+		fnovar.wragfpu@suqj.qr
+		info-gf@bib.de
+		info-ha@fhdw.de
+199/426	http://www.uni-hannover.de/	2
+		studium@uni-hannover.de
+		webredaktion@zuv.uni-hannover.de
+200/426	http://www.hmtm-hannover.de/	2
+		hmtm@hmtm-hannover.de
+		webmaster@hmtm-hannover.de
+201/426	http://www.hs-hannover.de/	6
+		beratung@hs-hannover.de
+		dekanate@hs-hannover.de
+		oem@hs-hannover.de
+		poststelle@hs-hannover.de
+		praesidium@hs-hannover.de
+		servicecenter@hs-hannover.de
+202/426	http://www.nds-sti.de/	2
+		datenschutzbeauftrager@nsi-hsvn.de
+		info@nsi-hsvn.de
+203/426	http://www.leibniz-akademie.de/	2
+		info@leibniz-akademie.de
+		info@leibniz-fh.de
+204/426	http://www.mh-hannover.de/	1
+		datenschutz@mh-hannover.de
+205/426	http://www.tiho-hannover.de/	2
+		datenschutz@tiho-hannover.de
+		info@tiho-hannover.de
+206/426	http://fh-westkueste.de/	2
+		beratung@fh-westkueste.de
+		info@fh-westkueste.de
+207/426	http://www.hfjs.eu/	6
+		 susanne.mohn@hfjs.eu
+		info@hfjs.eu
+		redaktion@hfjs.eu
+		shaul.friberg@hfjs.eu
+		susanne.mohn@hfjs.eu
+		webmaster@hfjs.eu
+208/426	http://www.hfk-heidelberg.de/	0
+	NO HITS! TODO!
+209/426	http://www.ph-heidelberg.de/	2
+		ds@vw.ph-heidelberg.de
+		info@ph-heidelberg.de
+210/426	http://www.uni-heidelberg.de/	2
+		kum@uni-heidelberg.de
+		www.redaktion@rektorat.uni-heidelberg.de
+211/426	http://www.hochschule-heidelberg.de/	1
+		info@hochschule-heidelberg.de
+212/426	http://www.hs-heilbronn.de/	3
+		campus-kuen@hs-heilbronn.de
+		campus-sha@hs-heilbronn.de
+		info@hs-heilbronn.de
+213/426	http://www.ggs.de/	2
+		datenschutz@ggs.de
+		marc.stoering@osborneclarke.com
+214/426	http://www.hochschule-herford.de/	8
+		christine.goettsche@hochschule-kirchenmusik.de
+		hartmut.naumann@ev-pop.de
+		info@hochschule-kirchenmusik.de
+		lisa.viehl@ev-pop.de
+		ramona.horn@hochschule-kirchenmusik.de
+		sabine.bennecke@hochschule-kirchenmusik.de
+		sturahfkherford@gmail.com
+		ulrich.hirtzbruch@hochschule-kirchenmusik.de
+215/426	http://www.fh-hermannsburg.de/	4
+		f.ludwig@fh-hermannsburg.de
+		kay.oppermann@evlka.de
+		landeskirchenamt@evlka.de
+		office@fh-hermannsburg.de
+216/426	http://www.fhr-nord.niedersachsen.de/	1
+		fhrhi-poststelle@justiz.niedersachsen.de
+217/426	http://www.uni-hildesheim.de/	2
+		breede@uni-hildesheim.de
+		infoline@uni-hildesheim.de
+218/426	http://www.hawk-hhg.de/	2
+		datenschutz@hawk.de
+		pressestelle@haw.de
+219/426	http://www.hof-university.de/	1
+		datenschutzbeauftragter@hof-university.de
+220/426	http://www.hs-fresenius.de/	4
+		beratung@hs-fresenius.de
+		datenschutz@cognos-ag.de
+		heidelberg@hs-fresenius.de
+		idstein@hs-fresenius.de
+221/426	http://www.tu-ilmenau.de/	4
+		info@formplusraum.de
+		marco.frezzella@tu-ilmenau.de
+		rektor@tu-ilmenau.de
+		unirz@tu-ilmenau.de
+222/426	http://www.thi.de/	2
+		info@haw-ingolstadt.de
+		info@thi.de
+223/426	http://www.bits-hochschule.de/	12
+		admissions.berlin@ue-germany.com
+		admissions.hamburg@ue-germany.com
+		admissions.iserlohn@ue-germany.com
+		examination.office.berlin@ue-germany.de
+		examination.office.hamburg@ue-germany.de
+		examination.office.iserlohn@ue-germany.de
+		finance.berlin@gusgermany.de
+		finance.hamburg@gusgermany.de
+		finance.iserlohn@gusgermany.de
+		studentservice.berlin@ue-germany.de
+		studentservice.hamburg@ue-germany.de
+		studentservice.iserlohn@ue-germany.de
+224/426	http://fh-swf.de/	1
+		webteam@fh-swf.de
+225/426	http://www.nta-isny.de/	1
+		in%c2%adfo@nta-is%c2%adny.de
+226/426	http://www.eah-jena.de/	0
+	NO HITS! TODO!
+227/426	http://www.uni-jena.de/	1
+		oliver.werz@uni-jena.de
+228/426	http://www.hs-kl.de/	2
+		elvira.grub@hs-kl.de
+		presse@hs-kl.de
+229/426	http://www.uni-kl.de/	13
+		amberger@verw.uni-kl.de
+		arthur@isgs.uni-kl.de
+		doering@isgs.uni-kl.de
+		fsj0@isgs.uni-kl.de
+		huber@isgs.uni-kl.de
+		isgs@isgs.uni-kl.de
+		jankowiak@eit.uni-kl.de
+		koehler@isgs.uni-kl.de
+		kuhnert@verw.uni-kl.de
+		memar@isgs.uni-kl.de
+		nicole.vuithier@verw.uni-kl.de
+		swyers@isgs.uni-kl.de
+		vuithier@isgs.uni-kl.de
+Error: http://hfm-karlsruhe.de/:
+ReadTimeout
+230/426	http://hfm-karlsruhe.de/	0
+	NO HITS! TODO!
+231/426	http://www.hs-karlsruhe.de/	3
+		info@in2code.de
+		mailbox@hs-karlsruhe.de
+		sekretariat.w@hs-karlsruhe.de
+232/426	http://www.karlshochschule.de/	3
+		admissions@karlshochschule.de
+		info@karlshochschule.de
+		master@karlshochschule.de
+233/426	http://kit.edu/	4
+		datenschutzbeauftragter@kit.edu
+		info@kit.edu
+		internetredaktion@sek.kit.edu
+		it-sicherheitsbeauftragter@kit.edu
+234/426	http://www.ph-karlsruhe.de/	4
+		richter@ph-karlsruhe.de
+		smajic@ph-karlsruhe.de
+		studium@ph-karlsruhe.de
+		webmaster@ph-karlsruhe.de
+235/426	http://www.kunstakademie-karlsruhe.de/	1
+		mail@kunstakademie-karlsruhe.de
+236/426	http://www.hfg-karlsruhe.de/	40
+		0383131_01@1033x930.jpg
+		0383131_01@344x310.jpg
+		180904_rendering_banner_final0059_rt_hfg@1500x1500.jpg
+		181017_carlo_diplom_plakat@1033x930.jpg
+		181017_carlo_diplom_plakat@344x310.jpg
+		3@1033x930.jpg
+		8z1a6632_34885589472_o@1033x930.jpg
+		8z1a6632_34885589472_o@344x310.jpg
+		dany_2018-c-donnie_londi@1033x930.jpg
+		dany_2018-c-donnie_londi@344x310.jpg
+		dgtf-konferenz_facebook_web@1033x930.jpg
+		dgtf-konferenz_facebook_web@344x310.jpg
+		gestaltung-ausstellen_plakat@1033x930.jpeg
+		gestaltungswettbewerb_stadtbahn_1@1033x930.jpg
+		gpn_01@1033x930.jpg
+		gpn_01@344x310.jpg
+		harald_voelkl_bw_studyguide_02_web_medium_187-689x620@1033x930.jpg
+		harald_voelkl_bw_studyguide_02_web_medium_187-689x620@344x310.jpg
+		img_0041@1500x1500.jpg
+		img_1839_badischerkunstverei_ellbrck_grtner@1033x930.jpg
+		img_1839_badischerkunstverei_ellbrck_grtner@344x310.jpg
+		jacob-birken_die-kalifornische-institution@1033x930.jpeg
+		leiber_svenja_7154_2013-c-stefanklter_sv@1033x930.jpg
+		leiber_svenja_7154_2013-c-stefanklter_sv@344x310.jpg
+		lpd_desert_de_s-1_3-2@1033x930.jpg
+		mappen@1033x930.jpg
+		matthias-senkel-dunkle-zahlen@1033x930.jpg
+		matthias-senkel-dunkle-zahlen@344x310.jpg
+		out04_@1033x930.gif
+		out04_@344x310.gif
+		pfischer@hfg-karlsruhe.de
+		plakatwand_klein@1500x1500.jpg
+		rundgang2019@1033x930.jpg
+		rundgang2019@344x310.jpg
+		rz1a0489@1033x930.jpg
+		rz1a0489@344x310.jpg
+		rz1a0976@1033x930.jpg
+		rz1a0976@344x310.jpg
+		wise2017_michellemantel_rz1a2154@1033x930.jpg
+		wise2017_michellemantel_rz1a2154@344x310.jpg
+237/426	http://www.cvjm-hochschule.de/	1
+		info@cvjm-hochschule.de
+238/426	http://www.kunsthochschule-kassel.de/	2
+		poststelle@uni-kassel.de
+		presse@kunsthochschule-kassel.de
+239/426	http://www.uni-kassel.de/	1
+		poststelle@uni-kassel.de
+240/426	http://www.hs-kehl.de/	3
+		post@hs-kehl.de
+		presse@hs-kehl.de
+		schulze@hs-kehl.de
+241/426	http://www.hochschule-kempten.de/	1
+		post@hs-kempten.de
+242/426	http://www.uni-kiel.de/	2
+		email:socialmedia@uni-kiel.de
+		socialmedia@uni-kiel.de
+243/426	http://www.fh-kiel.de/	3
+		hartmut.ohm@fh-kiel.de
+		helga.koch@fh-kiel.de
+		info@fh-kiel.de
+244/426	http://www.muthesius-kunsthochschule.de/	4
+		gleichstellungskommission@muthesius.de
+		gs.kiel@studentenwerk-s-h.de
+		palesch@muthesius.de
+		studieninfo@muthesius.de
+245/426	http://www.hochschule-rhein-waal.de/	4
+		datenschutz@hochschule-rhein-waal.de
+		info@hochschule-rhein-waal.de
+		oderstudienberatung@hochschule-rhein-waal.de
+		studienberatung@hochschule-rhein-waal.de
+246/426	http://www.hs-koblenz.de/	0
+	NO HITS! TODO!
+247/426	http://www.uni-koblenz-landau.de/	4
+		%61%6b%6f%63%68%40%75%6e%69%2d%6b%6f%62%6c%65%6e%7a%2d%6c%61%6e%64%61%75%2e%64%65
+		%64%69%65%74%65%72%40%75%6e%69%2d%6b%6f%62%6c%65%6e%7a%2d%6c%61%6e%64%61%75%2e%64%65
+		akoch@uni-koblenz-landau.de
+		dieter@uni-koblenz-landau.de
+248/426	http://www.htwg-konstanz.de/	1
+		kontakt@htwg-konstanz.de
+249/426	http://www.uni-konstanz.de/	2
+		datenschutzbeauftragter@uni-konstanz.de
+		onlineredaktion@uni-konstanz.de
+250/426	http://cbs.de/	4
+		datenschutzbeauftragte@cbs.de
+		poststelle@ldi.nrw.de
+		s.selmi@cbs.de
+		study@cbs.de
+251/426	http://www.dshs-koeln.de/	3
+		datenschutz@dshs-koeln.de
+		infopoint@dshs-koeln.de
+		poststelle@ldi.nrw.de
+252/426	http://www.th-koeln.de/	15
+		alexandra.wacker@th-koeln.de
+		daniela.von_franck@th-koeln.de
+		drittmittelkoordination@th-koeln.de
+		forschungsfoerderung@th-koeln.de
+		frauke.schmidt@th-koeln.de
+		graduatecenter@th-koeln.de
+		gruendungsservice@th-koeln.de
+		joelle.coutinho@th-koeln.de
+		jonas.stolz@th-koeln.de
+		mirjam.heetkamp@th-koeln.de
+		oliver.clarenz@th-koeln.de
+		simone.stork@th-koeln.de
+		stephanie.grubenbecher@th-koeln.de
+		tanja.jurcevic@th-koeln.de
+		ulrike.kreger@th-koeln.de
+253/426	http://www.hfmt-koeln.de/	2
+		sarah.giese@hfmt-koeln.de
+		studiensekretariat@hfmt-koeln.de
+254/426	http://www.katho-nrw.de/	3
+		datenschutzbeauftragte@katho-nrw.de
+		info@kdsz.de
+		kanzler@katho-nrw.de
+255/426	http://www.khm.de/	2
+		datenschutz@hfmt-koeln.de
+		nawrath@khm.de
+256/426	http://www.uni-koeln.de/	1
+		info@koelnalumni.de
+257/426	http://www.rfh-koeln.de/	1
+		ds-info@rfh-koeln.de
+258/426	http://www.fhf-kw.brandenburg.de/	3
+		bettina.westphal@fhf.brandenburg.de
+		gabriele.goessling@fhf.brandenburg.de
+		katrin.lummert@fhf.brandenburg.de
+259/426	http://www.haw-landshut.de/	1
+		career@haw-landshut.de
+260/426	http://www.hhl.de/	3
+		info@hhl.de
+		keycdn@09.11.2018
+		webmaster@hhl.de
+261/426	http://www.hgb-leipzig.de/	1
+		support-buero@hgb-leipzig.de
+262/426	http://www.hmt-leipzig.de/	3
+		ahoi@visionauten.com
+		info@grasbauer.com
+		rektor@hmt-leipzig.de
+263/426	http://www.htwk-leipzig.de/	1
+		-
+264/426	http://www.hft-leipzig.de/	1
+		buchmann@hft-leipzig.de
+265/426	http://www.uni-leipzig.de/	1
+		kommunikation@uni-leipzig.de
+266/426	http://www.hs-owl.de/	3
+		jan.rademaker@hs-owl.de
+		julia.wunderlich@hs-owl.de
+		pressestelle@hs-owl.de
+267/426	http://www.ihl.eu/	1
+		info@ihl.eu
+268/426	http://www.adk-bw.de/	2
+		datenschutz@emetz.de
+		poststelle@lfdi.bwl.de
+269/426	http://www.filmakademie.de/	2
+		datenschutz@coseco.de
+		info@filmakademie.de
+270/426	http://www.eh-ludwigsburg.de/	1
+		rektorat@eh-ludwigsburg.de
+271/426	http://www.hs-ludwigsburg.de/	2
+		agrin.nassir@hs-ludwigsburg.de
+		lucca@hs-ludwigsburg.de
+272/426	http://www.ph-ludwigsburg.de/	1
+		rektorat@ph-ludwigsburg.de
+273/426	http://www.hs-lu.de/	1
+		susanne.frenzel@hs-lu.de
+274/426	http://www.fh-luebeck.de/	3
+		evans.gumbe@th-luebeck.de
+		kontakt@th-luebeck.de
+		ulrike.reincke@th-luebeck.de
+275/426	http://www.leuphana.de/	2
+		presse@leuphana.de
+		sebastian.weiner@leuphana.de
+276/426	http://www.mh-luebeck.de/	17
+		alban.gauhl@mh-luebeck.de
+		alumni@mh-luebeck.de
+		asta@mh-luebeck.de
+		bibliothek@mh-luebeck.de
+		bjoern.johannsen@mh-luebeck.de
+		brahms-institut@mh-luebeck.de
+		edv@mh-luebeck.de
+		foerderer@mh-luebeck.de
+		info@mh-luebeck.de
+		kbb@mh-luebeck.de
+		nico.thom@mh-luebeck.de
+		praesidium@mh-luebeck.de
+		presse@mh-luebeck.de
+		studiensekretariat@mh-luebeck.de
+		stupa@mh-luebeck.de
+		tonstudio@mh-luebeck.de
+		verwaltung@mh-luebeck.de
+277/426	http://www.uni-luebeck.de/	1
+		presse@uni-luebeck.de
+278/426	http://www.ovgu.de/	2
+		datenschutz@ovgu.de
+		rektor@ovgu.de
+279/426	http://www.hs-magdeburg.de/	1
+		kerstin.taenzer@hs-magdeburg.de
+280/426	http://www.hs-mainz.de/	2
+		kontakt@hs-mainz.de
+		mail@mpm.de
+281/426	http://www.kh-mz.de/	5
+		info@kh-mz.de
+		online-redaktion@kh-mz.de
+		rainer.ziday@gwb-mainz.de
+		rektorat@kh-mz.de
+		webmaster@kh-mz.de
+282/426	http://www.uni-mainz.de/	1
+		webmaster@uni-mainz.de
+283/426	http://www.hdba.de/	2
+		hochschule-schwerin@arbeitsagentur.de
+		hochschule@arbeitsagentur.de
+284/426	http://www.hdwm.de/	2
+		michael.nagy@hdwm.org
+		steffen.robert@hdwm.org
+285/426	http://www.muho-mannheim.de/	0
+	NO HITS! TODO!
+286/426	http://www.hs-mannheim.de/	0
+	NO HITS! TODO!
+287/426	http://www.popakademie.de/	1
+		info@popakademie.de
+288/426	http://www.uni-mannheim.de/	6
+		application@uni%3a-mannheim.de
+		application@uni-mannheim.de
+		bewerbung@uni%3a-mannheim.de
+		bewerbung@uni-mannheim.de
+		refugees%3a-welcome@uni%3a-mannheim.de
+		refugees-welcome@uni-mannheim.de
+289/426	http://www.archivschule.de/	2
+		archivschule@staff.uni-marburg.de
+		klaus.schleiter@staff.uni-marburg.de
+290/426	http://www.eh-tabor.de/	2
+		a.steuer@netzwerk-m.de
+		info@eh-tabor.de
+291/426	http://www.uni-marburg.de/	3
+		info@uni-marburg.de
+		pressestelle@uni-marburg.de
+		relaunch@uni-marburg.de
+292/426	http://www.hoev-rlp.de/	1
+		info@hoev-rlp.de
+293/426	http://www.fhsv.sachsen.de/	2
+		info@sk.sachsen.de
+		poststelle@hsf.sachsen.de
+294/426	http://hs-merseburg.de/	2
+		datenschutz@hs-merseburg.de
+		rektor@hs-merseburg.de
+295/426	http://www.hs-mittweida.de/	2
+		kontakt@hs-mittweida.de
+		studium@hs-mittweida.de
+296/426	http://www.eh-moritzburg.de/	1
+		sekretariat@eh-moritzburg.de
+297/426	http://hochschule-ruhr-west.de/	1
+		info@hs-ruhrwest.de
+298/426	http://www.adbk.de/	2
+		post@adbk.mhn.de
+		sekretariat@adbk.mhn.de
+299/426	http://www.sdi-muenchen.de/hochschule	3
+		dsb@sdi-muenchen.de
+		kontakt@sdi-muenchen.de
+		webmaster@sdi-muenchen.de
+300/426	http://www.hm.edu/	3
+		christiane.friderich@hm.edu
+		julia.naetsch@hm.edu
+		kooperationen@hm.edu
+301/426	http://www.hff-muc.de/	2
+		info@hff-muc.de
+		redaktion@kulturserver.de
+302/426	http://website.musikhochschule-muenchen.de/	1
+		verwaltung@hmtm.de
+303/426	http://www.hfph.de/	3
+		info@hfph.de
+		info@kreativkombinat.de
+		it-support@hfph.de
+304/426	http://www.hfp.tum.de/	1
+		info@hfp.tum.de
+305/426	http://www.hfoed.bayern.de/	3
+		info@netresearch.de
+		kathrin.wittmann@hfoed.bayern.de
+		poststelle@hfoed.bayern.de
+306/426	http://www.ksfh.de/	6
+		bibliothek.bb@ksh-m.de
+		bibliothek.muc@ksh-m.de
+		peter.linsenmann@ksh-m.de
+		sekretariat.bb@ksh-m.de
+		sekretariat.muc@ksh-m.de
+		sibylle.thiede@ksh-m.de
+307/426	http://www.uni-muenchen.de/	1
+		poststelle@verwaltung.uni-muenchen.de
+308/426	http://www.hochschule-macromedia.de/	1
+		studienberatung@macromedia.de
+309/426	http://www.munich-business-school.de/	2
+		dba@munich-business-school.de
+		info@munich-business-school.de
+310/426	http://www.tum.de/	2
+		olk@zv.tum.de
+		presse@tum.de
+311/426	http://www.ufu-muenchen.de/	4
+		kanzler@ufu-muenchen.de
+		sekretariat@ufu-muenchen.de
+		u003eukrainistik.schule@slavistik.uni-muenchen.de
+		ukrainistik.schule@slavistik.uni-muenchen.de
+312/426	http://www.unibw.de/	2
+		adsb@unibw.de
+		info@unibw.de
+313/426	http://www.dhpol.de/	0
+	NO HITS! TODO!
+314/426	http://www.fh-muenster.de/	3
+		anna%e2%97%a6paluch%e2%9a%b9fh-muenster%e2%97%a6de
+		datenschutz%e2%9a%b9fh-muenster%e2%97%a6de
+		gleis%e2%9a%b9fh-muenster%e2%97%a6de
+315/426	http://www.kunstakademie-muenster.de/	4
+		kalender@kunstakademie-muenster.de
+		larissa.boehringer@kunstakademie-muenster.de
+		redaktion@kunstakademie-muenster.de
+		rektorat@kunstakademie-muenster.de
+316/426	http://www.pth-muenster.de/	4
+		info@pth-muenster.de
+		koenig.franziska8@gmail.com
+		pth@pth-muenster.de
+		thomas.moellenbeck@pth-muenster.de
+317/426	http://www.uni-muenster.de/	18
+		9886-pv0r29ir-webl@2x.jpg
+		9886-pv0r29ir-webml@2x.jpg
+		9913-6pjn49ad-webl@2x.jpg
+		9913-6pjn49ad-webml@2x.jpg
+		9914-8o83v42v-webm@2x.jpg
+		9914-8o83v42v-webml@2x.jpg
+		9915-cnl3r2y6-webm@2x.jpg
+		9915-cnl3r2y6-webml@2x.jpg
+		datenschutz@uni-muenster.de
+		verwaltung@uni-muenster.de
+		web-0sozoj1u-webml@2x.jpg
+		web-0sozoj1u-webquadm@2x.jpg
+		web-7n9fqrnl-webm@2x.jpg
+		web-7n9fqrnl-webml@2x.jpg
+		web-cf5g6pn3-webm@2x.jpg
+		web-cf5g6pn3-webml@2x.jpg
+		web-i9550vvf-webl@2x.jpg
+		web-i9550vvf-webml@2x.jpg
+318/426	http://www.hs-neu-ulm.de/	2
+		dsb@hs-neu-ulm.de
+		info@hs-neu-ulm.de
+319/426	http://www.hs-nb.de/	3
+		presse@hs-nb.de
+		rektor@hs-nb.de
+		webmaster@hs-nb.de
+Error: http://augustana.de/start.html:
+WebDriverException
+320/426	http://www.augustana.de/	0
+	NO HITS! TODO!
+321/426	http://www.rfh-neuss.eu/	1
+		ds-info@rfh-koeln.de
+322/426	http://www.hs-niederrhein.de/	3
+		alumni@hs-niederrhein.de
+		poststelle@ldi.nrw.de
+		webmaster@hs-niederrhein.de
+323/426	http://www.hs-nordhausen.de/	3
+		info@hs-nordhausen.de
+		se@hs-nordhausen.de
+		ssz@hs-nordhausen.de
+324/426	http://fhf-nordkirchen.de/	1
+		presse@fm.nrw.de
+325/426	http://www.adbk-nuernberg.de/	1
+		info@adbk-nuernberg.de
+326/426	http://www.evhn.de/	7
+		dagmar.wagner@evhn.de
+		infopunkt@evhn.de
+		monika.chilla@evhn.de
+		sekretariat.gp@evhn.de
+		sekretariat.rbd@evhn.de
+		sekretariat.sw@evhn.de
+		zentrale@evhn.de
+327/426	http://www.hfm-nuernberg.de/	1
+		falk.hartwig@hfm-nuernberg.de
+328/426	http://www.th-nuernberg.de/	1
+		contacting@th-nuernberg.de
+329/426	http://www.hkt-nuertingen.de/	17
+		christiane.parentin@hfwu.de
+		christine.mechler-schoenach@hfwu.de
+		eva.meschede@hfwu.de
+		flus@hfwu.de
+		hans.schiefer@hfwu.de
+		hartmut.majer@hfwu.de
+		info@kunsttherapie-ikt.de
+		joerg.oster@hfwu.de
+		johannes.junker@hfwu.de
+		juergen.fritsche@hfwu.de
+		klara.schattmayer-bolle@hfwu.de
+		ralf.bolle@hfwu.de
+		roswitha.bader@hfwu.de
+		sandra.kunz@hfwu.de
+		tobias.loemke@hfwu.de
+		ulla.siffermann@hfwu.de
+		ulrich.elbing@hfwu.de
+330/426	http://www.hfwu.de/	3
+		alfred.stoeber@hfwu.de
+		datenschutz@hfwu.de
+		social-media@hfwu.de
+331/426	http://www.lthh-oberursel.de/	1
+		verwaltung@lthh-oberursel.de
+332/426	http://www.hfg-offenbach.de/	97
+		+49 (0)69.667796-903
+		ab@pearltree.net
+		ahn@hfg-offenbach.de
+		alban@hfg-offenbach.de
+		auth@hfg-offenbach.de
+		balkenborg@hfg-offenbach.de
+		bauer@hfg-offenbach.de
+		bernhardt@hfg-offenbach.de
+		bertsch@hfg-offenbach.de
+		blanche@hfg-offenbach.de
+		blanke@hfg-offenbach.de
+		blum@hfg-offenbach.de
+		buch@hfg-offenbach.de
+		carsten.rohde@fb1.fh-frankfurt.de
+		dertinger@hfg-offenbach.de
+		dgaubatz@hfg-offenbach.de
+		dobrotka@hfmakademie.de
+		dorn@hfg-offenbach.de
+		eckart@hfg-offenbach.de
+		eickemeier@hfg-offenbach.de
+		fritzsche@hfg-offenbach.de
+		gessmann@hfg-offenbach.de
+		graefe@hfg-offenbach.de
+		grossmann@hfg-offenbach.de
+		gruenewald@hfg-offenbach.de
+		happ@hfg-offenbach.de
+		hausdienst@hfg-offenbach.de
+		heberer@hfg-offenbach.de
+		heide@hfg-offenbach.de
+		henningsmeyer@hfmakademie.de
+		herzog-hellsten@hfg-offenbach.de
+		hesse@hfg-offenbach.de
+		hochberg@hfg-offenbach.de
+		holzbach@hfg-offenbach.de
+		hufnagel@hfg-offenbach.de
+		ilberg@hfg-offenbach.de
+		indinger@hfg-offenbach.de
+		it-support@hfg-offenbach.de
+		janecke@hfg-offenbach.de
+		kellner@hfg-offenbach.de
+		kieslich@hfg-offenbach.de
+		klein@hfg-offenbach.de
+		klemp@hfg-offenbach.de
+		klober@hfg-offenbach.de
+		kluge@hfg-offenbach.de
+		koenig@hfg-offenbach.de
+		kreiter@hfg-offenbach.de
+		kuehn-wilkens@hfg-offenbach.de
+		kupfer@hfg-offenbach.de
+		langhorst@hfg-offenbach.de
+		langsdorf@hfg-offenbach.de
+		lederle@hfg-offenbach.de
+		liebscher@hfg-offenbach.de
+		lobe@hfg-offenbach.de
+		loris@hfg-offenbach.de
+		lorke@hfg-offenbach.de
+		meyer-wilmes@hfg-offenbach.de
+		michas@hfg-offenbach.de
+		mitscher@hfg-offenbach.de
+		muehl@hfg-offenbach.de
+		mueller@hfg-offenbach.de
+		novak@hfg-offenbach.de
+		oppermann@hfg-offenbach.de
+		pape@hfg-offenbach.de
+		pietocha@hfg-offenbach.de
+		praesidium@hfg-offenbach.de
+		praschak@hfg-offenbach.de
+		rademacher@hfg-offenbach.de
+		rebentisch@hfg-offenbach.de
+		repro-werkstatt@hfg-offenbach.de
+		reski@hfg-offenbach.de
+		ries@hfg-offenbach.de
+		scheld@hfg-offenbach.de
+		schirmer@hfg-offenbach.de
+		schulz@hfg-offenbach.de
+		schuppelius@hfg-offenbach.de
+		schwarze@hfg-offenbach.de
+		seibt@hfg-offenbach.de
+		sitte@hfg-offenbach.de
+		steinbacher@hfg-offenbach.de
+		stier@hfg-offenbach.de
+		stumpf@hfg-offenbach.de
+		theorie-design@hfg-offenbach.de
+		truber@hfg-offenbach.de
+		voeckler@hfg-offenbach.de
+		vogt@hfg-offenbach.de
+		wachtel@hfg-offenbach.de
+		wang@hfg-offenbach.de
+		warzecha@hfg-offenbach.de
+		werner@hfg-offenbach.de
+		windelberg@hfg-offenbach.de
+		withopf@hfg-offenbach.de
+		wittich@hfg-offenbach.de
+		zebner@hfg-offenbach.de
+		zheng@hfg-offenbach.de
+		zimmermann@hfg-offenbach.de
+		zoller@hfg-offenbach.de
+333/426	http://www.hs-offenburg.de/	5
+		beschaffung@hs-offenburg.de
+		hammer@fh-offenburg.de
+		hammer@hs-offenburg.de
+		impressum@fh-offenburg.de
+		impressum@hs-offenburg.de
+334/426	http://www.uni-oldenburg.de/	2
+		dsuni@uol.de
+		internet@uol.de
+335/426	http://www.fhpolbb.de/	2
+		kontakt@fhpolbb.de
+336/426	http://www.hs-osnabrueck.de/	6
+		j.lukassen@hs-osnabrueck.de
+		kommunikation@hs-osnabrueck.de
+		praesidialbuero@hs-osnabrueck.de
+		s.rohling@hs-osnabrueck.de
+		servicedesk@hs-osnabrueck.de
+		webmaster@hs-osnabrueck.de
+337/426	http://www.uni-osnabrueck.de/	1
+		onlineredaktion@uni-osnabrueck.de
+338/426	http://www.hks-ottersberg.de/	3
+		ariane.weidemann@hks-ottersberg.de
+		aw@hks-ottersberg.de
+		info@hks-ottersberg.de
+339/426	http://www.fhdw.de/	22
+		corinna.hoevelberend@fhdw.de
+		dajana.deppenmeier@fhdw.de
+		fgrsnavr.onrhzyre@suqj.qr
+		info-bg@fhdw.de
+		info-bi@fhdw.de
+		info-gf@fhdw.de
+		info-me@fhdw.de
+		info-mr@fhdw.de
+		info-pb@fhdw.de
+		info@bits.gmbh
+		iwona.socha@fhdw.de
+		lisa.wagner@fhdw.de
+		pbevaan.ubriryoreraq@suqj.qr
+		qnwnan.qrccrazrvre@suqj.qr
+		stefanie.baeumler@fhdw.de
+		vasb-co@suqj.qr
+		vasb-ot@suqj.qr
+		vasb-ov@suqj.qr
+		vasb-ze@suqj.qr
+		vasb-zr@suqj.qr
+		vjban.fbpun@suqj.qr
+		yvfn.jntare@suqj.qr
+340/426	http://www.thf-paderborn.de/	4
+		a.koritensky@thf-paderborn.de
+		e.temborius@thf-paderborn.de
+		info@ecoprotec.de
+		rektorat@thf-paderborn.de
+341/426	http://www.uni-paderborn.de/	1
+		webmaster@uni-paderborn.de
+342/426	http://www.uni-passau.de/	3
+		anna.sperrhake@uni-passau.de
+		poststelle@datenschutz-bayern.de
+		praesidentin@uni-passau.de
+343/426	http://www.hs-pforzheim.de/	6
+		iaf@hs-pforzheim.de
+		info@werkraum.net
+		jelena.puljic@hs-pforzheim.de
+		monika.roller@hs-pforzheim.de
+		rebecca.bulander@hs-pforzheim.de
+		thomas.greiner@hs-pforzheim.de
+344/426	http://sportfh-esab.eu/	2
+		info@esab-brandenburg.de
+		info@fhsmp.de
+345/426	http://www.fh-potsdam.de/	1
+		webmaster@fh-potsdam.de
+346/426	http://www.filmuniversitaet.de/	2
+		datenschutz@filmuniversitaet.de
+		info@filmuniversitaet.de
+347/426	http://www.uni-potsdam.de/	3
+		marieke.baeumer@uni-potsdam.de
+		roland.brandt@uni-potsdam.de
+		zim-cms-team@uni-potsdam.de
+348/426	http://www.hs-weingarten.de/	1
+		weiterbildung@hs-weingarten.de
+349/426	http://www.hfkm-regensburg.de/	2
+		info@hfkm-regensburg.de
+		pforte@hfkm-regensburg.de
+350/426	http://www.uni-regensburg.de/	8
+		international.office@ur.de
+		kontakt@ur.de
+		registratur@ur.de
+		studentenkanzlei@ur.de
+		studienberatung@uni-regensburg.de
+		studienberatung@ur.de
+		vorname.nachname@student.ur.de
+		vorname.nachname@ur.de
+351/426	http://www.oth-regensburg.de/	1
+		christine.reitzer@extern.oth-regensburg.de
+352/426	http://www.reutlingen-university.de/	7
+		info@reutlingen-university.de
+		kontakt@12bis3.de
+		maximilian.musch@reutlingen-university.de
+		poststelle@lfdi.bwl.de
+		poststelle@mwk.bwl.de
+		redaktion@reutlingen-university.de
+		rmz@reutlingen-university.de
+353/426	http://www.th-reutlingen.de/	1
+		info@th-reutlingen.de
+354/426	http://www.praxishochschule.de/	5
+		datenschutzbeauftragte@praxishochschule.de
+		info@praxishochschule.de
+		mein.name@beispiel.de
+		poststelle@ldi.nrw.de
+		studienservice@praxishochschule.de
+355/426	http://www.mobile-university.de/	1
+		info@mobile-university.de
+356/426	http://www.fh-rosenheim.de/	4
+		info@fh-rosenheim.de
+		neumann.andrea.verena@gmx.de
+		reiterkatharina@gmx.de
+		sabine.wolf@fh-rosenheim.de
+357/426	http://www.hmt-rostock.de/	4
+		hmt@hmt-rostock.de
+		kanzler@hmt-rostock.de
+		pressestelle@hmt-rostock.de
+		rektorin@hmt-rostock.de
+Error: http://uni-rostock.de/:
+ConnectTimeout
+358/426	http://uni-rostock.de/	0
+	NO HITS! TODO!
+359/426	http://www.studienzentrum-rotenburg.de/	3
+		poststelle@szrof.hessen.dedas
+		uhd@hzd.hessen.de
+360/426	http://www.polizei.sachsen.de/de/polfh.htm	9
+		datenschutz@sk.sachsen.de
+		datenschutzbeauftragter@smi.sachsen.de
+		fachhochschule@polizei-sachsen.de-mail.de
+		info@sk.sachsen.de
+		info@smi.sachsen.de
+		onlineredaktion@sk.sachsen.de
+		post@sk.sachsen.de
+		poststelle.fhs@polizei.sachsen.de
+		publikationen@sachsen.de
+361/426	http://www.hs-rottenburg.net/	2
+		bkaiser@hs-rottenburg.de
+		pe.martin@hs-rottenburg.de
+362/426	http://www.kirchenmusik-hochschule.org/	4
+		awildemann@bo.drs.de
+		bmoster@bo.drs.de
+		hfk-rottenburg@bo.drs.de
+		maheid@bo.drs.de
+363/426	http://www.dhfpg.de/	2
+		austria@dhfpg.de
+		info@dhfpg.de
+364/426	http://www.saarland.de/fhsv.htm	8
+		info%40it-dlz.saarland.de
+		info%40netmedia.de
+		info@it-dlz.saarland.de
+		info@netmedia.de
+		poststelle%40innen.saarland.de
+		poststelle@innen.saarland.de
+		presse%40innen.saarland.de
+		presse@innen.saarland.de
+365/426	http://www.hbksaar.de/	1
+		info@hbksaar.de
+366/426	http://www.hfm.saarland.de/	1
+		info@hfm.saarland.de
+367/426	http://www.htwsaar.de/	3
+		eleonore.martin@htwsaar.de
+		info@htw-saarland.de
+		info@htwsaar.de
+368/426	http://www.uni-saarland.de/	9
+		axel.koch@uni-saarland.de
+		denise.mayer@uni-saarland.de
+		forschung@uni-saarland.de
+		jens.krueck@uni-saarland.de
+		martin.wagner@uni-saarland.de
+		patenverwertungsagentur@uni-saarland.de
+		roland.scholtes@uni-saarland.de
+		sarah.fitsch@uni-saarland.de
+		vertraege@uni-saarland.de
+369/426	http://www.hs-schmalkalden.de/	2
+		dekan-inf@hs-schmalkalden.de
+		jo.tzschenscher@gmail.com
+370/426	http://www.hfg-gmuend.de/	0
+	NO HITS! TODO!
+371/426	http://www.hfr-schwetzingen.de/	2
+		poststelle@fhrschwetzingen.justiz.bwl.de
+		poststelle@hfr.justiz.bwl.de
+372/426	http://www.ph-gmuend.de/	3
+		info@ph-gmuend.de
+		markus.opferkuch@ph-gmuend.de
+		stefan.kruse@ph-gmuend.de
+373/426	http://www.uni-siegen.de/	1
+		webredaktion@uni-siegen.de
+374/426	http://www.uni-speyer.de/	1
+		metz@uni-speyer.de
+375/426	http://www.pth-augustin.eu/	0
+	NO HITS! TODO!
+376/426	http://www.fh-stralsund.de/	5
+		datenschutz@hochschule-stralsund.de
+		karrierestart@hochschule-stralsund.de
+		pressestelle@hochschule-stralsund.de
+		rektor@hochschule-stralsund.de
+		studienberatung@hochschule-stralsund.de
+377/426	http://www.akad.de/	1
+		beratung@akad.de
+378/426	http://www.dhbw.de/	5
+		datenschutz@dhbw.de
+		mail@ingowonner.com
+		poststelle@dhbw.de
+		poststelle@mwk.bwl.de
+		viola.meinert@dhbw.de
+379/426	http://www.freie-hochschule-stuttgart.de/	3
+		datenschutz@freie-hochschule-stuttgart.de
+		info@freie-hochschule-stuttgart.de
+		poststelle@lfdi.bwl.de
+380/426	http://www.hdm-stuttgart.de/	7
+		bibliothek@hdm-stuttgart.de
+		marketing@hdm-stuttgart.de
+		personal@hdm-stuttgart.de
+		presse@hdm-stuttgart.de
+		sprachenzentrum@hdm-stuttgart.de
+		studienbuero@hdm-stuttgart.de
+		weiterbildung@hdm-stuttgart.de
+381/426	http://www.hmdk-stuttgart.de/	4
+		birgit.aust@hmdk-stuttgart.de
+		kbb@hmdk-stuttgart.de
+		post@hmdk-stuttgart.de
+		rektorin@hmdk-stuttgart.de
+382/426	http://www.hft-stuttgart.de/	6
+		andrea.schweizer@hft-stuttgart.de
+		info@hft-stuttgart.de
+		mareike.canzler@hft-stuttgart.de
+		petra.dabelstein@hft-stuttgart.de
+		silke.fritz@hft-stuttgart.de
+		studsek.vw@hft-stuttgart.de
+Error: http://www.merz-akademie.de/:
+SSLError
+383/426	http://www.merz-akademie.de/	0
+	NO HITS! TODO!
+384/426	http://www.abk-stuttgart.de/	3
+		samantha.schramm@abk-stuttgart.de
+		sonja.fendel@abk-stuttgart.de%e2%80%a8
+385/426	http://vwa-hochschule.de/	1
+		info@vwa-hochschule.de
+386/426	http://www.uni-hohenheim.de/	4
+		eugen.dierenbach@uni-hohenheim.de
+		post@uni-hohenheim.de
+		webredaktion@uni-hohenheim.de
+		zsb@uni-hohenheim.de
+387/426	http://www.uni-stuttgart.de/	2
+		kjnono9gg9@pid-nopoob5mo.89
+		m9fojm@pid-nopoob5mo.89
+388/426	http://www.hochschule-trier.de/	2
+		datenschutz@hochschule-trier.de
+		praesident@hochschule-trier.de
+389/426	http://www.theo.uni-trier.de/	1
+		theofak@uni-trier.de
+390/426	http://www.uni-trier.de/	5
+		dsb@uni-trier.de
+		info@uni-trier.de
+		kanzlerin@uni-trier.de
+		presse@uni-trier.de
+		typo3@uni-trier.de
+391/426	http://www.mh-trossingen.de/	2
+		projekte@mh-trossingen.de
+		rektorat@mh-trossingen.de
+392/426	http://www.uni-tuebingen.de/	2
+		studierendensekretariat@verwaltung.uni-tuebingen.de
+		support@zdv.uni-tuebingen.de
+393/426	http://www.kirchenmusikhochschule.de/	2
+		info@kirchenmusikhochschule.de
+		rektorat@kirchenmusikhochschule.de
+Error: http://www.hs-ulm.de/:
+SSLError
+394/426	http://www.hs-ulm.de/	0
+	NO HITS! TODO!
+395/426	http://www.uni-ulm.de/	5
+		alumni@uni-ulm.de
+		diana.frankenhauser@uni-ulm.de
+		gertrud.bail@uni-ulm.de
+		pressestelle@uni-ulm.de
+		veranstaltungen@uni-ulm.de
+396/426	http://www.pthv.de/	2
+		info@defensit.de
+		info@pthv.de
+397/426	http://www.whu.edu/	2
+		mba@whu.edu
+		whu@whu.edu
+398/426	http://www.phwt.de/	1
+		info@phwt.de
+399/426	http://www.uni-vechta.de/	7
+		andreas.thole@uni-vechta.de
+		catharina.siemer@uni-vechta.de
+		info@uni-vechta.de
+		julia.erdmann@uni-vechta.de
+		katharina.genn-bluemlein@uni-vechta.de
+		pressestelle@uni-vechta.de
+		sabrina.daubenspeck@uni-vechta.de
+Error: http://www.hfpol-bw.de/:
+SSLError
+400/426	http://www.hfpol-bw.de/	0
+	NO HITS! TODO!
+401/426	http://www.fh-wedel.de/	3
+		kooperation@fh-wedel.de
+		pressestelle@fh-wedel.de
+		sekretariat@fh-wedel.de
+402/426	http://www.hswt.de/	4
+		datenschutz@hswt.de
+		info@in2code.de
+		praesident@hswt.de
+		sprachenzentrum@hswt.de
+403/426	http://siewerth-akademie.de/	1
+		verwaltung@brandenstein-zeppelin.de
+404/426	http://www.uni-weimar.de/	12
+		andrea.weber@uni-weimar.de
+		anke.schulze@uni-weimar.de
+		christian.kaestner@uni-weimar.de
+		eike.mueller@uni-weimar.de
+		evelyn.beyer@uni-weimar.de
+		franziska.schuetz@uni-weimar.de
+		julia.rosenbusch@uni-weimar.de
+		laura.boeger@uni-weimar.de
+		sandra.wolf@uni-weimar.de
+		sandy.resch@uni-weimar.de
+		simone.schwark@uni-weimar.de
+		susanne.wille@uni-weimar.de
+405/426	http://www.hfm-weimar.de/	2
+		ina.schwanse@hfm-weimar.de
+		presse@hfm-weimar.de
+406/426	http://www.ph-weingarten.de/	1
+		poststelle@ph-weingarten.de
+407/426	http://www.hs-harz.de/	2
+		info@hs-harz.de
+		webmaster@hs-harz.de
+408/426	http://www.ebs.edu/	3
+		datenschutz@ebs.edu
+		info@ebs.edu
+		marketing@ebs.edu
+409/426	http://www.hfpv.de/	3
+		info@azri.de
+		mainz@init.de
+		rektorat@hfpv-hessen.de
+410/426	http://www.hs-rm.de/	2
+		datenschutzbeauftragter@hs-rm.de
+		praesident@hs-rm.de
+411/426	http://www.wb-fernstudium.de/	4
+		beratung@wb-fernstudium.de
+		datenschutz@wb-fernstudium.de
+		datenschutzbeauftragte@wb-fernstudium.de
+		poststelle@datenschutz.hessen.de
+412/426	http://www.th-wildau.de/	1
+		marketing@th-wildau.de
+413/426	http://www.jade-hs.de/	2
+		datenschutz@jade-hs.de
+		info@jade-hs.de
+414/426	http://www.hs-wismar.de/	3
+		datenschutz@hs-wismar.de
+		pressestelle@hs-wismar.de
+		webmaster@hs-wismar.de
+415/426	http://www.uni-wh.de/	1
+		studium@uni-wh.de
+416/426	http://ostfalia.de/	2
+		info@ostfalia.de
+		rechenzentrum@ostfalia.de
+417/426	http://www.hs-worms.de/	1
+		kontakt@hs-worms.de
+418/426	http://www.uni-wuppertal.de/	2
+		cms@uni-wuppertal.de
+		webmaster@uni-wuppertal.de
+419/426	http://www.kiho-wb.de/	7
+		datenschutz@kiho-wb.de
+		kreuzestheologie_umschlag-180x272@2x.jpg
+		rabbe@diakoniewissenschaft-idm.de
+		sri_lanka_4-center-top-240x180@2x.jpg
+		studierendensekretariat@kiho-wb.de
+		unterbarmer_hauptkirche-140x140@2x.jpg
+		wohnheim@thzw.de
+420/426	http://www.fhws.de/	2
+		servicezentrale-sw@fhws.de
+		servicezentrale-wue@fhws.de
+421/426	http://www.hfm-wuerzburg.de/	2
+		info@inveris.de
+		office@eydos.de
+422/426	http://www.uni-wuerzburg.de/	5
+		bewerbung@uni-wuerzburg.de
+		info@uni-wuerzburg.de
+		international@uni-wuerzburg.de
+		studienberatung@uni-wuerzburg.de
+		studierendenkanzlei@uni-wuerzburg.de
+423/426	http://www.hszg.de/	2
+		datenschutzbeauftragter@hszg.de
+		info@hszg.de
+424/426	http://www.dpfa-hs.de/	1
+		info@dpfa.de
+425/426	http://www.nbs.de/	2
+		info@die-netzwerkstatt.de
+		info@nbs.de
+426/426	http://www.fh-zwickau.de/	3
+		pressestelle@fh-zwickau.de
+		rektor@fh-zwickau.de
+		webmaster@fh-zwickau.de
+407 of 426

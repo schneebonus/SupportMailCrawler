@@ -1,0 +1,199 @@
+1/52	http://www.sigsac.org/ccs/CCS2017/	0
+	NO HITS! TODO!
+2/52	http://www.ieee-security.org/TC/SP2017/	15
+		oakland17-chair@ieee-security.org
+		oakland17-donations@ieee-security.org
+		oakland17-local@ieee-security.org
+		oakland17-pcchairs@ieee-security.org
+		oakland17-posters@ieee-security.org
+		oakland17-publication@ieee-security.org
+		oakland17-publicity@ieee-security.org
+		oakland17-registration@ieee-security.org
+		oakland17-studenttravel@ieee-security.org
+		oakland17-treasurer@ieee-security.org
+		oakland17-webmaster@ieee-security.org
+		oakland17-wipchair@ieee-security.org
+		oakland17-workshopchair@ieee-security.org
+		oakland17-workshoppublicity@ieee-security.org
+		oaklandshadowpcchair@ieee-security.org
+3/52	http://www.usenix.org/conference/usenixsecurity17	8
+		account@usenix.org
+		communications@usenix.org
+		conference@usenix.org
+		office@usenix.org
+		privacy@usenix.org
+		production@usenix.org
+		sponsorship@usenix.org
+		students@usenix.org
+4/52	http://www.acsac.org/	0
+	NO HITS! TODO!
+5/52	http://www.ntnu.edu/esorics2017	1
+		esorics2017@ntnu.edu
+6/52	http://csf2017.tecnico.ulisboa.pt/	1
+		chair@csf2017.tecnico.ulisboa.pt
+7/52	http://dbsec2017.ittc.ku.edu/	1
+		regex:dbsec2017@ku.edu
+8/52	http://www.waset.org/conference/2017/06/san-francisco/ICSPC	0
+	NO HITS! TODO!
+9/52	http://asiacrypt.iacr.org/2017/	0
+	NO HITS! TODO!
+10/52	http://www.internetsociety.org/events/ndss-symposium/ndss-symposium-2017	1
+		ndss@elists.isoc.org
+11/52	http://asiaccs2017.com/	0
+	NO HITS! TODO!
+12/52	http://www.waset.org/conference/2017/06/copenhagen/ICCISIS	0
+	NO HITS! TODO!
+13/52	http://scn.di.unisa.it/	0
+	NO HITS! TODO!
+14/52	http://fc17.ifca.ai/	4
+		mailto:fc17chair@ifca.ai
+		mailto:fc17general@ifca.ai
+		regex:fc17chair@ifca.ai
+		regex:fc17general@ifca.ai
+15/52	http://ifipsec.org/2017/	1
+		webmaster@ifipsec.org
+16/52	http://nsclab.org/ispec2017/	1
+		regex:abby.xu@insightek.com.au
+Error: http://isc2017.vgu.edu.vn/:
+SSLError
+17/52	http://isc2017.vgu.edu.vn/	0
+	NO HITS! TODO!
+18/52	http://cy2sec.comm.eng.osaka-u.ac.jp/acns2017/	0
+	NO HITS! TODO!
+19/52	http://www.ares-conference.eu/	3
+		ares@sba-research.org
+		bbauer@sba-research.org
+		jpammer@sba-research.org
+20/52	http://safecomp17.fbk.eu/	1
+		safecomp17@fbk.eu
+21/52	http://crypto.ie.cuhk.edu.hk/cans17/	2
+		mailto:khzhang@ie.cuhk.edu.hk
+		regex:khzhang@ie.cuhk.edu.hk
+22/52	http://www.waset.org/conference/2017/06/san-francisco/ICICS/home	0
+	NO HITS! TODO!
+23/52	http://www.secrypt.icete.org/	2
+		 secrypt.secretariat@insticc.org
+		secrypt.secretariat@insticc.org
+24/52	http://www.icisc.org/	0
+	NO HITS! TODO!
+25/52	http://www.waset.org/conference/2017/05/paris/ICISS	0
+	NO HITS! TODO!
+26/52	http://research.comnet.aalto.fi/NSS2017/	2
+		mailto:nss-ica3pp-cit@confedent.fi
+		regex:nss-ica3pp-cit@confedent.fi
+Error: http://it.snnu.edu.cn/:
+ConnectionError
+27/52	http://it.snnu.edu.cn/	0
+	NO HITS! TODO!
+28/52	http://securecomm.org/	2
+		conferences@eai.eu
+		manager@dominika.belisova
+29/52	http://www.ds.unipi.gr/trustbus2017/	3
+		clam@unipi.gr
+		fotis@routsis.gr
+		simone.fischer-huebner@kau.se
+30/52	http://www.iwsec.org/2017/	0
+	NO HITS! TODO!
+31/52	http://petsymposium.org/	1
+		regex:web@petsymposium.org
+32/52	http://meeting.xidian.edu.cn/conference/inscrypt2017/	0
+	NO HITS! TODO!
+33/52	http://www.usenix.org/conference/soups2017	9
+		account@usenix.org
+		communications@usenix.org
+		confeence@usenix.org
+		conference@usenix.org
+		office@usenix.org
+		privacy@usenix.org
+		production@usenix.org
+		sponsorship@usenix.org
+		students@usenix.org
+34/52	http://www.ucalgary.ca/pst2017/	40
+		alumni@ucalgary.ca
+		archives@ucalgary.ca
+		arctic@ucalgary.ca
+		ascarts@ucalgary.ca
+		ask@gsa.ucalgary.ca
+		biosci@ucalgary.ca
+		caaref@ucalgary.ca
+		chem.info@ucalgary.ca
+		conted@ucalgary.ca
+		cpsc@cpsc.ucalgary.ca
+		dance@ucalgary.ca
+		drama@ucalgary.ca
+		dtclib@ucalgary.ca
+		editor@thegauntlet.ca
+		evdsinfo@ucalgary.ca
+		fuelforgold@csicalgary.ca
+		gallagher.library@ucalgary.ca
+		geoscience@ucalgary.ca
+		graduate@ucalgary.ca
+		hslibr@ucalgary.ca
+		info@nutv.ca
+		itsupport@ucalgary.ca
+		larc@ucalgary.ca
+		lawlib@ucalgary.ca
+		lcrdirect@ucalgary.ca
+		libinfo@ucalgary.ca
+		library@haskayne.ucalgary.ca
+		mccaig@ucalgary.ca
+		music@ucalgary.ca
+		nickle@ucalgary.ca
+		office@phas.ucalgary.ca
+		phildept@ucalgary.ca
+		policy@ucalgary.ca
+		rao@phas.ucalgary.ca
+		residence@ucalgary.ca
+		scidean@ucalgary.ca
+		socialwk@ucalgary.ca
+		speccoll@ucalgary.ca
+		study.abroad@ucalgary.ca
+		vetmed@ucalgary.ca
+35/52	http://www.isi-conf.org/	0
+	NO HITS! TODO!
+36/52	http://www.iet.unipi.it/m.cococcioni/cisda17web/	3
+		kellerj@missouri.edu
+		m.cococcioni@unipi.it
+		ssundaram@ntu.edu.sg
+37/52	http://www.ele.uri.edu/ieee-ssci2017/CICS.htm	2
+		aknag@tamuct.edu
+		ddasgupt@memphis.edu
+38/52	http://www.cerias.purdue.edu/site/symposium/	2
+		info@cerias.purdue.edu
+		webmaster@cerias.purdue.edu
+39/52	http://www.cis-lab.org/cis2017/index.php	2
+		cis.conf.xd@gmail.com
+		cis_conf@xidian.edu.cn
+40/52	http://www.inc.cuhk.edu.hk/icits2017/	0
+	NO HITS! TODO!
+41/52	http://conferences.imt-atlantique.fr/crisis/2017/	1
+		regex:nora.cuppens@telecom-bretagne.eu
+42/52	http://www.sinconf.org/	1
+		anthies@cardiff.ac.uk
+43/52	http://gordion.casaccia.enea.it/critis2017/	1
+		gregorio.dagostino@enea.it
+44/52	http://www.ihmmsec.org/	1
+		ihmmsec@utt.fr
+45/52	http://www.wisa.or.kr/	0
+	NO HITS! TODO!
+46/52	https://www.cl.cam.ac.uk/events/spw2017/	2
+		mailto:frank.stajano--spw2017@cl.cam.ac.uk
+		regex:frank.stajano--spw2017@cl.cam.ac.uk
+47/52	http://vizsec.org/	4
+		mailto:chair@vizsec.org
+		mailto:info@vizsec.org
+		regex:chair@vizsec.org
+		regex:info@vizsec.org
+48/52	http://www.nspw.org/2017	0
+	NO HITS! TODO!
+49/52	http://www.cs.bgu.ac.il/~fradmin/SSS17/	0
+	NO HITS! TODO!
+50/52	http://www.dcs.gla.ac.uk/~karen/usec/	1
+		regex:server@www.dcs.gla.ac.uk
+51/52	http://www.wistp.org/	1
+		damien.sauveron@unilim.fr
+Error: http://privacyforum.eu/:
+SSLError
+52/52	http://privacyforum.eu/	0
+	NO HITS! TODO!
+31 of 52
