@@ -14,8 +14,7 @@
 
 # Typical sites that contain email addresses.
 # Everything is lowercase.
-potential_sites_en = ["impressum", "support", "contact", "imprint", "privacy",
-    "team", "faq", "service", "policy", "imprint"]
+potential_sites_en = ["impressum", "support", "contact", "imprint", "privacy", "imprint"]
 potential_sites_de = ["kontakt", "datenschutz", "über"]
 potential_sites_debug = []
 potential_sites = set(potential_sites_en + potential_sites_de + potential_sites_debug)
@@ -93,7 +92,7 @@ def get_promising_urls(soup, base):
     global ignore_files
     global ignore_protocols
 
-    found_sites = set()
+    found_sites = list()
     counter = 0
     soup_links = set(soup.find_all('a', href=True))
     for link in soup_links:
@@ -120,7 +119,7 @@ def get_promising_urls(soup, base):
                         base_domain = tldextract.extract(base).domain
                         check_domain = tldextract.extract(check_this_site).domain
                         if base_domain == check_domain and check_this_site != "":
-                            found_sites.add(check_this_site)
+                            found_sites.append(check_this_site)
     return found_sites
 
 def get_promising_mails(soup):
@@ -147,14 +146,14 @@ def process_url(target):
         if VERBOSE:
             print("\nProcessing: " + target)
         email_addresses = set()
-        links = set()
+        links = list()
         soup = loader.load_and_soup(target)
         email_addresses = get_promising_mails(soup)
         links= get_promising_urls(soup, target)
     except Exception as e:
         tb = traceback.format_exc()
         print("Error: " + target + ":")
-        print(e)
+        print(repr(e).split('(')[0])
         print(tb)
         email_addresses = set()
         links = set()
@@ -185,8 +184,9 @@ def crawl(target, depth, done_urls):
             if link not in done_urls:
                 done_urls, new_emails = crawl(link, int(depth)-1, done_urls)
                 emails = emails.union(new_emails)
-
-        emails = strip_emails(emails)
+                emails = strip_emails(emails)
+                if len(emails) > 5:
+                    return done_urls, emails
     return done_urls, emails
 
 def filter_results_from_regex(emails):

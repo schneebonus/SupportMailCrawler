@@ -38,7 +38,7 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         option.add_argument("--disable-notifications")
         option.add_argument("--disable-hang-monitor")
         option.add_argument("--disable-gpu")
-        option.add_argument("--disable-images")
+        option.add_argument("--headless")
         #option.headless = True
         chrome_prefs = {}
         chrome_prefs["profile.default_content_settings"] = {"images": 2}
@@ -66,7 +66,7 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         return result
 
     def deobfuscate(text, target):
-        text = SeleniumChromeLoader.clickDecrypt(text, target)
+        text = SeleniumChromeLoader.clickDecryptWithoutMailHandler(text, target)
         # text = SeleniumChromeLoader.UnCryptMailtoReplace(text)
         text = SeleniumChromeLoader.TextObfuscationReplace(text)
         return text
@@ -78,10 +78,27 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
             result = SeleniumChromeLoader.execute_js(js)
             redirected = SeleniumChromeLoader.driver.current_url
             parsed = urlparse.urlparse(redirected)
+            print(redirected)
             email = urlparse.parse_qs(parsed.query)['grabme'][0]
             text = text.replace(m.group(0), email)
             m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
             SeleniumChromeLoader.driver.get(target)
+        return text
+
+    def clickDecryptWithoutMailHandler(text, target):
+        m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
+        while m:
+            # grep function call
+            js = m.group(0).replace("javascript:","")
+
+            # replace location.href with return
+            original_function = SeleniumChromeLoader.execute_js("linkTo_UnCryptMailto")
+            return_function = original_function.replace("location.href=", "return ")
+            SeleniumChromeLoader.execute_js(return_function)
+
+            # call the return function and replace js call with real value
+            text = SeleniumChromeLoader.execute_js(js)
+            m = re.search('javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);', text)
         return text
 
     def dumbDecrypt(cypher):
