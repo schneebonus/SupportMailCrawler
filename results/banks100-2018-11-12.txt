@@ -1,0 +1,534 @@
+1/96	http://www.deutsche-bank.de/	3
+		datenschutz.db@db.com
+		deutsche.bank@db.com
+		security.db@db.com
+2/96	http://www.commerzbank.de/	1
+		info@commerzbank.com
+3/96	http://www.kfw.de/	9
+		compliance@kfw.de
+		datenschutz@kfw.de
+		ed.wfk@slessurb.wfk
+		info@kfw.de
+		kfw.brussels@kfw.de
+		pbzcyvnapr@xsj.qr
+		qngrafpuhgm@xsj.qr
+		vasb@xsj.qr
+		xsj.oehffryf@xsj.qr
+Error: https://www.dzbank.de/content/dzbank_de/de/home/service0/online-support.html:
+ConnectionError
+4/96	http://www.dzbank.de/	5
+		daniela.pauly@dzbank.de
+		datenschutz@dzbank.de
+		kirsten.siersleben@dzbank.de
+		mail@dzbank.de
+		markus.stachel@dzbank.de
+5/96	http://www.hypovereinsbank.de/	3
+		datenschutzrechte@unicredit.de
+		globalshipping@unicredit.de
+		info@unicredit.de
+6/96	http://www.bw-bank.de/	5
+		beratung@bw-bank.de
+		datenschutz@lbbw.de
+		electronic-banking@bw-bank.de
+		kontakt@bw-bank.de
+		onlinebanking@bw-bank.de
+7/96	http://www.bayernlb.com/	0
+	NO HITS! TODO!
+8/96	http://www.nordlb.de/	4
+		bewerbungen@nordlb-am.de
+		kundenservice@blsk.de
+		kundenservice@nordlb.de
+		vr@dihk.de
+9/96	http://www.helaba.de/	6
+		datenschutz@helaba.de
+		investor-relations@helaba.de
+		ombudsmann@voeb-kbs.de
+		personal@helaba.de
+		presse@helaba.de
+		research@helaba.de
+10/96	http://www.postbank.de/	8
+		direkt@postbank.epost.de
+		immobilien@postbank.de
+		info%40pb-versicherung.de
+		info@pb-versicherung.de
+		mail@postbank.de
+		missbrauch%40postbank.de
+		missbrauch@postbank.de
+		wertpapiere@postbank.de
+11/96	http://www.ing-diba.de/	4
+		datenschutz@ing-diba.de
+		info@ing-diba.de
+		ombudsmann@bdb.de
+		poststelle@bafin.de
+12/96	http://www.nrwbank.de/	2
+		info@nrwbank.de
+		yvonne.rohde@nrwbank.de
+13/96	http://www.deka.de/	4
+		datenschutz@deka.de
+		info@deka.lu
+		reclamation@cssf.lu
+		service@deka.de
+14/96	http://www.hsh-nordbank.de/	4
+		datenschutz@hsh-nordbank.com
+		info@hsh-nordbank.com
+		investor-relations@hsh-nordbank.com
+		ombudsmann@voeb-kbs.de
+15/96	http://www.rentenbank.de/	2
+		datenschutzbeauftragter@rentenbank.de
+		office@rentenbank.de
+16/96	http://www.dkb.de/	4
+		datenschutzanfragen@dkb.de
+		info@dkb.de
+		info@dkb.epost.de
+		ombudsmann@voeb-kbs.de
+17/96	http://www.l-bank.de/	7
+		benjamin.quinten@l-bank.de
+		cordula.braeuninger@l-bank.de
+		datenschutz@l-bank.de
+		detlef.grabowski@l-bank.de
+		poststelle@lfdi.bwl.de
+		presse@l-bank.de
+		roland.raff@l-bank.de
+18/96	http://www.pfandbriefbank.com/	6
+		bjoern-jakob.treutler@pfandbriefbank.com;
+		goetz.michl@pfandbriefbank.com
+		silvija.ribaric@pfandbriefbank.com
+		silvio.bardeschi@pfandbriefbank.com
+		thomas.facchinetti@pfandbriefbank.com
+19/96	http://www.schwaebisch-hall.de/	3
+		datenschutzbeauftragter-shg@schwaebisch-hall.de
+		info@shks.de
+		service@schwaebisch-hall.de
+20/96	http://www.hypothekenbankfrankfurt.com/	1
+		lsf-beschwerdemanagement@loansolutionsfrankfurt.com
+21/96	http://www.aareal-bank.com/	9
+		andreas.beckmann@aareal-bank.com
+		burkhard.mohr@aareal-bank.com
+		evelyn.rasser@aareal-bank.com
+		hans-martin.kokoschka@aareal-bank.com
+		kundenhotline@aareal-bank.com
+		lars.ernst@aareal-bank.com
+		manfred.over@aareal-bank.com
+		rainer.hesselmann@aareal-bank.com
+		veit.stollberg@aareal-bank.com
+22/96	http://www.volkswagenbank.de/	7
+		betroffenenrechte@volkswagenbank.de
+		dsb@volkswagenbank.de
+		info@volkswagenbank.de
+		info@volkswagenleasing.de
+		info@vvd.de
+		vw_versicherung@vwfs.com
+		widerspruch@volkswagenbank.de
+23/96	http://www.lbb.de/	0
+	NO HITS! TODO!
+24/96	http://www.haspa.de/	4
+		datenschutz@haspa.de
+		haspa@haspa.de
+		olepydnsfek@sldal.op
+		sldal@sldal.op
+25/96	http://www.santander.de/	6
+		email-service@santander.de
+		karteninhaberservice@santander.de
+		kundenservice-karten@santander.de
+		kundenservice-kredite@santander.de
+		ombudsmann@bdb.de
+		onlinebanking@santander.de
+26/96	http://www.dghyp.de/	5
+		datenschutz@dghyp.de
+		datenschutz@dzhyp.de
+		info@dzhyp.de
+		julia.jordan@dzhyp.de
+		kundenbeschwerdestelle@bvr.de
+27/96	http://www.muenchenerhyp.de/	1
+		server@www.muenchenerhyp.de
+28/96	http://www.wlbank.de/	5
+		datenschutz@dghyp.de
+		datenschutz@dzhyp.de
+		info@dzhyp.de
+		julia.jordan@dzhyp.de
+		kundenbeschwerdestelle@bvr.de
+29/96	http://www.apobank.de/	5
+		datenschutz@apobank.de
+		ihkdus@duesseldorf.ihk.de
+		info@apobank.de
+		kundenbeschwerdestelle@bvr.de
+		online-kommunikation@apobank.de
+30/96	http://www.bhw.de/	5
+		info@bhw.de
+		iris.laduch-reichelt@postbank.de
+		ris.laduch-reichelt@postbank.de
+		tim.rehkopf@postbank.de
+		webmaster%40bhw.de
+31/96	http://www.dexia.de/	5
+		beschwerdemanagement@dexia.de
+		communication@dexia.de;
+		kommunalkredit@dexia.de;
+32/96	http://www.bremerlandesbank.de/	3
+		kundenservice@blsk.de
+		kundenservice@nordlb.de
+		vr@dihk.de
+33/96	http://www.berlinhyp.de/	2
+		info@berlinhyp.de
+		nikolaus.renner@berlinhyp.de
+34/96	http://www.deutsche-hypo.de/	4
+		datenschutzbeauftragter@deutsche-hypo.de
+		mail@deutsche-hypo.de
+		mustermann@mustermail.de
+		service@deutsche-hypo.de
+35/96	http://www.dvbbank.com/	15
+		bert.van.leeuwen@dvbbank.com
+		eelco.vandestadt@dvbbank.com
+		elisabeth.winter@dvbbank.com
+		ir-team@dvbbank.com
+		james.treseder-griffin@dvbbank.com
+		jon.skirrow@dvbbank.com
+		keefe@dvbbank.com
+		kieran.o'keefe@dvbbank.com
+		lisa.boose-kirwel@dvbbank.com
+		marilyn.gan@dvbbank.com
+		mark.johnson@dvbbank.com
+		sabine.schlieben@dvbbank.com
+		stephan.sayre@dvbbank.com
+		subbu.alagappan@dvbbank.com
+		vicente.alava-pons@dvbbank.com
+36/96	http://www.sparkasse-koelnbonn.de/	3
+		arne.stoecker@sparkasse-koelnbonn.de
+		kontakt@sparkasse-koelnbonn.de
+		poststelle@ldi.nrw.de
+37/96	http://www.ksk-koeln.de/	4
+		info@ksk-fvg.de
+		info@ksk-immobilien.de
+		info@ksk-koeln.de
+		poststelle@ldi.nrw.de
+38/96	http://www.mercedes-benz-bank.de/	2
+		bonusprogramm@mercedes-benz-bank.com
+		mercedescard@bw-bank.de
+39/96	http://www.bmwbank.de/	2
+		bmw.bank@bmw.de
+		datenschutz.bank@bmw.de
+40/96	http://www.seb.de/	1
+		information@seb.de
+41/96	http://www.lfa.de/	2
+		datenschutzbeauftragter@lfa.de
+		info@lfa.de
+42/96	http://www.wuestenrot.de/	2
+		dsb@ww-ag.com
+		info@wuestenrot.de
+43/96	http://www.hsbc.de/	3
+		datenschutz@hsbc.de
+		info@hsbc.de
+		marketing@hsbc.de
+44/96	http://www.ikb.de/	6
+		datenschutz@ikb.de
+		hans-peter.mantsch@ikb.de
+		info@ikb.de
+		personal@ikb.de
+		presse@ikb.de
+		privatkunden@ikb.de
+45/96	http://www.ibb.de/	8
+		datenschutz@ibb.de
+		eantrag-support@ibb.de
+		feedbackmanagement@ibb.de
+		info@ibb.de
+		newsletter@ibb.de
+		ombudsmann@voeb-kbs.de
+		post@ibb.de-mail.de
+		webmaster@ibb.de
+46/96	http://www.ib-sh.de/	8
+		birgit.rapior@ib-sh.de;
+		bjoern.hansen@ib-sh.de
+		gabriele.wandersleb-andersen@ib-sh.de
+		hello@new-communication.de
+		info@ib-sh.de;
+		matthias.guenther@ib-sh.de
+47/96	http://www.frankfurter-sparkasse.de/	4
+		datenschutz@frankfurter-sparkasse.de
+		online-beratung@frankfurter-sparkasse.de
+		online@frankfurter-sparkasse.de
+		service@paydirekt.de
+48/96	http://www.sskm.de/	7
+		datenschutzbeauftragter@sskm.de
+		immoservice@sskm.de
+		kontakt@sskm.de
+		poststelle@lda.bayern.de
+		support@sskm.de
+		svs@sparkassenvs.de
+		termine@sskm.de
+49/96	http://www.comdirekt.de/	6
+		baufinanzierung@comdirect.de
+		datenschutz@comdirect.de
+		first@comdirect.de
+		info@comdirect.de
+		reklamation@comdirect.de
+		technik@comdirect.de
+50/96	http://www.targobank.de/	3
+		kontakt@targobank.de
+		ombudsmann@bdb.de
+		service@targobank.de-mail.de
+51/96	http://www.saarlb.de/	4
+		datenschutz@saarlb.de
+		service@lbs-saar.de
+		service@saarlb.de
+		service@saarlb.fr
+52/96	http://www.sparda-bw.de/	7
+		bewerberkontakt-kontakt@sparda-bw.de
+		ia_startseite-kontakt@sparda-bw.de
+		kontakt%40sparda-bw.de
+		kontakt@sparda-bw.de
+		max.mustermann@provider.de
+		personal@sparda-bw.de
+		schreiben-kontakt@sparda-bw.de
+53/96	http://www.ilb.de/	1
+		immo-kunden@ilb.de
+54/96	http://www.olb.de/	7
+		beschwerde@olb.de
+		datenschutz@olb.de
+		olb@olb.de
+		ombudsmann@bdb.de
+		poststelle@bafin.de
+		tel:+498002210300
+		whistleblowing@olb.de
+55/96	http://www.sparkasse-hannover.de/	3
+		berthold.fuhler@sparkasse-hannover.de
+		info@sparkasse-hannover.de
+		poststelle@lfd.niedersachsen.de
+56/96	http://www.lbs.de/	0
+	NO HITS! TODO!
+57/96	http://www.ostsaechsische-sparkasse-dresden.de/	5
+		beschwerde@sv-sachsen.de
+		datenschutz-osd@ostsaechsische-sparkasse-dresden.de
+		e-mail@ostsaechsische-sparkasse-dresden.de
+		saechsdsb@slt.sachsen.de
+		socialmedia@ostsaechsische-sparkasse-dresden.de
+58/96	http://www.berliner-volksbank.de/	2
+		datenschutz@berliner-volksbank.de
+		service@berliner-volksbank.de
+59/96	http://www.wuestenrotdirect.de/	2
+		dsb@ww-ag.com
+		info@wuestenrotdirect.de
+60/96	http://www.mbs.de/	4
+		datenschutz@mbs.de
+		dialog@mbs.de
+		kontakt@mbs.de
+		poststelle@lda.brandenburg.de
+61/96	http://www.naspa.de/	5
+		datenschutz@naspa.de
+		firmenkunden@naspa-direkt.de
+		info@naspa.de
+		kreditkartenservice@bayerncard.de
+		privatkunden@naspa-direkt.de
+62/96	http://www.sparkasse-bremen.de/	3
+		datenschutz@sparkasse-bremen.de
+		mail@sparkasse-bremen.de
+		office@datenschutz.bremen.de
+63/96	http://www.sskduesseldorf.de/	4
+		datenschutzbeauftragter@sskduesseldorf.de
+		mediale.beratung@sskduesseldorf.de
+		poststelle@ldi.nrw.de
+		service@sskduesseldorf.de
+64/96	http://www.sparkasse-pforzheim-calw.de/	3
+		beschwerdemanagement@skpfcw.de
+		datenschutz@skpfcw.de
+		info@sparkasse-pforzheim-calw.de
+65/96	http://www.kskmse.de/	4
+		datenschutz@kskmse.de
+		electronic-banking@kskmse.de
+		poststelle@lda.bayern.de
+		service@kskmse.de
+66/96	http://www.sparkasse-nuernberg.de/	3
+		datenschutz@sparkasse-nuernberg.de
+		info@sparkasse-nuernberg.de
+		poststelle@lda.bayern.de
+67/96	http://www.sparkasse-aachen.de/	6
+		beschwerde@versicherungsombudsmann.de
+		datenschutz@sparkasse-aachen.de
+		email@sparkasse.de
+		info@sparkasse-aachen.de
+		ombudsmann@pkv-ombudsmann.de
+		poststelle@ldi.nrw.de
+68/96	http://www.ksklb.de/	3
+		datenschutzbeauftragter@ksklb.de
+		info@ksklb.de
+		philipp.conrad@ksklb.de
+69/96	http://www.sparda-sw.de/	3
+		datenschutz@sparda-sw.de
+		kontakt@sparda-sw.de
+		kundenbeschwerdestelle@bvr.de
+70/96	http://www.sozialbank.de/	8
+		bfs@sozialbank.de;
+		datenschutzbeauftragter@sozialbank.de;
+		deutschland@readspeaker.com
+		hotline@sozialbank.de
+		npostmaster@joachim-ruhs.de
+		sverige@readspeaker.com
+71/96	http://www.bbbank.de/	12
+		 beschwerde@versicherungsombudsmann.de
+		beschwerde@versicherungsombudsmann.de
+		datenschutz@bbbank.de
+		datenschutz@webtrekk.com
+		info@bbbank.de
+		info@karlsruhe.ihk.de
+		ism@bbbank.de
+		kontakt.mb@bbbank.de
+		poststelle-ffm@bafin.de
+		poststelle@bafin.de
+		presse@bwgv-info.de
+		stephanie.geyer@bbbank.de
+72/96	http://www.sparkasse-leipzig.de/	3
+		dsb@sparkasse-leipzig.de
+		info@sparkasse-leipzig.de
+		saechsdsb@slt.sachsen.de
+73/96	http://www.sparkasse-muensterland-ost.de/	2
+		datenschutzbeauftragter@sparkasse-muensterland-ost.de
+		info@sparkasse-mslo.de
+74/96	http://www.debeka.de/	4
+		beschwerde@versicherungsombudsmann.de
+		datenschutzbeauftragter@debeka.de
+		javascript:window.location='mailto:
+		kundenservice@debeka.de
+75/96	http://www.frankfurter-volksbank.de/	4
+		datenschutz@frankfurter-volksbank.de
+		info@frankfurter-volksbank.de
+		kundenservice@frankfurter-volksbank.de
+		presse@frankfurter-volksbank.de
+76/96	http://www.easycredit.de/	4
+		datenschutz@teambank.de
+		name@email.de
+		partnerservice@easycredit.de
+		service@easycredit.de
+77/96	http://www.sparda-west.de/	3
+		datenschutz@sparda-west.de
+		info@sparda-west.de
+		max.mustermann@provider.de
+78/96	http://www.sparkasse-dortmund.de/	4
+		bewerbungen@sparkasse-dortmund.de
+		datenschutz@sparkasse-dortmund.de
+		info@sparkasse-dortmund.de
+		poststelle@ldi.nrw.de
+79/96	http://www.duesshyp.de/	6
+		andreas.wodara@duesshyp.de
+		datenschutz@duesshyp.de
+		elke.henzler@duesshyp.de
+		goetz.richter@duesshyp.de
+		herbert.weimer@duesshyp.de
+		patrick.nix@duesshyp.de
+80/96	http://www.lzo.com/	2
+		datenschutz@lzo.com
+		lzo@lzo.com
+81/96	http://www.ksk-es.de/	3
+		datenschutz@ksk-es.de
+		kundenservice@ksk-es.de
+		poststelle@lfdi.bwl.de
+82/96	http://www.sparkasse-krefeld.de/	3
+		datenschutz@sparkasse-krefeld.de
+		info@sparkasse-krefeld.de
+		poststelle@ldi.nrw.de
+83/96	http://www.sab.sachsen.de/	6
+		annaberg-buchholz@sab.sachsen.de
+		chemnitz@sab.sachsen.de
+		dresden@sab.sachsen.de
+		goerlitz@sab.sachsen.de
+		leipzig@sab.sachsen.de
+		torgau@sab.sachsen.de
+84/96	http://www.sparkasse-heilbronn.de/	4
+		datenschutz@ksk-hn.de
+		info@ksk-hn.de
+		info@sparkassen-beteiligung.de
+		poststelle@lfdi.bwl.de
+85/96	http://www.sparkasse-essen.de/	3
+		datenschutz@sparkasse-essen.de
+		poststelle@ldi.nrw.de
+		service@sparkasse-essen.de
+86/96	http://www.kskbb.de/	2
+		datenschutzbeauftragter_kskbb@kskbb.de
+		info@kskbb.de
+87/96	http://www.kskwn.de/	3
+		datenschutz@kskwn.de
+		info@kskwn.de
+		poststelle@lfdi.bwl.de
+88/96	http://www.toyota.de/finanzdienste/	9
+		bjoern.dettmann@toyota.de
+		chris.kahlo@toyota.de
+		christian.selbach@toyota.de
+		fleet@toyota-versicherung.de
+		geschaeftskundenservice@toyota.de
+		gunther.tischer@toyota.de
+		monera.jendoubi@toyota-fs.com
+		ralf.kleemeyer@toyota.de
+		tim.oessling@toyota.de
+89/96	http://www.sparkasse-karlsruhe.de/	2
+		datenschutzbeauftragter@spk-ka.de
+		info@spk-ka.de
+90/96	http://www.sparkasse-mainfranken.de/	3
+		beschwerdestelle@sparkasse-mainfranken.de
+		datenschutzbeauftragter@sparkasse-mainfranken.de
+		mail@sparkasse-mainfranken.de
+91/96	http://www.suedwestbank.de/	40
+		bad-saulgau%40suedwestbank.de+
+		bad-saulgau@suedwestbank.de
+		bietigheim-bissingen%40suedwestbank.de+
+		bietigheim-bissingen@suedwestbank.de
+		fellbach%40suedwestbank.de
+		fellbach@suedwestbank.de
+		freiburg%40suedwestbank.de+
+		freiburg@suedwestbank.de
+		friedrichshafen%40suedwestbank.de+
+		friedrichshafen@suedwestbank.de
+		goeppingen%40suedwestbank.de
+		goeppingen@suedwestbank.de
+		heilbronn%40suedwestbank.de
+		heilbronn@suedwestbank.de
+		info%40suedwestbank.de
+		info@suedwestbank.de
+		karlsruhe%40suedwestbank.de
+		karlsruhe@suedwestbank.de
+		mannheim%40suedwestbank.de
+		mannheim@suedwestbank.de
+		ravensburg%40suedwestbank.de
+		ravensburg@suedwestbank.de
+		reichenbach%40suedwestbank.de
+		reichenbach@suedwestbank.de
+		reutlingen%40suedwestbank.de
+		reutlingen@suedwestbank.de
+		schorndorf%40suedwestbank.de
+		schorndorf@suedwestbank.de
+		schwaebisch-hall%40suedwestbank.de
+		schwaebisch-hall@suedwestbank.de
+		sigmaringen%40suedwestbank.de
+		sigmaringen@suedwestbank.de
+		singen%40suedwestbank.de
+		singen@suedwestbank.de
+		stuttgart%40suedwestbank.de
+		stuttgart@suedwestbank.de
+		tuttlingen%40suedwestbank.de
+		tuttlingen@suedwestbank.de
+		ulm%40suedwestbank.de
+		ulm@suedwestbank.de
+92/96	http://www.eb.de/	7
+		franziska.nocke@eb.de
+		info@eb.de
+		info@kassel.ihk.de
+		ism@eb.de
+		kassel@kassel.de
+		poststelle-ffm@bafin.de
+		poststelle@bafin.de
+93/96	http://www.sparkasse-wuppertal.de/	3
+		dsb@sparkasse-wuppertal.de
+		info@sparkasse-wuppertal.de
+		poststelle@ldi.nrw.de
+94/96	http://www.sparkasse-westmuensterland.de/	3
+		datenschutz@sparkasse-westmuensterland.de
+		info@sparkasse-westmuensterland.de
+		poststelle@ldi.nrw.de
+95/96	http://www.sparkasse-heidelberg.de/	3
+		datenschutz@sparkasse-heidelberg.de
+		info@sparkasse-heidelberg.de
+		info@stiftung-sparkasse-heidelberg.de
+96/96	http://www.sparkasse-saarbruecken.de/	6
+		2456@sk-sb.de
+		erhard.scherf@sparkasse-saarbruecken.de
+		info@saarland.ihk.de
+		poststelle@lava.saarland.de
+		service@sk-sb.de
+		service@sparkasse-saarbruecken.de
+93 of 96

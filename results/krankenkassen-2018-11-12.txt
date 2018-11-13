@@ -1,0 +1,1473 @@
+1/154	http://bw.aok.de/	4
+		datenschutz@bw.aok.de
+		hv.datenschutz-team@bw.aok.de
+		info@bw.aok.de
+		service@bw.aok.de
+2/154	http://bayern.aok.de/	2
+		datenschutz@by.aok.de
+		info@service.by.aok.de
+3/154	http://bremen.aok.de/	3
+		datenschutz@hb.aok.de
+		info@hb.aok.de
+		office@datenschutz.bremen.de
+4/154	http://hessen.aok.de/	6
+		datenschutz@he.aok.de
+		firmenservice@he.aok.de
+		lobundkritik@he.aok.de
+		poststelle@datenschutz.hessen.de
+		service@he.aok.de
+		studentenservice@he.aok.de
+5/154	http://niedersachsen.aok.de/	3
+		abc@abc.de
+		aok.service@nds.aok.de
+		datenschutz@nds.aok.de
+6/154	http://nordost.aok.de/	3
+		abc@abc.de
+		datenschutz-service@nordost.aok.de
+		service@nordost.aok.de
+7/154	http://nordwest.aok.de/	2
+		datenschutz@nw.aok.de
+		kontakt@nw.aok.de
+8/154	http://plus.aok.de/	4
+		abc@abc.de
+		compliance@plus.aok.de
+		datenschutz@plus.aok.de
+		service@plus.aok.de
+9/154	http://rh.aok.de/	5
+		abc@abc.de
+		aok@rh.aok.de
+		datenschutz@rh.aok.de
+		datenschutzclarimedis@rh.aok.de
+		poststelle@ldi.nrw.de
+10/154	http://rps.aok.de/	5
+		abc@abc.de
+		ansprechstelle@rps.aok.de
+		datenschutz@rps.aok.de
+		poststelle@datenschutz.rlp.de
+		service@rps.aok.de
+11/154	http://san.aok.de/	3
+		abc@abc.de
+		datenschutz@san.aok.de
+		service@san.aok.de
+12/154	http://www.barmer.de/	2
+		datenschutz@barmer.de
+		service@barmer.de
+13/154	http://www.dak.de/	3
+		dsgvo@dak.de
+		service@dak.de-mail.de
+14/154	http://www.hkk.de/	6
+		bonusaktiv@hkk.de
+		gesundheitskarte@hkk.de
+		gesundheitskurse@hkk.de
+		krankengeld@hkk.de
+		stammdatenaenderung@hkk.de
+		zuzahlungsbefreiung@hkk.de
+15/154	http://www.hek.de/	3
+		datenschutz@hek.de
+		kontakt@hek.de;
+16/154	http://www.kkh.de/	10
+		alexander.harrison@kkh.de
+		andreas.mergehenn@kkh.de
+		datenschutz@kkh.de
+		datenschutzservice@kkh.de
+		jose.parigi@kkh.de
+		kundenwerben@kkh.de
+		loretta.rugies@kkh.de
+		service@kkh.epost.de
+		stephanie.garris@kkh.de
+		sumit.tchanana@kkh.de
+17/154	http://www.tk.de/	2
+		pressestelle@tk.de
+		service@tk.de
+18/154	http://www.big-direkt.de/	7
+		bettina.kiwitt@big-direkt.de
+		birk.bruckhoff@big-direkt.de
+		datenschutz@big-direkt.de
+		info@big-direkt.de
+		info@brainbits.net
+		marion.winkler@big-direkt.de
+		vertrieb@big-direkt.de
+19/154	http://www.ikk-classic.de/	3
+		info@ikk-classic.de
+		kucharczyk@silpion.de
+		willi.goebel@ikk-classic.de
+20/154	http://www.ikk-gesundplus.de/	6
+		anja.wolff@ikk-gesundplus.de
+		heike.bohn@ikk-gesundplus.de
+		info@ikk-gesundplus.de;
+		karsten.zimmermann@ikk-gesundplus.de
+		martin.krenzer@ikk-gesundplus.de
+21/154	http://www.ikk-suedwest.de/	7
+		ag@gkv-daten.de
+		datenschutz@ikk-sw.de
+		dav01@b2b.mailorbit.de
+		dav@bitmarck.de
+		hotline@itsg.de
+		info@ikk-suedwest.de
+		poststelle@datenschutz-saarland.de
+22/154	http://www.ikkbb.de/	5
+		datenschutz@ikkbb.de
+		poststelle@lda.brandenburg.de
+		poststelle@masgf.brandenburg.de
+		vorstand@ikkbb.de;
+23/154	http://www.ikk-nord.de/	4
+		ag-service-bdf@ikk-nord.de
+		ag-service-nb@ikk-nord.de
+		dsb@ikk-nord.de
+		mail@ikk-nord.de
+24/154	http://www.actimonda.de/	1
+		info@actimonda.de
+25/154	http://www.atlasbkkahlmann.de/	7
+		datenschutz@abkka.de;
+		info@abkka.de;
+		info@valeskascholz.de;
+		widerspruch@abkka.de
+26/154	http://www.audibkk.de/	6
+		datenschutz@audibkk.de
+		info@audibkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bfdi.de-mail.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+27/154	http://www.bahn-bkk.de/	2
+		contact@incca.com
+		service@bahn-bkk.de
+28/154	http://www.bertelsmann-bkk.de/	42
+		aileen.friese@bertelsmann-bkk.de
+		alicia.martinez@bertelsmann-bkk.de
+		andreas.titlbach@bertelsmann-bkk.de
+		anke.klack@bertelsmann-bkk.de
+		beate.dembkowski@bertelsmann-bkk.de
+		birgit.epp@bertelsmann-bkk.de
+		christian.radtke@bertelsmann-bkk.de
+		christiane.pauli@bertelsmann-bkk.de
+		christina.wagner@bertelsmann-bkk.de
+		claudia.paul@bertelsmann-bkk.de
+		dagmar.radkowsky@bertelsmann-bkk.de
+		datenschutz@bertelsmann-bkk.de
+		frank.sonntag@bertelsmann-bkk.de
+		ggp@bertelsmann-bkk.de
+		gisela.wolf@bertelsmann-bkk.de
+		judith.finke@bertelsmann-bkk.de
+		karin.schemhaus@bertelsmann-bkk.de
+		katja.doerr@bertelsmann-bkk.de
+		klaudia.kroll@bertelsmann-bkk.de
+		kristin.weiss@bertelsmann-bkk.de
+		lisa-marie.klose@bertelsmann-bkk.de
+		marc.reichenbach@bertelsmann-bkk.de
+		marion.froehning@bertelsmann-bkk.de
+		martina.jeschke@bertelsmann-bkk.de
+		melanie.blum@bertelsmann-bkk.de
+		melanie.mertensjohann@bertelsmann-bkk.de
+		miriam.wigand@bertelsmann-bkk.de
+		nicole.ackemann@bertelsmann-bkk.de
+		nicole.meise@bertelsmann-bkk.de
+		olga.rechling@bertelsmann-bkk.de
+		peter.cordes@bertelsmann-bkk.de
+		petra.uhr@bertelsmann-bkk.de
+		pflege@bertelsmann-bkk.de
+		rtl@bertelsmann-bkk.de
+		service@bertelsmann-bkk.de
+		stefan.doeding@bertelsmann-bkk.de
+		sven.sauerwein@bertelsmann-bkk.de
+		thomas.johannwille@bertelsmann-bkk.de
+		thomas.loose@bertelsmann-bkk.de
+		thorsten.hagmann@bertelsmann-bkk.de
+		ute.oehle@bertelsmann-bkk.de
+		ute.zurwonne@bertelsmann-bkk.de
+29/154	http://www.bkk-bbraun.de/	41
+		alice.heinemann@bkk-bbraun.de
+		andrea.adler@bkk-bbraun.de
+		andrea.juette@bkk-bbraun.de
+		angela.moeller@bkk-bbraun.de
+		birgit.koerber@bkk-bbraun.de
+		carina.wacker@bkk-bbraun.de
+		carsten.schroeder@bkk-bbraun.de
+		christiane.krug@bkk-bbraun.de
+		daniela.guenther@bkk-bbraun.de
+		franziska.thraen@bkk-bbraun.de
+		helena.zimmer@bkk-bbraun.de
+		info@bkk-bbraun.de
+		jacqueline.lehmann@bkk-bbraun.de
+		juergen.ahrend@bkk-bbraun.de
+		jutta.asbrand@bkk-bbraun.de
+		kathrin.kuge@bkk-bbraun.de
+		klaus.voss@bkk-bbraun.de
+		lena-sophie.bohl@bkk-bbraun.de
+		lisa.jaeckel@bkk-bbraun.de
+		lisa.klippert@bkk-bbraun.de
+		manuela.grebe@bkk-bbraun.de
+		manuela.wacker@bkk-bbraun.de
+		mario.heussner@bkk-bbraun.de
+		melanie.aschenbrenner@bkk-bbraun.de
+		melissa.siegel@bkk-bbraun.de
+		petra.hofmann@bkk-bbraun.de
+		ria.kuehl@bkk-bbraun.de
+		robert.adam@bkk-bbraun.de
+		roxana.andrei@bkk-bbraun.de
+		sabrina.hildebrand@bkk-bbraun.de
+		sabrina.leese@bkk-bbraun.de
+		sandra.kessler@bkk-bbraun.de
+		sascha.habedank@bkk-bbraun.de
+		sascha.milic@bkk-bbraun.de
+		simon.becker@bkk-bbraun.de
+		stefanie.norbisrath@bkk-bbraun.de
+		stephanie.priester@bkk-bbraun.de
+		tanja.merk@bkk-bbraun.de
+		thomas.berninger@bkk-bbraun.de
+		tina.weidemann@bkk-bbraun.de
+		valja.braun@bkk-bbraun.de
+30/154	http://www.bkk-bpw.de/	6
+		datenschutz@bkk-bpw.de;
+		info@bkk-bpw.de
+		maike.bertelsmeier@bkk-bpw.de;
+		maike.boxberg@bkk-bpw.de
+31/154	http://www.bmwbkk.de/	6
+		betriebs.krankenkasse@bmw.de
+		datenschutzbeauftragter@bmwbkk.de
+		leistung@bmwbkk.de
+		mitglied@bmwbkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+32/154	http://www.bkk-pfaff.de/	4
+		amuehlberger@bkk-pfaff.de
+		ehach@bkk-pfaff.de
+		info@bkk-pfaff.de
+		presse@bkk-pfaff.de
+33/154	http://www.bkk-mtu.de/	7
+		datenschutz@bkk-mtu.de
+		info@bkk-mtu.de
+		philipp.maier@bkk-mtu.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		ralph.baumann@bkk-mtu.de
+34/154	http://www.siemagbkk.de/	8
+		datenschutz@siemagbkk.de;
+		info@siemag-bkk.de;
+		info@siemagbkk.de;
+		jochen.kuehn@siemagbkk.de
+		meldung@fehlverhalten.de
+35/154	http://www.evm.de/evm/bkk-evm/	1
+		serviceteam@evm.de
+36/154	http://www.bkk-ewe.de/	5
+		andreas.zoll@bkk-ewe.de
+		imke.schmidt@bkk-ewe.de
+		info@bkk-ewe.de
+		info@itsc.de
+		info@moccaplan.de
+37/154	http://www.bkk-gb.de/	4
+		info@bkk-gb.de
+		markus.biehler@bkk-gb.de
+		poststelle@lfdi.bwl.de
+		poststelle@sm.bwl.de
+38/154	http://www.krones-bkk.de/	7
+		0info@danubius.de
+		bkk.info@krones.com
+		hans-georg.eberhard@aurasec.de
+		info@danubius.de
+		poststelle@datenschutz-bayern.de
+		poststelle@stmgp.bayern.de
+		xaver.obermeier@krones.com
+39/154	http://www.bkk-mahle.de/	7
+		datenschutz@bkk-mahle.de
+		info@bkk-aesculap.de;
+		info@bkk-mahle.de;
+		poststelle@lfdi.bwl.de
+		poststelle@sm.bwl.de
+Error: http://www.bkk-mem.de/:
+ConnectTimeout
+40/154	http://www.bkk-mem.de/	0
+	NO HITS! TODO!
+41/154	http://www.bkk-miele.de/	6
+		info@bkk-miele.de
+		peter.kinnett@bkk-miele.de
+		poststelle@bfdi.bund.de
+		poststelle@bfdi.de-mail.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+42/154	http://www.bkk-mobil-oil.de/	2
+		datenschutz@bkk-mobil-oil.de
+		info@service.bkk-mobil-oil.de
+43/154	http://www.bkk-pwc.de/	6
+		heike.horchler@bkk-pwc.de
+		info@bkk-pwc.de
+		poststelle@bfdi.bund.de
+		poststelle@bfdi.de-mail.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+44/154	http://www.bkkrwe.de/	3
+		datenschutz@bkkrwe.de
+		info@bkkrwe.de
+		info@fkm-verlag.com
+45/154	http://www.bkk-sbh.de/	3
+		datenschutz@bkk-sbh.de
+		info@bkk-sbh.de
+		poststelle@sm.bwl.de
+46/154	http://www.bkk-vdn.de/	6
+		christiane.wille@bkk-vdn.de
+		datenschutz@bkk-vdn.de
+		info@alpha-team.de
+		info@bkk-vdn.de
+		info@pauly-consult.com
+		meinung@bkk-vdn.de
+47/154	http://www.wmf-bkk.de/	6
+		datenschutz@wmf-bkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		pschneider@wmf-bkk.de
+		service@wmf-bkk.de
+48/154	http://www.bkk24.de/	3
+		datenschutz@bkk24.de
+		info@bkk24.de-mail.de
+		info@bkk24.epost.de
+49/154	http://www.bkk-achenbach.de/	11
+		%20poststelle@ldi.nrw.de
+		20poststelle@ldi.nrw.de
+		anja.becker@bkk-achenbach.de
+		datenschutz@bkk-achenbach.de
+		eva-maria.mueller@bkk-achenbach.de
+		kontakt@agentur-gladio.de
+		peter.docter@bkk-achenbach.de
+		poststelle@ldi.nrw.de
+		poststelle@mags.nrw.de
+		service@bkk-achenbach.de
+		tobias.weller@bkk-achenbach.de
+50/154	http://www.bkk-advita.de/	3
+		datenschutz@bkk24.de
+		info@bkk24.de-mail.de
+		info@bkk24.epost.de
+51/154	http://www.bkk-aesculap.de/	5
+		carmbruster@bkk-aesculap.de
+		info@bkk-aesculap.de
+		poststelle@lfdi.bwl.de
+		poststelle@sm.bwl.de
+		slabriola@bkk-aesculap.de
+52/154	http://www.bkk-akzo.de/	19
+		abrechnungsbetrug@bkk-akzo.de
+		ausbildung@bkk-akzo.de
+		beitraege@bkk-akzo.de
+		datenschutz@bkk-akzo.de;
+		entgeltersatzleistungen@bkk-akzo.de
+		forderungen@bkk-akzo.de
+		gesundheitskonto@bkk-akzo.de
+		info@bkk-akzo.de
+		kundenberatung@bkk-akzo.de
+		leistungen@bkk-akzo.de
+		meldungen@bkk-akzo.de
+		pflegekasse@bkk-akzo.de
+		praevention@bkk-akzo.de
+		rehabilitation@bkk-akzo.de
+		sc.aschaffenburg@bkk-akzo.de
+		versicherungen@bkk-akzo.de;
+		vertrieb@bkk-akzo.de
+53/154	http://www.bkkdb.de/	8
+		bkk.info@db.com
+		bkk.marketing@db.com
+		carlo.radke@db.com
+		florian.wendorf@db.com
+		holger.jansen@db.com
+		malte.gottlieb@db.com
+		udo.mainz@db.com
+		ute.manthey-wasserfuhr@db.com
+54/154	http://www.bkk-stadt-augsburg.de/	6
+		bernd.heidler@bkk-stadt-augsburg.de;
+		info@bkk-stadt-augsburg.de;
+		info@zone35.de
+		poststelle@stmgp.bayern.de
+55/154	http://www.bkk-diakonie.de/	3
+		"mailto:info@bkk-diakonie.de
+		fit@job.jpg
+		info@bkk-diakonie.de
+56/154	http://www.bkk-da.de/	9
+		datenschutz@bertelsmann-bkk.de
+		datenschutz@bkk-da.de;
+		datenschutz@bkk-firmus.de
+		info@bertelsmann-bkk.de
+		info@bkk-da.de;
+		poststelle@ldi.nrw.de
+		poststelle@mags.nrw.de
+57/154	http://www.bkk-euregio.de/	1
+		info@bkk-euregio.de
+58/154	http://www.bkkexklusiv.de/	2
+		dedo.kleen@bkkexklusiv.de
+		info@bkkexklusiv.de
+59/154	http://www.bkk-faber-castell.de/	1
+		regen@bkk-faber-castell.de
+60/154	http://www.bkk-firmus.de/	6
+		datenschutz@bkk-firmus.de
+		fehlverhalten@bkk-firmus.de
+		info@bkk-firmus.de
+		kundenbarometer@bkk-firmus.de
+		max.muster@domain.com
+		support-de@google.com
+61/154	http://www.bkk-freudenberg.de/	6
+		cmetz@bkk-freudenberg.de
+		info@bkk-freudenberg.de
+		jhordan@bkk-freudenberg.de;
+		ttrautmann@bkk-freudenberg.de;
+62/154	http://www.bkkgs.de/	5
+		datenschutz@bkkgs.de
+		info@bkkgs.de;
+		poststelle@bfdi.bund.de
+		poststelle@bundesversicherungsamt.de
+63/154	http://www.bkk-grillo.de/	2
+		mailto:info@bkk-grillo.de
+		regex:info@bkk-grillo.de
+64/154	http://www.bkk-henschelplus.de/	35
+		a.bensch@bkk-henschelplus.de
+		a.kranhold@bkk-henschelplus.de
+		a.schirmer@bkk-henschelplus.de
+		b.lindemann@bkk-henschelplus.de
+		c.foellmer@bkk-henschelplus.de
+		d.mueller@bkk-henschelplus.de
+		f.krollpfeiffer@bkk-henschelplus.de
+		f.schu@bkk-henschelplus.de
+		h.krause@bkk-henschelplus.de
+		i.koch@bkk-henschelplus.de
+		i.wicke@bkk-henschelplus.de
+		j.hanke@bkk-henschelplus.de
+		j.hofmann@bkk-henschelplus.de
+		j.odensass@bkk-henschelplus.de
+		j.plettenberg@bkk-henschelplus.de
+		j.sammt@bkk-henschelplus.de
+		j.schabacker@bkk-henschelplus.de
+		k.schmidt@bkk-henschelplus.de
+		l.fritz@bkk-henschelplus.de
+		m.gunanayagam@bkk-henschelplus.de
+		m.klose@bkk-henschelplus.de
+		m.riemer@bkk-henschelplus.de
+		m.szilagyi@bkk-henschelplus.de
+		n.kuehlborn@bkk-henschelplus.de
+		p.schulte@bkk-henschelplus.de
+		r.koelsch@bkk-henschelplus.de
+		r.mitek@bkk-henschelplus.de
+		s.babilon@bkk-henschelplus.de
+		s.jensen@bkk-henschelplus.de
+		s.schu@bkk-henschelplus.de
+		s.tiegel@bkk-henschelplus.de
+		t.meschkat@bkk-henschelplus.de
+		t.umbach@bkk-henschelplus.de
+		v.dinner@bkk-henschelplus.de
+		v.leno@bkk-henschelplus.de
+65/154	http://www.bkk-hmr.de/	5
+		datenschutz@bkk-hmr.de
+		info@bkk-hmr.de;
+		poststelle@bfdi.bund.deng
+66/154	http://www.bkk-herkules.de/	16
+		av@bkk-herkules.de
+		b+m@bkk-herkules.de
+		datenschutzbeauftragter@bkk-herkules.de
+		fibu@bkk-herkules.de
+		info@bkk-herkules.de-mail.de
+		kundenservice@bkk-herkules.de
+		marco.graf@bkk-herkules.de
+		marketing@bkk-herkules.de
+		sekretariat@bkk-herkules.de
+		selbstverwaltung@bkk-herkules.de
+		stabsstelle@bkk-herkules.de
+		stephan.huhn@bkk-herkules.de
+		team1@bkk-herkules.de
+		team2@bkk-herkules.de
+		team3@bkk-herkules.de
+67/154	http://www.karlmayer-bkk.de/	18
+		andrea.duening@karlmayer-bkk.de
+		andrea.ross@karlmayer-bkk.de
+		anett.mahler@karlmayer-bkk.de
+		aniel.peter@karlmayer-bkk.de
+		dagmar.brettinger@karlmayer-bkk.de
+		daniel.peter@karlmayer-bkk.de
+		daniele.engel@karlmayer-bkk.de
+		gesundheitszentrum@karlmayer-bkk.de
+		grit.jungmann@karlmayer-bkk.de
+		harald.eyssen@karlmayer-bkk.de
+		info@karlmayer-bkk.de
+		janine.schwalb@karlmayer-bkk.de
+		juergen.schmidt@karlmayer-bkk.de
+		katja.berker@karlmayer-bkk.de
+		marielle.lienert@karlmayer-bkk.de
+		silke.krahberg@karlmayer-bkk.de
+		sven.strauch@karlmayer-bkk.de
+		werner.fertig@karlmayer-bkk.de
+68/154	http://www.bkk-kba.de/	5
+		anke.gast@bkk-kba.de
+		datenschutzbeauftragter@bkk-kba.de
+		holm.coun@bkk-kba.de
+		kristina.maslin@bkk-kba.de
+		thomas.luedecke@bkk-kba.de
+69/154	http://www.bkk-linde.de/	6
+		arbeitgeberservice@bkk-linde.de;
+		info@bkk-linde.de;
+		sabine.braun@bkk-linde.de;
+70/154	http://www.bkk-melitta.de/	7
+		datenschutz@bkk-melitta.de;
+		info@bkk-melitta.de;
+		poststelle@bfdi.bund.de%20
+		poststelle@bundesversicherungsamt.de
+71/154	http://www.bkkpfalz.de/	9
+		aninfo@bkkpfalz.de
+		datenschutz@bkkpfalz.de
+		info@bkkpfalz.de
+		mail@ueberbit.com
+		mstamm@bkkpfalz.de
+		postfach@bkkpfalz.de-mail.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+72/154	http://www.bkk-provita.de/	4
+		datenschutz@bkk-provita.de
+		info@bkk-provita.de
+		widerruf@bkk-provita.de
+		wolfgang.huber@bkk-provita.de
+73/154	http://www.bkk-public.de/	5
+		datenschutz@bkk-public.de
+		info@sal-a.de
+		it-sicherheit@bkk-public.de
+		service@bkk-public.de;
+74/154	http://www.bkk-rrw.de/	15
+		akunz@bkk-rrw.de
+		awaechter@bkk-rrw.de
+		datenschutz@bkk-rrw.de
+		datenschutzbeauftragte@bkk-rrw.de
+		dhandloser@bkk-rrw.de
+		info@bkk-rrw.de
+		mbraun@bkk-rrw.de
+		nguenter@bkk-rrw.de
+		poststelle@lfdi.bwl.de
+		poststelle@sm.bwl.de
+		pporada@bkk-rrw.de
+		slevendeli@bkk-rrw.de
+		sloehning@bkk-rrw.de
+		strautner@bkk-rrw.de
+		vmattheis@bkk-rrw.de
+75/154	http://www.bkk-salzgitter.de/	5
+		datenschutz@bkk-salzgitter.de
+		info@sal-a.de
+		it-sicherheit@bkk-salzgitter.de
+		service@bkk-salzgitter.de;
+76/154	http://www.bkk-scheufelen.de/	7
+		bmeissner@bkk-scheufelen.de
+		datenschutz@bkk-scheufelen.de
+		fpallinger@bkk-scheufelen.de
+		info@bkk-scheufelen.de
+		kschwarz@bkk-scheufelen.de
+		poststelle@lfdi.bwl.de
+		poststelle@sm.bwl.de
+77/154	http://www.bkk-technoform.de/	2
+		claudia.leckebusch@bkk-technoform.de
+		willkommen@bkk-technoform.de
+Error: https://www.bkk-verbundplus.de/unternehmen/datenschutz/datenschutzrechte/:
+ConnectTimeout
+Error: https://www.bkk-verbundplus.de/unternehmen/:
+ConnectTimeout
+78/154	http://www.bkk-verbundplus.de/	9
+		bernburg@bkkvp.de
+		biberach@bkkvp.de
+		dmp@bkkvp.de
+		dresden@bkkvp.de
+		karlsruhe@bkkvp.de
+		krankenhaus@bkkvp.de
+		pflege@bkkvp.de
+		stuttgart@bkkvp.de
+		ulm@bkkvp.de
+79/154	http://www.meine-krankenkasse.de/	7
+		datenschutzbeauftragter@bkk-vbu.de
+		ellen.zimmermann@bkk-vbu.de
+		entlassmanagement@bkk-vbu.de
+		firmenkunden@bkk-vbu.de
+		info@bkk-vbu.de
+		pflege@bkk-vbu.de
+		sylvie.renz@bkk-vbu.de
+80/154	http://www.bkk-vital.de/	9
+		aninfo@bkkpfalz.de
+		datenschutz@bkkpfalz.de
+		info@bkkpfalz.de
+		mail@ueberbit.com
+		mstamm@bkkpfalz.de
+		postfach@bkkpfalz.de-mail.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+81/154	http://www.bkk-voralb.de/	5
+		datenschutz@bkk-voralb.de
+		info@bkk-voralb.de
+		poststelle@lfdi.bwl.de
+		poststelle@sm.bwl.de-mail.de
+82/154	http://www.bkk-werra-meissner.de/	7
+		datenschutz@bkk-wm.de
+		info@bkk-wm.de;
+		marketing@bkk-wm.de
+		poststelle@datenschutz.hessen.de
+		poststelle@rpda.hessen.de
+		torsten.zahn@bkk-wm.de
+83/154	http://www.bkk-wf.de/	7
+		datenschutz@bkk-wf.de
+		info@bkk-wf.de
+		poststelle@bfdi.bund.de
+		poststelle@bfdi.de-mail.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		support-de@google.com
+84/154	http://www.bkk-wuerth.de/	0
+	NO HITS! TODO!
+85/154	http://www.bkk-zf-partner.de/	9
+		datenschutzbeauftragter@bkk-zf-partner.de;
+		friedrichshafen@bkk-zf-partner.de;
+		koblenz@bkk-zf-partner.de
+		poststelle@bfdi.bund.de
+		poststelle@bfdi.de-mail.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+86/154	http://www.bosch-bkk.de/	25
+		andrea.conrad@bosch-bkk.de
+		andrea.hofmann@bosch-bkk.de
+		andreas.schwarz@bosch-bkk.de
+		andreas.velten@bosch-bkk.de
+		anna.weiss@bosch-bkk.de
+		claudia.hage@bosch-bkk.de
+		datenschutz@bosch-bkk.de
+		dieter.gottschalt@bosch-bkk.de
+		gudrun.dopatka@bosch-bkk.de
+		info@bosch-bkk.de
+		kathleen.minkenberg@bosch-bkk.de
+		lothar.geitner@bosch-bkk.de
+		monique.reb@bosch-bkk.de
+		nadja.schumacher@bosch-bkk.de
+		oezguel.diler@bosch-bkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		ralf.hartmann@bosch-bkk.de
+		ramona.neser@bosch-bkk.de
+		sigrid.leistner@bosch-bkk.de
+		stefan.straub@bosch-bkk.de
+		susanne.dlugosch@bosch-bkk.de
+		tobias.bareiss@bosch-bkk.de
+		uwe.wustmann@bosch-bkk.de
+87/154	http://www.brandenburgische-bkk.de/	6
+		
+ <script type='text/javascript'>
+ <!--
+ var prefix = 'ma' + 'il' + 'to';
+ var path = 'hr' + 'ef' + '=';
+ var addy35529 = 'poststelle' + '@';
+ addy35529 = addy35529 + 'bvamt' + '.' + 'de-mail' + '.' + 'de';
+ document.write('<a ' + path + '\'' + prefix + ':' + addy35529 + '\'>');
+ document.write(addy35529);
+ document.write('<\/a>');
+ //-->\n </script><script type='text/javascript'>
+ <!--
+ document.write('<span style=\'display: none;\'>');
+ //-->
+ </script>this email address is being protected from spambots. you need javascript enabled to view it.
+ <script type='text/javascript'>
+ <!--
+ document.write('</');
+ document.write('span>');
+ //-->
+ </script>
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		service@brandenburgische-bkk.de
+		theresa.ander@brandenburgische-bkk.de
+88/154	http://www.continentale-bkk.de/	6
+		datenschutz@continentale-bkk.de
+		kundenservice@continentale-bkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		support-de@google.com
+89/154	http://www.daimler-bkk.com/	7
+		angela.lechner@daimler.com
+		benjamin.plocher@daimler-bkk.com
+		hartmut.steffens@daimler-bkk.com
+		marketing@daimler-bkk.com
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+90/154	http://www.debeka-bkk.de/	4
+		datenschutz@debeka-bkk.de
+		info@debeka-bkk.de
+		lob+kritik@debeka-bkk.de
+		poststelle@bfdi.bund.de
+91/154	http://www.die-bergische-kk.de/	5
+		alf.dahl@die-bergische-kk.de
+		datenschutz@die-bergische-kk.de
+		info@die-bergische-kk.de;
+		manuel.avella-salazar@die-bergische-kk.de
+92/154	http://www.energie-bkk.de/	4
+		datenschutz@energie-bkk.de
+		info@energie-bkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+93/154	http://www.ey-bkk.de/	22
+		andrea.halt@ey-bkk.de
+		andrea.wambach@ey-bkk.de
+		beitraege@ey-bkk.de
+		bjoern.kirchberg@ey-bkk.de
+		christin.kuehlborn@ey-bkk.de
+		info@ey-bkk.de
+		inka.habermann@ey-bkk.de
+		jorina.gross@ey-bkk.de
+		juergen.mosebach@ey-bkk.de
+		lars.hartung@ey-bkk.de
+		lisa.reinbold@ey-bkk.de
+		markus.sandrock@ey-bkk.de
+		martin.muench@ey-bkk.de
+		patric.mertke@ey-bkk.de
+		peter.wenzel@ey-bkk.de
+		pflege@ey-bkk.de
+		sabine.schneider@ey-bkk.de
+		sarah.orth@ey-bkk.de
+		steffen.schneider@ey-bkk.de
+		tamara.eskuche@ey-bkk.de
+		tanja.heidt-wolf@ey-bkk.de
+		vorstand@ey-bkk.de
+94/154	http://www.bkk-textilgruppe-hof.de/	2
+		info@bkk-textilgruppe-hof.de
+		info@fkm-verlag.com
+95/154	http://www.wieland-bkk.de/	2
+		datenschutz@wieland-bkk.de
+		zentrale@wieland-bkk.de
+96/154	http://www.heimat-krankenkasse.de/	6
+		info@heimat-krankenkasse.de
+		max@mustermann.de
+		poststelle@bundesversicherungsamt.de
+		presse@heimat-krankenkasse.de;
+		redaktion@heimat-krankenkasse.de
+97/154	http://www.merck-bkk.de/	41
+		anabela.fernandes-rodrigues@merckgroup.com
+		andrea.leonhardt@merckgroup.com
+		angela.rausch@merckgroup.com
+		astrid.storck@merckgroup.com
+		bernd.huber@merckgroup.com
+		bettina.hoenig@merckgroup.com
+		bianca.worms@merckgroup.com
+		bkk@merck.de
+		bkk@merckgroup.com
+		christian.gampe@merckgroup.com
+		claudia.gallinat@merckgroup.com
+		claudia.grote@merckgroup.com
+		claudia.schmurr@merckgroup.com
+		danica.reisich@merckgroup.com
+		diana.heuser@merckgroup.com
+		dragana.kertscher@merckgroup.com
+		heike.aumann@merckgroup.com
+		heike.poth@merckgroup.com
+		joerg.bechert@merckgroup.com
+		joerg.wehner@merckgroup.com
+		julia.krichbaum@merckgroup.com
+		kirsten.doepp@merckgroup.com
+		lana.frank@merckgroup.com
+		melanie.emmerich@merckgroup.com
+		melanie.murschel@merckgroup.com
+		petra.atherton@merckgroup.com
+		sabine.itt@merckgroup.com
+		sabine.schug@merckgroup.com
+		silvia.scheer@merckgroup.com
+		simon.porzelt@merckgroup.com
+		simon.straub@merckgroup.com
+		simone.gaab@merckgroup.com
+		simone.reiss@merckgroup.com
+		stefan.sellinger@merckgroup.com
+		stefanie.uhl@merckgroup.com
+		stephan.hofmann@merckgroup.com
+		susanne.jayme@merckgroup.com
+		tilo.alt@merckgroup.com
+		tom.mueller@merckgroup.com
+		veronika.guenther@merckgroup.com
+		withold.huebner@merckgroup.com
+98/154	http://www.metzinger-bkk.de/	6
+		datenschutz@metzinger-bkk.de;
+		hansjoerg.nill@metzinger-bkk.de
+		info@metzinger-bkk.de;
+		rg.nill@metzinger-bkk.de
+99/154	http://www.mhplus-krankenkasse.de/	2
+		info@mhplus.de
+		wodicka@aon.at
+100/154	http://www.novitas-bkk.de/	2
+		info@novitas-bkk.de
+		redaktion@novitas-bkk.de
+101/154	http://www.pronovabkk.de/	7
+		auskunft-dsgvo@pronovabkk.de
+		datenschutz@pronovabkk.de
+		newsletter@pronovabkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		service@pronovabkk.de
+102/154	http://www.ruv-bkk.de/	9
+		datenschutz@ruv-bkk.de
+		info@ec-elements.com
+		info@econda.de
+		info@ruv-bkk.de
+		newsletter@ruv-bkk.de
+		office@prescreen.io
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		poststelle@datenschutz.hessen.de
+103/154	http://www.salus-bkk.de/	297
+		adrienne.burkhardt@salus-bkk.de
+		alen.sejaric@salus-bkk.de
+		alexander.dolderer@salus-bkk.de
+		alexander.farr@salus-bkk.de
+		alexander.rothe@salus-bkk.de
+		alexandra.konietzka@salus-bkk.de
+		aline.wadewitz@salus-bkk.de
+		andre.gildner@salus-bkk.de
+		andre.lipp@salus-bkk.de
+		andre.malessa@salus-bkk.de
+		andrea.fassmann@salus-bkk.de
+		andrea.foerst@salus-bkk.de
+		andreas.neubeck@salus-bkk.de
+		andreas.nithammer@salus-bkk.de
+		andreas.tischbierek@salus-bkk.de
+		andreas.waitz@salus-bkk.de
+		andreas.wandelt@salus-bkk.de
+		angelika.tausche@salus-bkk.de
+		anja.bunda@salus-bkk.de
+		anja.hegewald@salus-bkk.de
+		anja.naber@salus-bkk.de
+		anja.reichenbach@salus-bkk.de
+		anja.schurig@salus-bkk.de
+		anja.tausendfreund@salus-bkk.de
+		ann-katrin.hartel@salus-bkk.de
+		anne.simbke@salus-bkk.de
+		annegret.liebig@salus-bkk.de
+		annett.aeugle@salus-bkk.de
+		annett.mattaj@salus-bkk.de
+		annett.teubert@salus-bkk.de
+		annett.walinski@salus-bkk.de
+		annette.primke@salus-bkk.de
+		annika.schneider@salus-bkk.de
+		archiv@salus-bkk.de
+		ariane.mauczok@salus-bkk.de
+		astrid.albrecht@salus-bkk.de
+		astrid.krug@salus-bkk.de
+		athina.sklavou@salus-bkk.de
+		barbara.kaus@salus-bkk.de
+		beate.hofmann@salus-bkk.de
+		beate.wenzel@salus-bkk.de
+		bernd.hofmann@salus-bkk.de
+		bettina.jung@salus-bkk.de
+		birgit.adler@salus-bkk.de
+		birgit.pfeifer@salus-bkk.de
+		birgit.schuetze@salus-bkk.de
+		carina.praekelt@salus-bkk.de
+		carmen.prevete@salus-bkk.de
+		carola.rosch@salus-bkk.de
+		carolin.albers@salus-bkk.de
+		carolin.wagner@salus-bkk.de
+		caroline.steigemann@salus-bkk.de
+		catrin.schulmeyer@salus-bkk.de
+		celine.born@salus-bkk.de
+		charlene.oestreich@salus-bkk.de
+		christian.neumann@salus-bkk.de
+		christian.rappert@salus-bkk.de
+		christiane.hofmann@salus-bkk.de
+		christiane.tippner@salus-bkk.de
+		christina.trietsch@salus-bkk.de
+		christina.wandelt@salus-bkk.de
+		christine.milewski-zimontkowski@salus-bkk.de
+		christoph.jeckel@salus-bkk.de
+		christoph.schoen@salus-bkk.de
+		christopher.matthes@salus-bkk.de
+		cindy.hornung@salus-bkk.de
+		claudia.eichhorn@salus-bkk.de
+		claudia.grueneberger@salus-bkk.de
+		claudia.haendel-schneider@salus-bkk.de
+		claudia.jaehne@salus-bkk.de
+		claudia.senkowsky@salus-bkk.de
+		crispin.ehrling@salus-bkk.de
+		dagmar.kindlein@salus-bkk.de
+		damaris.ries@salus-bkk.de
+		daniel.herzog@salus-bkk.de
+		daniela.kirchner@salus-bkk.de
+		denise.hildebrand@salus-bkk.de
+		diana.bredow@salus-bkk.de
+		diana.edler@salus-bkk.de
+		diana.goessel@salus-bkk.de
+		diana.harbich@salus-bkk.de
+		diana.schlee@salus-bkk.de
+		diana.weihmann@salus-bkk.de
+		dirk.giraths@salus-bkk.de
+		dirk.henschen@salus-bkk.de
+		doreen.liebner@salus-bkk.de
+		doreen.remitschka@salus-bkk.de
+		elisa.goebel@salus-bkk.de
+		elisabeth.krausser@salus-bkk.de
+		elke.lunk@salus-bkk.de
+		elke.schulze@salus-bkk.de
+		ellen.gros@salus-bkk.de
+		enrico.zerwothek@salus-bkk.de
+		eylien.freude@salus-bkk.de
+		florian.becker@salus-bkk.de
+		florian.schoenerstedt@salus-bkk.de
+		franca.schiller@salus-bkk.de
+		franziska.ackermann-hobbing@salus-bkk.de
+		franziska.grabe@salus-bkk.de
+		genia.stoelting@salus-bkk.de
+		gesa.freyer@salus-bkk.de
+		grit.neumann-wohlfahrt@salus-bkk.de
+		gunter.zwipf@salus-bkk.de
+		heidi.oberreich@salus-bkk.de
+		henriette.koernig@salus-bkk.de
+		henriette.scheiding@salus-bkk.de
+		hiltrud.urlaub@salus-bkk.de
+		holger.hauswirth@salus-bkk.de
+		holger.lindemann@salus-bkk.de
+		holger.tietz@salus-bkk.de
+		ina.schubert@salus-bkk.de
+		info-eisenach@salus-bkk.de
+		info-erfurt@salus-bkk.de
+		info-halle@salus-bkk.de
+		info-hannover@salus-bkk.de
+		info-jena@salus-bkk.de
+		info-koeln@salus-bkk.de
+		info-leipzig@salus-bkk.de
+		info-luebeck@salus-bkk.de
+		info-muehlhausen@salus-bkk.de
+		info-muenchen@salus-bkk.de
+		info-neu-isenburg@salus-bkk.de
+		info-potsdam@salus-bkk.de
+		info-rostock@salus-bkk.de
+		info-schwerin@salus-bkk.de
+		info-stuttgart@salus-bkk.de
+		info-wernigerode@salus-bkk.de
+		info-zwickau@salus-bkk.de
+		jan-dirk.hoffmann@salus-bkk.de
+		jan.grosser@salus-bkk.de
+		jana.guenther@salus-bkk.de
+		jana.sorgatz@salus-bkk.de
+		janine.fischer@salus-bkk.de
+		janine.foedisch@salus-bkk.de
+		jennifer.ermler@salus-bkk.de
+		jens.dethloff@salus-bkk.de
+		jens.kuechler@salus-bkk.de
+		jessica.colditz@salus-bkk.de
+		jessica.faber@salus-bkk.de
+		jessica.oberle@salus-bkk.de
+		jill.zimny@salus-bkk.de
+		joerg.kaehne@salus-bkk.de
+		joerg.kranz@salus-bkk.de
+		johanna.vollmer@salus-bkk.de
+		josefin.kubbig@salus-bkk.de
+		josephine.schnicke@salus-bkk.de
+		julia.brandl@salus-bkk.de
+		juliane.tschiersch@salus-bkk.de
+		karen.anders@salus-bkk.de
+		karin.klingsporn@salus-bkk.de
+		karsten.schumann@salus-bkk.de
+		kathleen.mohr@salus-bkk.de
+		kathrin.beuckert@salus-bkk.de
+		kathrin.reusch@salus-bkk.de
+		kathrin.woicke@salus-bkk.de
+		kati.mueller@salus-bkk.de
+		kati.uhlmann@salus-bkk.de
+		katja.schwarz@salus-bkk.de
+		katja.sippert@salus-bkk.de
+		katrin.hinz@salus-bkk.de
+		katrin.jacob@salus-bkk.de
+		katrin.kittel@salus-bkk.de
+		katrin.lindner@salus-bkk.de
+		katrin.loeser@salus-bkk.de
+		katrin.metzner@salus-bkk.de
+		katrin.schwarz@salus-bkk.de
+		kerstin.baumann@salus-bkk.de
+		kerstin.frittmann@salus-bkk.de
+		kerstin.wischnewski@salus-bkk.de
+		klaus.heider@salus-bkk.de
+		kristin.schubert@salus-bkk.de
+		larissa.thevis@salus-bkk.de
+		laura.ferg@salus-bkk.de
+		lisa.sturm@salus-bkk.de
+		lisa.trink@salus-bkk.de
+		lydia.hess@salus-bkk.de
+		madeleine.weber@salus-bkk.de
+		maik.grossmann@salus-bkk.de
+		maik.krahberg@salus-bkk.de
+		mandy.jurisch@salus-bkk.de
+		manuel.beisl@salus-bkk.de
+		manuela.kunze@salus-bkk.de
+		manuela.schmitt@salus-bkk.de
+		manuela.wilhelm@salus-bkk.de
+		margareta.koeppe@salus-bkk.de
+		marion.rinker@salus-bkk.de
+		markus.kuettner@salus-bkk.de
+		martin.nagel@salus-bkk.de
+		martin.zenker@salus-bkk.de
+		martina.jost@salus-bkk.de
+		marzia.qanbari@salus-bkk.de
+		matthias.klimas@salus-bkk.de
+		meike.ochel@salus-bkk.de
+		melanie.knoche@salus-bkk.de
+		michael.kraneis@salus-bkk.de
+		michael.patke@salus-bkk.de
+		michael.roesner@salus-bkk.de
+		michael.wieczorek@salus-bkk.de
+		michaela.lorenz@salus-bkk.de
+		michelle.haeder@salus-bkk.de
+		mike.markert@salus-bkk.de
+		monika.borchert@salus-bkk.de
+		monika.brendahl@salus-bkk.de
+		nadin.berrang@salus-bkk.de
+		nadine.matner@salus-bkk.de
+		nadine.mumme@salus-bkk.de
+		nadine.sens@salus-bkk.de
+		nadine.wuest@salus-bkk.de
+		natalie.rockel@salus-bkk.de
+		natascha.boehm@salus-bkk.de
+		nicole.sternberg@salus-bkk.de
+		oliver.bauer@salus-bkk.de
+		oliver.hense@salus-bkk.de
+		olivia.brunz@salus-bkk.de
+		patrick.gebhardt@salus-bkk.de
+		patty.tuchscherer@salus-bkk.de
+		peggy.reuter@salus-bkk.de
+		petra.hoim@salus-bkk.de
+		petra.schueller@salus-bkk.de
+		pietro.abbandoni@salus-bkk.de
+		postlpz@salus-bkk.de
+		poststelle@salus-bkk.de
+		ragna.winter@salus-bkk.de
+		rainer.summer@salus-bkk.de
+		ramona.boettger@salus-bkk.de
+		rebecca.kandel@salus-bkk.de
+		rene.fritsche@salus-bkk.de
+		rene.zoellner@salus-bkk.de
+		roland.scheithauer@salus-bkk.de
+		sabine.abel@salus-bkk.de
+		sabine.hahn@salus-bkk.de
+		sabrina.zacher@salus-bkk.de
+		sandra.beck@salus-bkk.de
+		sandra.boettger@salus-bkk.de
+		sandra.greis@salus-bkk.de
+		sandra.knoll@salus-bkk.de
+		sandy.werner@salus-bkk.de
+		sarah.mokry@salus-bkk.de
+		sarah.unger@salus-bkk.de
+		sascha.hoelzenbein@salus-bkk.de
+		sebastian.bartsch@salus-bkk.de
+		selina.richter@salus-bkk.de
+		senay.benli@salus-bkk.de
+		service@salus-bkk.de
+		sieglinde.oertel@salus-bkk.de
+		silvana.walters@salus-bkk.de
+		silvia.kopacz@salus-bkk.de
+		silvio.suesskind@salus-bkk.de
+		simone.altmann@salus-bkk.de
+		simone.bose@salus-bkk.de
+		simone.kilian@salus-bkk.de
+		simone.loch@salus-bkk.de
+		simone.ulbrich@salus-bkk.de
+		simone.weide@salus-bkk.de
+		sindy.kluge@salus-bkk.de
+		sonja.schwarz@salus-bkk.de
+		sophie.der@salus-bkk.de
+		stefanie.ertner@salus-bkk.de
+		stefanie.koeppe@salus-bkk.de
+		stefanie.kuehl@salus-bkk.de
+		stefanie.lehmann@salus-bkk.de
+		steffen.barbotz@salus-bkk.de
+		steffen.thieme@salus-bkk.de
+		steffi.henning@salus-bkk.de
+		steffi.koeppchen@salus-bkk.de
+		steffi.oberreich@salus-bkk.de
+		stephan.gasa@salus-bkk.de
+		stephan.mueller@salus-bkk.de
+		stephanie.pfeiffer@salus-bkk.de
+		stephanie.schaessburger@salus-bkk.de
+		susanne.emrich@salus-bkk.de
+		susanne.hiltmann@salus-bkk.de
+		susanne.klaus@salus-bkk.de
+		susanne.trauten@salus-bkk.de
+		sven.gleichmann@salus-bkk.de
+		sylvia.hein@salus-bkk.de
+		tanja.schreiber@salus-bkk.de
+		theresa.kuehne@salus-bkk.de
+		thilo.kuhn@salus-bkk.de
+		thomas.baum@salus-bkk.de
+		thomas.hornig@salus-bkk.de
+		thomas.jansen@salus-bkk.de
+		thomas.schmidt@salus-bkk.de
+		tina.bergholz@salus-bkk.de
+		tina.hammer@salus-bkk.de
+		tina.machnitzky@salus-bkk.de
+		torsten.eggers@salus-bkk.de
+		ulrich.eggebrecht@salus-bkk.de
+		ulrich.wesselmann@salus-bkk.de
+		ulrike.kuesel@salus-bkk.de
+		ulrike.maron@salus-bkk.de
+		ute.pauly@salus-bkk.de
+		ute.schrader@salus-bkk.de
+		vanessa.gresik@salus-bkk.de
+		victoria-anna.koernig@salus-bkk.de
+		volker.beltz@salus-bkk.de
+		yvonne.petry@salus-bkk.de
+104/154	http://www.die-schwenninger.de/	3
+		empfaenger_eintragen
+		info@die-schwenninger.de;
+105/154	http://www.securvita.de/krankenkasse/	4
+		datenschutzbeauftragter@securvita-bkk.de
+		mail@securvita-bkk.de
+		peter.kuchenbuch@securvita.de
+		vorfelder@sustainable-media.de
+106/154	http://www.sbk.org/	8
+		datenschutz@sbk.org
+		info@sbk.org
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		social@sbk.org;
+		widerruf@sbk.org
+107/154	http://www.skd-bkk.de/	7
+		christian.mueller@skd-bkk.de
+		nicole.mauder@skd-bkk.de
+		poststelle@bfdi.bund.de
+		poststelle@bfdi.de-mail.de
+		poststelle@bvamt.bund.de
+		poststelle@bvamt.de-mail.de
+		service@skd-bkk.de
+108/154	http://www.xn--sdzucker-bkk-dlb.de/	6
+		datenschutz@suedzucker-bkk.de;
+		info@suedzucker-bkk.de;
+		poststelle@bfdi.bund.de
+		poststelle@bvamt.bund.de
+109/154	http://www.tbk-gesundheit.de/	8
+		ag@bitmarck-daten.de;
+		info@tbk-gesundheit.de
+		jacqueline.williams@tbk-gesundheit.de
+		luisa.kirchner@tbk-gesundheit.de;
+		service-bms@bitmarck.de
+		simone.guenl@tbk-gesundheit.de
+110/154	http://www.tui-bkk.de/	5
+		datenschutz@tui-bkk.de
+		info@sal-a.de
+		it-sicherheit@tui-bkk.de
+		service@tui-bkk.de;
+111/154	http://www.viactiv.de/	5
+		datenschutz@viactiv.de;
+		service@viactiv.de;
+		wuk-service@viactiv.de
+112/154	http://www.knappschaft.de/	7
+		datenschutz@kbs.de
+		intranet@kbs.de
+		linkdatenschutz@kbs.de
+		linkpoststelle@bfdi.bund.de
+		linkzentrale@kbs.de
+		poststelle@bfdi.bund.de
+		zentrale@kbs.de
+113/154	http://www.svlfg.de/	23
+		 gesundheitsangebote@svlfg.de
+		ak-leistung@svlfg.de
+		ams_pf@svlfg.de
+		beitrag@svlfg.de
+		beitragsbuchhaltung@svlfg.de
+		bg-beitrag@svlfg.de
+		bg-leistung@svlfg.de
+		bgf-koordinierungsstelle@svlfg.de
+		bhh@svlfg.de
+		foerderung_praevention@svlfg.de
+		forderungseinzug@svlfg.de
+		gesundheitsangebote@svlfg.de
+		gleichgewicht@svlfg.de
+		info@pz.lsv.de
+		info_praevention@svlfg.de
+		kk-leistung@svlfg.de
+		pk-leistung@svlfg.de
+		poststelle@svlfg.de-mail.de
+		praeventionsbroschueren@svlfg.de
+		praeventionsschulungen@svlfg.de
+		regress@svlfg.de
+		reha@svlfg.de
+114/154	http://www.debeka.de/	4
+		beschwerde@versicherungsombudsmann.de
+		datenschutzbeauftragter@debeka.de
+		javascript:window.location='mailto:
+		kundenservice@debeka.de
+115/154	http://www.dkv.com/	8
+		beratung@ergodirekt.de
+		datenschutz.beauftragter@ergodirekt.de
+		datenschutz@dkv.com
+		datenschutz@ergo.de
+		info@ergo.de
+		info@meag.com
+		ombudsmann@pkv-ombudsmann.de
+		service@dkv.com
+116/154	http://www.allianz.com/	1
+		privacy@allianz.com
+117/154	http://www.axa.de/	14
+		buergschaften@axa.de​
+		claudia.kapuy@axa.de
+		joerg.friedrich@axa.de​
+		nikolaos.anakefalos@axa.de​
+		plamena.flosbach@axa.de
+		rainer.koch@axa.de
+		robert.mueller@axa.de​
+		stefan.weissenrieder@axa.de​
+		tanja.blunder@axa.de
+118/154	http://www.signal-iduna.de/	5
+		datenschutz@signal-iduna.de
+		info@signal-iduna.de
+		mailbox@datenschutz.hamburg.de
+		poststelle@datenschutz.hessen.de
+		poststelle@ldi.nrw.de
+119/154	http://www.central.de/	2
+		datenschutz@central.de
+		info@central.de
+120/154	http://www.vkb.de/	6
+		datenschutz@vkb.de
+		name@domain.de
+		odr-kommunikation@vkb.de
+		poststelle@bafin.de
+		service@vkb.de
+		thomas.langer@vkb.de
+121/154	http://www.barmenia.de/	6
+		datenschutz@barmenia.de
+		info@barmenia.de-mail.de
+		kundenbetreuung@barmenia.de
+		mediline@barmenia.de
+		schaden@barmenia.de
+122/154	http://www.continentale.de/	3
+		datenschutz@continentale.de
+		info@continentale.de
+		presse@continentale.de
+123/154	http://www.hallesche.de/	11
+		bauspar@alte-leipziger.de
+		datenschutz@alte-leipziger.de
+		datenschutz@hallesche.de
+		info@ombudsstelle-investmentfonds.de
+		info@schlichtungsstelle-bausparen.de
+		ombudsmann@pkv-ombudsmann.de
+		poststelle@bafin.de
+		schlichtungsstelle@bafin.de
+		service@alte-leipziger.de
+		service@hallesche.de
+		trust@alte-leipziger.de
+124/154	http://www.huk.de/	6
+		claims@gruene-karte.de
+		gruenekarte@huk-coburg.de
+		hastl@huk-coburg.de
+		info@huk-autoservice.de
+		info@huk-autowelt.de
+		info@huk-coburg.de
+125/154	http://www.hansemerkur.de/	6
+		beschwerde@versicherungsombudsmann.de
+		datenschutz@hansemerkur.de
+		fielmann@hansemerkur.de
+		info@hansemerkur.de
+		kv-bestand@hansemerkur.de
+		reiseinfo@hansemerkur.de
+126/154	http://www.gothaer.de/	4
+		info@gothaer.de
+		poststelle@bafin.de
+		service@aachener-bausparkasse.de
+		service@roland-rechtsschutz.de
+127/154	http://www.lkh.de/	3
+		datenschutz@lkh.de
+		info@lkh.de
+		vm@lkh.de
+128/154	http://www.sdk.de/	9
+		auslandsreise@sdk.de
+		datenschutz@sdk.de;
+		info@sdk.de
+		leben@sdk.de
+		leistung@sdk.de
+		pflege@sdk.de
+		vertrag@sdk.de;
+129/154	http://www.deutscherring-kranken.de/	5
+		datenschutz@signal-iduna.de
+		info@signal-iduna.de
+		mailbox@datenschutz.hamburg.de
+		poststelle@datenschutz.hessen.de
+		poststelle@ldi.nrw.de
+130/154	http://www.ukv.de/	6
+		datenschutz@ukv.de
+		maxmustermann@max.de
+		odr-kommunikation@ukv.de
+		online@ukv.de
+		poststelle@bafin.de
+		service@ukv.de
+131/154	http://www.inter.de/	2
+		datenschutzbeauftragter@inter.de
+		info@inter.de
+132/154	http://www.universa.de/	3
+		info@universa.de
+		presse@universa.de
+		service@universa.de
+133/154	http://www.muenchener-verein.de/	7
+		beschwerde@versicherungsombudsmann.de
+		beschwerdestelle@muenchener-verein.de
+		datenschutz@muenchener-verein.de
+		info@muenchener-verein.de
+		pflege-ratgeber@muenchener-verein.de
+		poststelle@bafin.de
+		presse@muenchener-verein.de
+134/154	http://www.ruv.de/	11
+		brigitte.roemstedt@ruv.de
+		erstausbildung@ruv.de
+		frank.senger@ruv.de
+		grischa.brower-rabinowitsch@ruv.de
+		hermann-josef.knipper@ruv.de
+		karsten.eichner@ruv.de
+		presse@ruv.de
+		recruiting-center@ruv.de
+		stefanie.simon@ruv.de
+		tanja.gorr@ruv.de
+		zukunftbeiuns@ruv.de
+135/154	http://www.ergodirekt.de/	6
+		beratung@ergodirekt.de
+		datenschutz.beauftragter@ergodirekt.de
+		datenschutz@ergo.de
+		info@ergo.de
+		info@meag.com
+		tina.kunath@ergo.de
+136/154	http://www.arag.com/	1
+		service@arag.de
+137/154	http://www.lvm.de/	7
+		beschwerde@lvm.de
+		beschwerde@versicherungsombudsmann.de
+		datenschutz@lvm.de
+		info@lvm.de
+		k-schaden@lvm.de
+		post@lvm.de
+		poststelle@bafin.de
+138/154	http://www.alte-oldenburger.de/	49
+		 birte.essing@alte-oldenburger.de
+		 dirk.stuehrmann@alte-oldenburger.de
+		 erik.themann@alte-oldenburger.de
+		 fredo.klaus@alte-oldenburger.de
+		 hubertus.kruse@alte-oldenburger.de
+		 manfred.grieshop@alte-oldenburger.de
+		 sandra.niehaus@alte-oldenburger.de
+		 thomas.boeckler@alte-oldenburger.de
+		anfrage@alte-oldenburger.de
+		ann-christin.meis@alte-oldenburger.de
+		annette.kuehling@alte-oldenburger.de
+		antje.bornhorst@alte-oldenburger.de
+		barbara.grummel@alte-oldenburger.de
+		birte.essing@alte-oldenburger.de
+		boeckmann@alte-oldenburger.de
+		brengelmann@alte-oldenburger.de
+		buehrmann@alte-oldenburger.de
+		carolin.bramlage@alte-oldenburger.de
+		christina.blome@alte-oldenburger.de
+		datenschutz@alte-oldenburger.de
+		dirk.stuehrmann@alte-oldenburger.de
+		erik.themann@alte-oldenburger.de
+		eva-maria.kallage@alte-oldenburger.de
+		fredo.klaus@alte-oldenburger.de
+		hammersen@alte-oldenburger.de
+		helga.froehle@alte-oldenburger.de
+		hubertus.kruse@alte-oldenburger.de
+		info@alte-oldenburg.de
+		info@alte-oldenburger.de
+		jan.emken@alte-oldenburger.de
+		jana.feder@alte-oldenburger.de
+		jana.geerken@alte-oldenburger.de
+		kirsten.tersteegen@alte-oldenburger.de
+		kontakt@litho.eu
+		kullen@alte-oldenburger.de
+		langer@alte-oldenburger.de
+		manfred.grieshop@alte-oldenburger.de
+		miriam.marischen@alte-oldenburger.de
+		philipp.rische@alte-oldenburger.de
+		poststelle@lfd.niedersachsen.de
+		rueck@alte-oldenburger.de
+		sandra.niehaus@alte-oldenburger.de
+		silvia.lichtenstein@alte-oldenburger.de
+		thomas.boeckler@alte-oldenburger.de
+		ulrich.jaksch@alte-oldenburger.de
+		valentina.gellert@alte-oldenburger.de
+		verena.klaene@alte-oldenburger.de
+		viola.doedtmann@alte-oldenburger.de
+		yvonne.stukenborg@alte-oldenburger.de
+139/154	http://www.nuernberger.de/	6
+		bastian.guettler@nuernberger.de
+		e-mail-kommunikation.info@nuernberger.de
+		ihkmail@muenchen.ihk.de
+		info@fuggerbank.de
+		info@nuernberger.de
+		poststelle@bafin.de
+140/154	http://www.wuerttembergische.de/	2
+		dsb@ww-ag.com
+		info@wuerttembergische.de
+141/154	http://www.vrk.de/	2
+		info@vrk.de
+		presse@vrk.de
+Error: http://www.mannheimer.de/kontakt/:
+ConnectTimeout
+142/154	http://www.mannheimer.de/	4
+		datenschutz@mannheimer.de
+		info@continentale.de
+		info@en.mannheimer.de
+		service@mannheimer.de
+143/154	http://www.envivas.de/	2
+		datenschutz@envivas.de
+		info@envivas.de
+144/154	http://www.devk.de/	4
+		datenschutz@devk.de
+		info@devk.de
+		service.pk@gavag.de
+		webmaster@devk.de
+145/154	http://www.vgh.de/	6
+		 datenschutz@vgh.de
+		 service@vgh.de
+		datenschutz@vgh.de
+		mustermann@muster-email.de
+		schutz@vgh.de
+		service@vgh.de
+146/154	http://www.famk.de/	14
+		alexander.urbanus@famk.de
+		andreas.kuempel@famk.de
+		anja.bleeck@famk.de
+		anna.glesmann@famk.de
+		app-support@famk.de
+		bjoern.trautmann@famk.de
+		christina.jirik@famk.de
+		dieter.jirik@famk.de
+		eva.haering@famk.de
+		hartmut.strehlau@famk.de
+		info@famk.de
+		juergen.haering@famk.de
+		klaus.merker@famk.de
+		maximilian.jirik@famk.de
+147/154	http://www.concordia.de/	8
+		beschwerdemanagement@concordia.de
+		datenschutz@concordia.de;
+		info@pixelcreation.de
+		poststelle@bafin.de
+		versicherungen@concordia.de
+		versicherungsgruppe@concordia.de;
+148/154	http://www.vigo-krankenversicherung.de/	2
+		datenschutz@vigo-krankenversicherung.de
+		service@vigo-krankenversicherung.de
+Error: http://www.mecklenburgische.de/:
+ReadTimeout
+149/154	http://www.mecklenburgische.de/	0
+	NO HITS! TODO!
+150/154	http://www.ligakranken.de/	3
+		g.lill@projekt29.de
+		mail@nuernberger-medien.de
+		service@ligakranken.de
+Error: http://www.aka-dortmund.de/:
+SSLError
+151/154	http://www.aka-dortmund.de/	0
+	NO HITS! TODO!
+152/154	http://www.praenatura.de/opel-aktivplus/	2
+		datenschutz@praenatura.de
+		info@praenatura.de
+153/154	http://www.stmartinusvvag.de/	8
+		bernhard.mayer@stmartinusvvag.de
+		bettina.zeyher@stmartinusvvag.de
+		franziska.alle@stmartinusvvag.de
+		jutta.becker-achenza@stmartinusvvag.de
+		karl.wolf@stmartinusvvag.de
+		silvia.zabel@stmartinusvvag.de
+		susanne.kuehnel@stmartinusvvag.de
+		ursula.mahal@stmartinusvvag.de
+154/154	http://www.kuk-bf-hannover.de/	0
+	NO HITS! TODO!
+149 of 154
