@@ -12,8 +12,7 @@
 # python3 mail-crawler.py 3 -l lists/InstitutionsOfHigherEducation.csv
 # ------------------------------ Config ------------------------------
 
-# Typical sites that contain email addresses.
-# Everything is lowercase.
+from enum import Enum
 import traceback
 import tldextract
 import argparse
@@ -23,6 +22,8 @@ import urllib.request
 from parsers.RegexParser import RegexParser
 from parsers.MailtoParser import MailtoParser
 from loaders.SeleniumChromeLoader import SeleniumChromeLoader
+# Typical sites that contain email addresses.
+# Everything is lowercase.
 potential_sites_en = [
     "impressum", "support", "contact", "imprint", "privacy", "imprint"]
 potential_sites_de = ["kontakt", "datenschutz", "über"]
@@ -52,19 +53,23 @@ headers = {
 loader = SeleniumChromeLoader
 
 # enabled parsers
-# Cloudflare Protection (deprecated)
 # a href="mailto...
 # regex for something@something.something
-# look for spoken chars like at or [at] instead of @ (deprecated)
-# handle "javascript:linkTo_UnCryptMailto..." (deprecated)
 parsers = [MailtoParser, RegexParser]
 # --------------------------- Warning! --------------------------
 # ----------------- Don't read below this line! -----------------
 # ----------------------- Super ugly code! ----------------------
 
-# import libraries
 
 VERBOSE = False
+
+
+class RESULT_CODES(Enum):
+    OK = 1
+    SSL_ERROR = 2
+    CONNECTION_ERROR = 3
+    CONNECTION_TIMEOUT = 4
+    UNDEFINED_ERROR = 5
 
 
 def build_url(baseurl, path):
@@ -133,6 +138,9 @@ def process_url(target):
     global VERBOSE
     global loader
 
+    email_addresses = set()
+    links = list()
+
     try:
         # check for redirects (thanks aok!)
         request = requests.get(target, allow_redirects=True, timeout=10)
@@ -143,20 +151,30 @@ def process_url(target):
         request.connection.close()
         if VERBOSE:
             print("\nProcessing: " + target)
-        email_addresses = set()
-        links = list()
         soup = loader.load_and_soup(target)
         email_addresses = get_promising_mails(soup)
         links = get_promising_urls(soup, target)
-    except Exception as e:
-        print("Error: " + target + ":")
-        print(repr(e).split('(')[0])
-        if VERBOSE:
-            tb = traceback.format_exc()
-            print(tb)
-        email_addresses = set()
-        links = set()
-    return email_addresses, links
+        status = RESULT_CODES.OK
+    except requests.exceptions.ConnectionError as e:
+        print_exception(target, e, VERBOSE)
+        status = RESULT_CODES.CONNECTION_ERROR
+    except requests.exceptions.SSLError as e:
+        print_exception(target, e, VERBOSE)
+        status = RESULT_CODES.SSL_ERROR
+    except requests.exceptions.Timeout as e:
+        print_exception(target, e, VERBOSE)
+        status = RESULT_CODES.CONNECTION_TIMEOUT
+    return status, email_addresses, links
+
+
+def print_exception(target, e, VERBOSE):
+    print("Error: " + target + ":")
+    print(repr(e).split('(')[0])
+    if VERBOSE:
+        tb = traceback.format_exc()
+        print(tb)
+    email_addresses = set()
+    links = set()
 
 
 def strip_emails(results):
@@ -176,19 +194,23 @@ def strip_emails(results):
 def crawl(target, depth, done_urls):
     current_link = target
     emails = set()
+    status = RESULT_CODES.OK
 
     if int(depth) > 0:
-        new_email_addresses, new_links = process_url(current_link)
+        status, new_email_addresses, new_links = process_url(current_link)
         emails = emails.union(set(new_email_addresses))
         done_urls = done_urls.union(set([current_link]))
+        if status is not RESULT_CODES.OK:
+            return status, set(), set()
         for link in new_links:
             if link not in done_urls:
-                done_urls, new_emails = crawl(link, int(depth) - 1, done_urls)
+                status, done_urls, new_emails = crawl(
+                    link, int(depth) - 1, done_urls)
                 emails = emails.union(new_emails)
                 emails = strip_emails(emails)
                 if len(emails) > 5:
                     return done_urls, emails
-    return done_urls, emails
+    return status, done_urls, emails
 
 
 def filter_results_from_regex(emails):
@@ -224,10 +246,11 @@ def Main():
 
     if args.url:
         loader.init()
-        done_urls, emails = crawl(args.url, args.depth, set())
+        status, done_urls, emails = crawl(args.url, args.depth, set())
         if VERBOSE:
             print("\nResult:")
 
+        print(status)
         results = filter_results_from_regex(emails)
         for email in sorted(results):
             print(email)
@@ -242,7 +265,7 @@ def Main():
         for i in range(1, len(lines) - 1):
             split_me = lines[i].split(";")
             url = split_me[0]
-            done_urls, emails = crawl(url, args.depth, set())
+            status, done_urls, emails = crawl(url, args.depth, set())
             print(str(i) + "/" + str(len(lines) - 2) +
                   "\t" + url + "\t" + str(len(emails)))
             if len(emails) > 0:
