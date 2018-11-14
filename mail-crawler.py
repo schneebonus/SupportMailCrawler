@@ -209,7 +209,7 @@ def crawl(target, depth, done_urls):
                 emails = emails.union(new_emails)
                 emails = strip_emails(emails)
                 if len(emails) > 5:
-                    return done_urls, emails
+                    return status, done_urls, emails
     return status, done_urls, emails
 
 
