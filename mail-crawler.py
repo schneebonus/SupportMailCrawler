@@ -28,8 +28,8 @@ potential_sites_en = [
     "impressum", "support", "contact", "imprint", "privacy", "imprint"]
 potential_sites_de = ["kontakt", "datenschutz", "über"]
 potential_sites_debug = []
-potential_sites = set(potential_sites_en +
-                      potential_sites_de + potential_sites_debug)
+potential_sites = set(potential_sites_en
+                      + potential_sites_de + potential_sites_debug)
 
 # ignored files
 ignore_files = [".exe", ".png", ".pdf", ".jpg"]
@@ -238,6 +238,8 @@ def Main():
     parser.add_argument("-u", "--url", help="URL of a site.", type=str)
     parser.add_argument(
         "-l", "--list", help="List of a sites. Should be a PrivacyScore-Export.", type=str)
+    parser.add_argument(
+        "-t", "--test", help="Test against a file. File should use this format: url;email", type=str)
     parser.add_argument("-v", "--verbose", help="Verbose mode",
                         action="store_true", default=False)
     args = parser.parse_args()
@@ -255,6 +257,47 @@ def Main():
         for email in sorted(results):
             print(email)
         loader.cleanup()
+    if args.test:
+        loader.init()
+        VERBOSE = 0
+
+        match = 0
+        no_results = 0
+        connection_errors = 0
+        found_different = 0
+        tested = 0
+
+        file = open(args.test, "r")
+        text = file.read()
+        lines = text.split("\n")
+
+        for i in range(1, len(lines) - 1):
+            split_me = lines[i].split(";")
+            url = split_me[0]
+            email = split_me[1]
+            if email is not "\\N":
+                tested += 1
+                status, done_urls, emails = crawl(url, args.depth, set())
+                if status is RESULT_CODES.OK:
+                    if email in emails:
+                        match += 1
+                        print(url + " found the correct address")
+                    elif len(emails) is 0:
+                        no_results += 1
+                        print(url + " found no address")
+                    else:
+                        found_different += 1
+                        print(url + " found at least one different address")
+                else:
+                    connection_errors += 1
+                    print(url + " produced an exception: " + str(status))
+        print("\nResult:\n")
+        print("Done:\t\t" + str(tested) + " URLs")
+        print("Matches:\t\t" + str(match))
+        print("No addresses found:\t" + str(no_results))
+        print("Found a different address:\t" + str(found_different))
+        print("Connection Exceptions:\t" + str(connection_errors))
+        loader.cleanup()
     if args.list:
         loader.init()
         VERBOSE = False
@@ -266,8 +309,8 @@ def Main():
             split_me = lines[i].split(";")
             url = split_me[0]
             status, done_urls, emails = crawl(url, args.depth, set())
-            print(str(i) + "/" + str(len(lines) - 2) +
-                  "\t" + url + "\t" + str(len(emails)))
+            print(str(i) + "/" + str(len(lines) - 2)
+                  + "\t" + url + "\t" + str(len(emails)))
             if len(emails) > 0:
                 hits += 1
                 results = filter_results_from_regex(emails)
