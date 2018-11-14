@@ -280,7 +280,8 @@ def Main():
             if status is RESULT_CODES.OK:
                 if email in emails:
                     match += 1
-                    print(url + " found the correct address")
+                    print(str(
+                        tested) + "/" + str(len(lines[:-1])) + "\t" + url + " found the correct address")
                 elif len(emails) is 0:
                     if email != "\\N":
                         no_results += 1
@@ -298,12 +299,15 @@ def Main():
                 connection_errors += 1
                 print(url + " produced an exception: " + str(status))
         print("\nResult:\n")
-        print("Done:\t\t" + str(tested) + " URLs")
-        print("Matches:\t\t" + str(match))
-        print("No addresses found:\t" + str(no_results))
-        print("Found a different address:\t" + str(found_different))
-        print("Found address but testset had none:\t" + str(testset_had_none_but_crawler))
-        print("Connection Exceptions:\t" + str(connection_errors))
+        print("Filename: " + args.test)
+        print("| Done | " + str(tested) + " URLs |")
+        print("|:-----------|----------:")
+        print("| Matches | " + str(match) + " |")
+        print("| No addresses found | " + str(no_results) + " |")
+        print("| Found a different address | " + str(found_different) + " |")
+        print("| Found address but testset had none | " +
+              str(testset_had_none_but_crawler) + " |")
+        print("| Connection Exceptions | " + str(connection_errors) + " |")
         loader.cleanup()
     if args.list:
         loader.init()
