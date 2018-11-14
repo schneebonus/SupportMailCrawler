@@ -1,10 +1,11 @@
-### WARNING: DEPRECATED!!!
-### Solved by executing js
+# WARNING: DEPRECATED!!!
+# Solved by executing js
 
 # Parses for a href="mailto:..."
 from bs4 import BeautifulSoup, SoupStrainer
 import re
 from .AbstractBaseClassParser import AbstractBaseClassParser
+
 
 class UnCryptMailtoParser(AbstractBaseClassParser):
     def guess_encryption(s):
@@ -20,7 +21,8 @@ class UnCryptMailtoParser(AbstractBaseClassParser):
         emails = set()
         for link in soup.find_all('a', href=True):
             if link['href'].startswith("javascript:linkTo_UnCryptMailto"):
-                m = re.search('^javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);$', link['href'])
+                m = re.search(
+                    '^javascript:linkTo_UnCryptMailto\(\'(.+?)\'\);$', link['href'])
                 if m:
                     secret = m.group(1)
                 else:
@@ -29,7 +31,8 @@ class UnCryptMailtoParser(AbstractBaseClassParser):
                 if guess is not None:
                     # ToDo: why do I need replace?
                     # Is there a problem in my decryption?
-                    emails.add(guess.replace("[.",".").replace("`", "z").lower())
+                    emails.add(guess.replace(
+                        "[.", ".").replace("`", "z").lower())
                     if VERBOSE:
                         print("\t\tUnCryptMailtoParser: " + guess)
         return emails
@@ -41,28 +44,32 @@ class UnCryptMailtoParser(AbstractBaseClassParser):
 # http://www.derwok.de/service/email_stopspam/
 # Examples:
 # http://www.bkk-bpw.de/
+
+
 class BkkDecrypt:
     def UnCryptMailto(s):
         n = 0
         r = ""
-        for i in range(0,len(s)):
-            n=ord(s[i]) # char code
+        for i in range(0, len(s)):
+            n = ord(s[i])  # char code
             if n > 8364:
                 n = 128
             n_minus_1 = n - 1
-            r += chr(n_minus_1) # string from char code
+            r += chr(n_minus_1)  # string from char code
         return r
 
 # Another decryption
 # Examples
 # https://univativ.com
+
+
 class UnivativDecrypt:
     def decryptCharcode(n, start, end, offset):
         n = n + offset
         if offset > 0 and n > end:
-            n = start + (n - end - 1);
+            n = start + (n - end - 1)
         elif offset < 0 and n < start:
-            n = end - (start - n - 1);
+            n = end - (start - n - 1)
         return chr(n)
 
     def decryptString(enc, offset):
