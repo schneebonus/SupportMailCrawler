@@ -5,23 +5,19 @@
 - urllib for requests
 - tldextract for sub domain parsing
 
-# Requires Splash
+# Requires Chrome and Chrome Driver
 
-Splash is a javascript rendering service with an HTTP API.
-It's a lightweight browser with an HTTP API, implemented in Python 3 using Twisted and QT5.
-It's fast, lightweight and state-less which makes it easy to distribute.
-
-Link: https://splash.readthedocs.io/en/stable/install.html#linux-docker
-
-### TL;DR:
-1. install, enable and start docker
-2. sudo docker pull scrapinghub/splash
-3. sudo docker run -p 8050:8050 -p 5023:5023 scrapinghub/splash
+- Install Chrome for your distribution
+- Install Chrome Driver to ""/usr/bin/chromedrive"
+  - ToDO: Should be something like:
+      - wget chromedriver
+      - unzip chromedriver.zip
+      - sudo cp chromedriver /usr/bin
 
 # Usage:
 
 python3 mail-crawler.py <crawling_depth> --url <target_url>
-  
+
 python3 mail-crawler.py <crawling_depth> --list <list.csv>
 
 Optional: add -v for verbose mode
