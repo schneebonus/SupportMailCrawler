@@ -168,13 +168,11 @@ def process_url(target):
 
 
 def print_exception(target, e, VERBOSE):
-    print("Error: " + target + ":")
-    print(repr(e).split('(')[0])
     if VERBOSE:
-        tb = traceback.format_exc()
-        print(tb)
-    email_addresses = set()
-    links = set()
+        # tb = traceback.format_exc()
+        # print(tb)
+        print("Error: " + target + ":")
+        print(repr(e).split('(')[0])
 
 
 def strip_emails(results):
@@ -265,6 +263,8 @@ def Main():
         no_results = 0
         connection_errors = 0
         found_different = 0
+        testset_had_none_but_crawler = 0
+
         tested = 0
 
         file = open(args.test, "r")
@@ -275,27 +275,34 @@ def Main():
             split_me = lines[i].split(";")
             url = split_me[0]
             email = split_me[1]
-            if email is not "\\N":
-                tested += 1
-                status, done_urls, emails = crawl(url, args.depth, set())
-                if status is RESULT_CODES.OK:
-                    if email in emails:
-                        match += 1
-                        print(url + " found the correct address")
-                    elif len(emails) is 0:
+            tested += 1
+            status, done_urls, emails = crawl(url, args.depth, set())
+            if status is RESULT_CODES.OK:
+                if email in emails:
+                    match += 1
+                    print(url + " found the correct address")
+                elif len(emails) is 0:
+                    if email != "\\N":
                         no_results += 1
-                        print(url + " found no address")
+                        print(url + " found no address (testset has one)")
                     else:
+                        print(url + " found no address (testset has none)")
+                else:
+                    if email != "\\N":
                         found_different += 1
                         print(url + " found at least one different address")
-                else:
-                    connection_errors += 1
-                    print(url + " produced an exception: " + str(status))
+                    else:
+                        testset_had_none_but_crawler += 1
+                        print(url + " found an e-mail address but testset had none")
+            else:
+                connection_errors += 1
+                print(url + " produced an exception: " + str(status))
         print("\nResult:\n")
         print("Done:\t\t" + str(tested) + " URLs")
         print("Matches:\t\t" + str(match))
         print("No addresses found:\t" + str(no_results))
         print("Found a different address:\t" + str(found_different))
+        print("Found address but testset had none:\t" + str(testset_had_none_but_crawler))
         print("Connection Exceptions:\t" + str(connection_errors))
         loader.cleanup()
     if args.list:
