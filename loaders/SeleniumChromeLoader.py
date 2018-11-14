@@ -10,6 +10,8 @@ import urllib.parse as urlparse
 
 class SeleniumChromeLoader(AbstractBaseClassLoader):
     driver = None
+    x = 1920
+    y = 1080
 
     def init():
         # ToDo: change!!!
@@ -50,6 +52,8 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         CHROMEDRIVER_PATH = "/usr/bin/chromedriver"
         SeleniumChromeLoader.driver = webdriver.Chrome(
             CHROMEDRIVER_PATH, chrome_options=option)
+        SeleniumChromeLoader.driver.set_window_size(
+            SeleniumChromeLoader.x, SeleniumChromeLoader.y)
 
     def load_and_soup(target):
         SeleniumChromeLoader.driver.get(target)
@@ -68,8 +72,7 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         return result
 
     def deobfuscate(text, target):
-        text = SeleniumChromeLoader.clickDecryptWithoutMailHandler(
-            text, target)
+        text = SeleniumChromeLoader.decrypt_by_injecting_returns(text)
         # text = SeleniumChromeLoader.UnCryptMailtoReplace(text)
         text = SeleniumChromeLoader.TextObfuscationReplace(text)
         text = SeleniumChromeLoader.remove_hidden_spans(text)
@@ -90,17 +93,6 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
             SeleniumChromeLoader.driver.get(target)
         return text
 
-    def replace_return(original_function):
-        return_function = original_function.replace(
-            "window.location.href=", "return ")
-        return_function = return_function.replace(
-            "window.location.href =", "return")
-        return_function = return_function.replace(
-            "location.href =", "return")
-        return_function = return_function.replace(
-            "location.href=", "return ")
-        return return_function
-
     # https://www.universa.de/ueber-uns/impressum/impressum.htm
     def remove_hidden_spans(text):
         soup = BeautifulSoup(text, "lxml")
@@ -108,28 +100,56 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
             hidden_span.clear()
         return soup.prettify()
 
-    def clickDecryptWithoutMailHandler(text, target):
-        encryption_functions = ["linkTo_UnCryptMailto", "decryptMail"]
+    def replace_return(original_function):
+        return_function = original_function.replace(
+            "window.location.href=", "return ")
+        return_function = return_function.replace(
+            "window.location.href =", "return")
+        return_function = return_function.replace(
+            "top.location.href =", "return")
+        return_function = return_function.replace(
+            "top.location.href=", "return ")
+        return_function = return_function.replace(
+            "location.href =", "return")
+        return_function = return_function.replace(
+            "location.href=", "return ")
+        return return_function
+
+    def decrypt_by_injecting_returns(text):
+        encryption_functions = [
+            "linkTo_UnCryptMailto", "decryptMail", "mailthis"]
         for encryption_function in encryption_functions:
-            m = re.search(r'javascript:' + encryption_function +
-                          r'\(\'(.+?)\'\)', text)
+            m = re.search(encryption_function + r'\(\'(.+?)\'\)', text)
             while m:
-                # grep function call (and remove javascript:)
                 js = m.group(0).replace("javascript:", "")
-                # replace location.href with return
-                original_function = SeleniumChromeLoader.driver.execute_script(
+                original_function = SeleniumChromeLoader.execute_js(
                     "var t = " + encryption_function + ".toString(); return t")
                 return_function = SeleniumChromeLoader.replace_return(
                     original_function)
-                # execute js and grab the email address
-                email = SeleniumChromeLoader.driver.execute_script(
+                email = SeleniumChromeLoader.execute_js(
                     return_function + "; return " + js)
                 # clean original html and replace js-call with its result
+                text = text.replace("javascript:" + m.group(0), email)
                 text = text.replace(m.group(0), email)
-                # process with next linkTo_UnCryptMailto
                 m = re.search(
-                    r'javascript:' + encryption_function + r'\(\'(.+?)\'\);', text)
+                    r'javascript:' + encryption_function +
+                    r'\(\'(.+?)\'\);', text)
         return text
+
+    def replace_return(original_function):
+        return_function = original_function.replace(
+            "window.location.href=", "return ")
+        return_function = return_function.replace(
+            "window.location.href =", "return")
+        return_function = return_function.replace(
+            "top.location.href =", "return")
+        return_function = return_function.replace(
+            "top.location.href=", "return ")
+        return_function = return_function.replace(
+            "location.href =", "return")
+        return_function = return_function.replace(
+            "location.href=", "return ")
+        return return_function
 
     def dumbDecrypt(cypher):
         offset = range(-10, 10)
