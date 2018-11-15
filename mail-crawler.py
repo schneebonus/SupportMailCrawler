@@ -19,14 +19,15 @@ import argparse
 import requests
 import urllib
 import urllib.request
+import time
 from parsers.RegexParser import RegexParser
 from parsers.MailtoParser import MailtoParser
 from loaders.SeleniumChromeLoader import SeleniumChromeLoader
 # Typical sites that contain email addresses.
 # Everything is lowercase.
 potential_sites_en = [
-    "impressum", "support", "contact", "imprint", "privacy", "imprint"]
-potential_sites_de = ["kontakt", "datenschutz", "über"]
+    "impressum", "support", "contact", "imprint", "privacy"]
+potential_sites_de = ["kontakt", "datenschutz"]
 potential_sites_debug = []
 potential_sites = set(potential_sites_en
                       + potential_sites_de + potential_sites_debug)
@@ -142,15 +143,9 @@ def process_url(target):
     links = list()
 
     try:
-        # check for redirects (thanks aok!)
-        request = requests.get(target, allow_redirects=True, timeout=10)
-        if len(request.history) > 0:
-            target = request.url
-            if VERBOSE:
-                print("Redirected to: " + request.url)
-        request.connection.close()
         if VERBOSE:
             print("\nProcessing: " + target)
+        target = loader.navigate_to_url(target)
         soup = loader.load_and_soup(target)
         email_addresses = get_promising_mails(soup)
         links = get_promising_urls(soup, target)
@@ -164,6 +159,9 @@ def process_url(target):
     except requests.exceptions.Timeout as e:
         print_exception(target, e, VERBOSE)
         status = RESULT_CODES.CONNECTION_TIMEOUT
+    except Exception as e:
+        print_exception(target, e, VERBOSE)
+        status = RESULT_CODES.UNDEFINED_ERROR
     return status, email_addresses, links
 
 
@@ -202,12 +200,12 @@ def crawl(target, depth, done_urls):
             return status, set(), set()
         for link in new_links:
             if link not in done_urls:
+                if len(emails) > 10:
+                    depth = 1
                 status, done_urls, new_emails = crawl(
                     link, int(depth) - 1, done_urls)
                 emails = emails.union(new_emails)
                 emails = strip_emails(emails)
-                if len(emails) > 5:
-                    return status, done_urls, emails
     return status, done_urls, emails
 
 
@@ -256,6 +254,7 @@ def Main():
             print(email)
         loader.cleanup()
     if args.test:
+        start = time.time()
         loader.init()
         VERBOSE = 0
 
@@ -271,7 +270,7 @@ def Main():
         text = file.read()
         lines = text.split("\n")
 
-        for i in range(1, len(lines) - 1):
+        for i in range(0, len(lines) - 1):
             split_me = lines[i].split(";")
             url = split_me[0]
             email = split_me[1]
@@ -285,29 +284,37 @@ def Main():
                 elif len(emails) is 0:
                     if email != "\\N":
                         no_results += 1
-                        print(url + " found no address (testset has one)")
+                        print(str(
+                            tested) + "/" + str(len(lines[:-1])) + "\t" + url + " found no address (testset has one)")
                     else:
-                        print(url + " found no address (testset has none)")
+                        print(str(
+                            tested) + "/" + str(len(lines[:-1])) + "\t" + url + " found no address (testset has none)")
                 else:
                     if email != "\\N":
                         found_different += 1
-                        print(url + " found at least one different address")
+                        print(str(
+                            tested) + "/" + str(len(lines[:-1])) + "\t" + url + " found at least one different address")
                     else:
                         testset_had_none_but_crawler += 1
-                        print(url + " found an e-mail address but testset had none")
+                        print(str(
+                            tested) + "/" + str(len(lines[:-1])) + "\t" + url + " found an e-mail address but testset had none")
             else:
                 connection_errors += 1
-                print(url + " produced an exception: " + str(status))
+                print(str(
+                    tested) + "/" + str(len(lines[:-1])) + "\t" + url + " produced an exception: " + str(status))
+        end = time.time()
         print("\nResult:\n")
-        print("Filename: " + args.test)
+        print("Filename: " + args.test + "\n")
         print("| Done | " + str(tested) + " URLs |")
         print("|:-----------|----------:")
-        print("| Matches | " + str(match) + " |")
-        print("| No addresses found | " + str(no_results) + " |")
-        print("| Found a different address | " + str(found_different) + " |")
-        print("| Found address but testset had none | " +
+        print("| Got the expected address | " + str(match) + " |")
+        print("| No addresses found (but expected one) | " + str(no_results) + " |")
+        print("| Found an address but not the expected one | " +
+              str(found_different) + " |")
+        print("| Found address but did not expect one | " +
               str(testset_had_none_but_crawler) + " |")
         print("| Connection Exceptions | " + str(connection_errors) + " |")
+        print("| Time | " + '{:5.3f}s'.format(end - start) + " |")
         loader.cleanup()
     if args.list:
         loader.init()

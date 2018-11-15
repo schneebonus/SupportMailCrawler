@@ -55,8 +55,12 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         SeleniumChromeLoader.driver.set_window_size(
             SeleniumChromeLoader.x, SeleniumChromeLoader.y)
 
+    def navigate_to_url(url):
+        SeleniumChromeLoader.driver.get(url)
+        target = SeleniumChromeLoader.driver.current_url
+        return target
+
     def load_and_soup(target):
-        SeleniumChromeLoader.driver.get(target)
         html = SeleniumChromeLoader.driver.page_source
         html_deobfuscated = SeleniumChromeLoader.deobfuscate(html, target)
         soup = BeautifulSoup(html_deobfuscated, "lxml")
