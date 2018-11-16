@@ -8,8 +8,11 @@ from .AbstractBaseClassParser import AbstractBaseClassParser
 class RegexParser(AbstractBaseClassParser):
     def get_mails_by_regex(soup, VERBOSE):
         email_addresses = set()
-        for email in re.findall(r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+[a-zA-Z0-9])", str(soup)):
-            if "regex:" + email not in email_addresses and not email.endswith(".png") and not email.endswith(".jpg"):
+        regex = r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+[a-zA-Z0-9])"
+        for email in re.findall(regex, str(soup)):
+            if ("regex:" + email not in email_addresses
+                    and not email.endswith(".png")
+                    and not email.endswith(".jpg")):
                 email_addresses.add("regex:" + email.lower().strip())
                 if VERBOSE:
                     print("\t\tregex:" + email)

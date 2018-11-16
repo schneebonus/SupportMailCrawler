@@ -14,13 +14,6 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
     y = 1080
 
     def init():
-        # ToDo: change!!!
-        protocols = [{'default': True,
-                      'protocol': 'mailto',
-                      'title': 'privacyscore-mailhandler',
-                      'url': 'https://privacyscore.org/imprint/?grabme=%s'
-                      }]
-
         option = webdriver.ChromeOptions()
         option.add_argument("--disable-background-networking")
         option.add_argument("--safebrowsing-disable-auto-update")
@@ -47,7 +40,6 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         chrome_prefs["profile.managed_default_content_settings"] = {
             "images": 2}
         chrome_prefs["custom_handlers.enabled"] = True
-        chrome_prefs["custom_handlers.registered_protocol_handlers"] = protocols
         option.experimental_options["prefs"] = chrome_prefs
         CHROMEDRIVER_PATH = "/usr/bin/chromedriver"
         SeleniumChromeLoader.driver = webdriver.Chrome(
@@ -55,8 +47,17 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         SeleniumChromeLoader.driver.set_window_size(
             SeleniumChromeLoader.x, SeleniumChromeLoader.y)
 
+    def current_url():
+        return SeleniumChromeLoader.driver.current_url
+
     def navigate_to_url(url):
         SeleniumChromeLoader.driver.get(url)
+        target = SeleniumChromeLoader.driver.current_url
+        return target
+
+    def click_link_by_name(name):
+        link = SeleniumChromeLoader.driver.find_element_by_link_text(name)
+        link.click()
         target = SeleniumChromeLoader.driver.current_url
         return target
 
