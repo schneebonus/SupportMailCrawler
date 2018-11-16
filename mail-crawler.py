@@ -88,7 +88,7 @@ def build_url(baseurl, path):
     url_new = urllib.parse.urlparse(path)
 
     if url_new.scheme == "":
-        path = urllib.urljoin(baseurl, path)
+        path = urllib.parse.urljoin(baseurl, path)
 
     return path
 
@@ -174,9 +174,9 @@ def process_url(target, blacklist):
         if new_position not in blacklist:
             soup = loader.load_and_soup(target)
             email_addresses = get_promising_mails(soup)
-            links = get_promising_urls(soup, target)
-            frames = inspect_frames(link, soup)
-            links = links.union(set(frames))
+            links = get_promising_urls(soup, new_position)
+            frames = inspect_frames(new_position, soup)
+            links = links + list(frames)
     except requests.exceptions.ConnectionError as e:
         print_exception(target, e, VERBOSE)
         status = RESULT_CODES.CONNECTION_ERROR
