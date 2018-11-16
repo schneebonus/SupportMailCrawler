@@ -148,6 +148,13 @@ def is_in_scope(scope, url):
     return base_domain == check_domain
 
 
+def inspect_frames(target, soup):
+    # ToDo:
+    # crawl for frames and add content to links
+    frames = set()
+    return frames
+
+
 def process_url(target, blacklist):
     global VERBOSE
     global loader
@@ -168,6 +175,8 @@ def process_url(target, blacklist):
             soup = loader.load_and_soup(target)
             email_addresses = get_promising_mails(soup)
             links = get_promising_urls(soup, target)
+            frames = inspect_frames(link, soup)
+            links = links.union(set(frames))
     except requests.exceptions.ConnectionError as e:
         print_exception(target, e, VERBOSE)
         status = RESULT_CODES.CONNECTION_ERROR
