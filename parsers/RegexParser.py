@@ -6,17 +6,14 @@ from .AbstractBaseClassParser import AbstractBaseClassParser
 
 
 class RegexParser(AbstractBaseClassParser):
-    def get_mails_by_regex(soup, VERBOSE):
+    def extract_mail_addresses(soup, VERBOSE, tld):
         email_addresses = set()
         regex = r"([a-zA-Z0-9_.+-]+@[a-zA-Z0-9-]+\.[a-zA-Z0-9-.]+[a-zA-Z0-9])"
         for email in re.findall(regex, str(soup)):
-            if ("regex:" + email not in email_addresses
-                    and not email.endswith(".png")
-                    and not email.endswith(".jpg")):
-                email_addresses.add("regex:" + email.lower().strip())
+            email = email.lower().strip()
+            if (email not in email_addresses
+                    and tld.is_valid_tld(email)):
+                email_addresses.add(email)
                 if VERBOSE:
                     print("\t\tregex:" + email)
         return email_addresses
-
-    def extract_mail_addresses(soup, VERBOSE):
-        return RegexParser.get_mails_by_regex(soup, VERBOSE)

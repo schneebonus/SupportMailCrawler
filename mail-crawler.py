@@ -25,14 +25,16 @@ import time
 from parsers.RegexParser import RegexParser
 from parsers.MailtoParser import MailtoParser
 from loaders.SeleniumChromeLoader import SeleniumChromeLoader
+from utils.TLDCheck import TLDCheck
 # Typical sites that contain email addresses.
 # Everything is lowercase.
 potential_sites_en = [
-    "impressum", "support", "contact", "imprint", "privacy", "publisher"]
+    "impressum", "support", "contact", "imprint",
+    "privacy", "publisher"]
 potential_sites_de = ["kontakt", "datenschutz", "ansprechpartner"]
 potential_sites_debug = []
-potential_sites = set(potential_sites_en
-                      + potential_sites_de + potential_sites_debug)
+potential_sites = set(potential_sites_en +
+                      potential_sites_de + potential_sites_debug)
 
 # ignored files
 ignore_files = [".exe", ".png", ".pdf", ".jpg"]
@@ -42,9 +44,9 @@ ignore_protocols = ["mailto:", "tel:", "javascript:"]
 # Changed the User-Agent to old Mozilla - not everybody likes crawlers.
 # currently not used
 headers = {
-    'User-Agent': 'Mozilla/5.0 (X11; Fedora; Linux x86_64)'
-    + ' AppleWebKit/537.36 (KHTML, like Gecko) '
-    + 'Chrome/70.0.3538.77 Safari/537.36'
+    'User-Agent': 'Mozilla/5.0 (X11; Fedora; Linux x86_64)' +
+    ' AppleWebKit/537.36 (KHTML, like Gecko) ' +
+    'Chrome/70.0.3538.77 Safari/537.36'
 }
 
 # enable loader
@@ -60,7 +62,12 @@ loader = SeleniumChromeLoader
 # enabled parsers
 # a href="mailto...
 # regex for something@something.something
-parsers = [MailtoParser, RegexParser]
+# MailtoParser
+parsers = [RegexParser]
+
+# check tlds
+check = TLDCheck()
+
 # --------------------------- Warning! --------------------------
 # ----------------- Don't read below this line! -----------------
 # ----------------------- Super ugly code! ----------------------
@@ -75,10 +82,11 @@ class RESULT_CODES(Enum):
     CONNECTION_ERROR = 3
     CONNECTION_TIMEOUT = 4
     UNDEFINED_ERROR = 5
+    SITE_NOT_FOUND = 6
 
 
 def signal_handler(sig, frame):
-    print('You pressed Ctrl+C!')
+    print('You pressed Ctrl+C! Cleaning chrome...')
     loader.cleanup()
     sys.exit(0)
 
@@ -86,6 +94,8 @@ def signal_handler(sig, frame):
 def build_url(baseurl, path):
     # Returns a list in the structure of urlparse.ParseResult
     url_new = urllib.parse.urlparse(path)
+
+    # todo: base html tag!
 
     if url_new.scheme == "":
         path = urllib.parse.urljoin(baseurl, path)
@@ -99,52 +109,51 @@ def get_promising_urls(soup, base):
     global ignore_files
     global ignore_protocols
 
-    found_sites = list()
+    found_sites = set()
     soup_links = set(soup.find_all('a', href=True))
     for link in soup_links:
         for site in potential_sites:
-            if ((link.string is not None
-                    and site in link.string.lower()) or
+            if ((link.string is not None and
+                    site in link.string.lower()) or
                     site in str(link['href']).lower()):
-                if link['href'] not in found_sites:
-                    if VERBOSE:
-                        print("\t\t'found " + site + ": " + str(link['href']))
-                    new_link = link['href']
+                if VERBOSE:
+                    print("\t\t'found " + site + ": " + str(link['href']))
+                new_link = link['href']
 
-                    ignored = False
+                ignored = False
 
-                    for p in ignore_protocols:
-                        if new_link.lower().strip().startswith(p):
-                            ignored = True
+                for p in ignore_protocols:
+                    if new_link.lower().strip().startswith(p):
+                        ignored = True
 
-                    for i in ignore_files:
-                        if (new_link.lower().strip().endswith(i)
-                                and not ignored):
-                            ignored = True
+                for i in ignore_files:
+                    if (new_link.lower().strip().endswith(i) and
+                            not ignored):
+                        ignored = True
 
-                    if not ignored:
-                        check_this_site = build_url(base, new_link)
-                        # do not crawl other domains
-                        if is_in_scope(base, check_this_site):
-                            found_sites.append(("", check_this_site))
+                if not ignored:
+                    check_this_site = build_url(base, new_link)
+                    # do not crawl other domains
+                    if is_in_scope(base, check_this_site):
+                        found_sites.add(check_this_site)
     return found_sites
 
 
 def get_promising_mails(soup):
     global VERBOSE
     global parsers
+    global check
     email_addresses = set()
     for parser in parsers:
         email_addresses = email_addresses | parser.extract_mail_addresses(
-            soup, VERBOSE)
+            soup, VERBOSE, check)
 
     return email_addresses
 
 
 def is_in_scope(scope, url):
     base_domain = tldextract.extract(scope).domain
-    check_domain = tldextract.extract(
-        url).domain
+    check_domain = tldextract.extract(url).domain
     return base_domain == check_domain
 
 
@@ -152,6 +161,18 @@ def inspect_frames(target, soup):
     # ToDo:
     # crawl for frames and add content to links
     frames = set()
+    soup_frames = soup.find_all('frame')
+    for fr in soup_frames:
+        if fr.has_attr('src'):
+            real_location = build_url(target, fr['src'])
+            if is_in_scope(target, real_location):
+                frames.add((real_location))
+    soup_iframes = soup.find_all('iframe')
+    for fr in soup_iframes:
+        if fr.has_attr('src'):
+            real_location = build_url(target, fr['src'])
+            if is_in_scope(target, real_location):
+                frames.add((real_location))
     return frames
 
 
@@ -161,104 +182,66 @@ def process_url(target, blacklist):
 
     email_addresses = set()
     links = list()
-
-    new_position = ""
-
-    try:
-        if VERBOSE:
-            print("\nProcessing: " + target[1])
-        name, link = target
-        target = loader.navigate_to_url(link)
-        new_position = loader.current_url()
-
-        if new_position not in blacklist:
-            soup = loader.load_and_soup(target)
-            email_addresses = get_promising_mails(soup)
-            links = get_promising_urls(soup, new_position)
-            frames = inspect_frames(new_position, soup)
-            links = links + list(frames)
-    except requests.exceptions.ConnectionError as e:
-        print_exception(target, e, VERBOSE)
-        status = RESULT_CODES.CONNECTION_ERROR
-    except requests.exceptions.SSLError as e:
-        print_exception(target, e, VERBOSE)
-        status = RESULT_CODES.SSL_ERROR
-    except requests.exceptions.Timeout as e:
-        print_exception(target, e, VERBOSE)
-        status = RESULT_CODES.CONNECTION_TIMEOUT
-    except Exception as e:
-        print_exception(target, e, VERBOSE)
-        status = RESULT_CODES.UNDEFINED_ERROR
-
-    status = RESULT_CODES.OK
-    return new_position, status, email_addresses, links
-
-
-def print_exception(target, e, VERBOSE):
     if VERBOSE:
-        tb = traceback.format_exc()
-        print(tb)
-        print("Error: " + target[1] + ":")
-        print(repr(e).split('(')[0])
-
-
-def strip_emails(results):
-    emails = set()
-    for email in results:
-        if email.startswith("mailto:"):
-            emails.add(email[7:])
-        elif email.startswith("mailto*"):
-            emails.add(email[7:])
-        elif email.startswith("regex:"):
-            emails.add(email[6:])
+        print("\nProcessing: " + target)
+    target = loader.navigate_to_url(target)
+    if target not in blacklist:
+        soup = loader.load_and_soup(target)
+        if site_found(soup):
+            email_addresses = get_promising_mails(soup)
+            links = get_promising_urls(soup, target)
+            frames = inspect_frames(target, soup)
+            blacklist.add(target)
+            for frame in frames:
+                if frame not in blacklist:
+                    status, done_urls, new_emails = crawl(frame, 1, blacklist)
+                    email_addresses = email_addresses.union(new_emails)
+                    blacklist = blacklist.union(done_urls)
+            status = RESULT_CODES.OK
         else:
-            emails.add(email)
-    return emails
+            status = RESULT_CODES.SITE_NOT_FOUND
+    else:
+        status = RESULT_CODES.OK
+    return blacklist, status, email_addresses, links
+
+
+def site_found(soup):
+    if soup.text.strip() == "":
+        return False
+    return True
 
 
 def crawl(target, depth, done_urls):
-    current_link = target
     emails = set()
     status = RESULT_CODES.OK
 
     if int(depth) > 0:
-        done_url, status, new_email_addresses, new_links = process_url(
-            current_link, done_urls)
+        done_url_p, status, new_email_addresses, new_links = process_url(
+            target, done_urls)
         emails = emails.union(set(new_email_addresses))
-        done_urls.add(done_url)
+
+        # in case of a redirect:
+        # add both links!
+        done_urls = done_urls.union(done_url_p)
+        done_urls.add(target)
         if status is not RESULT_CODES.OK:
             return status, set(), set()
-        for type, link in new_links:
+        for link in new_links:
             if link not in done_urls:
-                if len(emails) > 10:
-                    depth = 1
+                # if len(emails) > 10:
+                #    depth = 1
                 # ToDo: clicked links might break the recursion!
                 status, done_urls, new_emails = crawl(
-                    (type, link), int(depth) - 1, done_urls)
+                    link, int(depth) - 1, done_urls)
                 emails = emails.union(new_emails)
-                emails = strip_emails(emails)
     return status, done_urls, emails
-
-
-def filter_results_from_regex(emails):
-    # filter results for regex errors
-    results = []
-    for e1 in emails:
-        counter = 0
-        for e2 in emails:
-            if e2.startswith(e1):
-                counter += 1
-        if counter is 1:
-            results.append(e1)
-        else:
-            if VERBOSE:
-                print(e1 + " seems to be an regex related error.")
-    return results
 
 
 def Main():
     global VERBOSE
+    global check
 
+    check.init()
     signal.signal(signal.SIGINT, signal_handler)
     parser = argparse.ArgumentParser()
     parser.add_argument(
@@ -288,12 +271,9 @@ def Main():
         loader.init()
         loader.navigate_to_url(args.url)
         print(loader.current_url())
-        status, done_urls, emails = crawl(("", args.url), args.depth, set())
-        if VERBOSE:
-            print("\nResult:")
-
+        status, done_urls, emails = crawl(args.url, args.depth, set())
         print(status)
-        results = filter_results_from_regex(emails)
+        results = emails
         for email in sorted(results):
             print(email)
         loader.cleanup()
@@ -321,75 +301,79 @@ def Main():
             email = split_me[1]
             tested += 1
             loader.navigate_to_url(url)
-            status, done_urls, emails = crawl(("", url), args.depth, set())
+            status, done_urls, emails = crawl(url, args.depth, set())
             if status is RESULT_CODES.OK:
-                if email in emails:
+                if email.lower() in emails:
                     match += 1
-                    print(str(
+                    print("+\t" + str(
                         tested) +
-                        "/" + str(len(lines[:-1])) +
-                        "\t" + url +
-                        " + true positive")
+                        "/" + str(len(lines[:-1]))
+                        + "\t" + url
+                        + ": true positive")
                 elif len(emails) is 0:
                     if email != "\\N":
                         no_results += 1
-                        print(str(
+                        print("-\t" + str(
                             tested) +
-                            "/" + str(len(lines[:-1]))
-                            + "\t" + url
-                            + " - false negative: could not finde " + email)
+                            "/" + str(len(lines[:-1])) +
+                            "\t" + url +
+                            ": false negative: could not finde " + email)
                     else:
-                        print(str(
+                        print("+\t" + str(
                             tested) +
-                            "/" + str(len(lines[:-1]))
-                            + "\t" + url
-                            + " + true negative")
+                            "/" + str(len(lines[:-1])) +
+                            "\t" + url +
+                            ": true negative")
                         true_negatives += 1
                 else:
                     if email != "\\N":
                         found_different += 1
-                        print(str(
+                        print("~\t" + str(
                             tested) +
-                            "/" + str(len(lines[:-1]))
-                            + "\t" + url + " ~ found " + str(len(emails))
-                            + " addresses but not " + email)
+                            "/" + str(len(lines[:-1])) +
+                            "\t" + url + ": found " + str(len(emails)) +
+                            " addresses but not " + email)
+                        for email in emails:
+                            print("\t\t" + email)
                     else:
                         testset_had_none_but_crawler += 1
-                        print(str(
+                        print("~\t" + str(
                             tested) + "/" +
-                            str(len(lines[:-1])) + "\t" + url
-                            + " ~ found " + str(len(emails))
-                            + " address but the testset had none.")
+                            str(len(lines[:-1])) + "\t" + url +
+                            ": found " + str(len(emails)) +
+                            " address but the testset had none.")
+                        for email in emails:
+                            print("\t\t" + email)
             else:
                 connection_errors += 1
-                print(str(
+                print("-\t" + str(
                     tested) + "/" + str(len(lines[:-1])) + "\t" +
-                    url + " - EXCEPTION: " + str(status))
+                    url + ": EXCEPTION: " + str(status))
         end = time.time()
         print("\nResult:\n")
-        print("Filename: " + args.test + "\n")
-        print("Done " + str(tested) + " URLs")
-        print("Rating | Class | Amount |")
+        print("Datei: " + args.test + "\n")
+        print("Erledigt " + str(tested) + " URLs")
         print("")
+        print("| Rating | Class | Amount |")
         print("|:-----------|:---------------|----------:|")
-        print("| Positive | Found address from testset | " + str(match) + " |")
-        print("| | Testset had no address and crawler did not find anything | "
-              + str(true_negatives) + " |")
-        print("| | Sum | " + str(match + true_negatives) + " |")
-        print("| Neutral | Testsed hat no address but crawler "
-              + "found anything | "
-              + str(found_different) + "|")
-        print("| | Testset had an address but crawler"
-              + " found something different | "
-              + str(found_different) + " |")
-        print("| | Sum | " + str(found_different + found_different) + " |")
-        print("| Negative | Testset had an address but crawler did"
-              + " not find anything | "
-              + str(no_results) + " |")
+        print("| Positiv | Adresse aus dem Testset gefunden | " + str(match) + " |")
+        print("| | Testset hatte keine Adresse und es wurde keine gefunden | " +
+              str(true_negatives) + " |")
+        print("| | Testset hatte keine Adresse aber es wurde etwas gefunden¹ | " +
+              str(testset_had_none_but_crawler) + "|")
+        print("| | Summe | " + str(match + true_negatives
+                                   + testset_had_none_but_crawler) + " |")
+        print("| Neutral | Testset hatte eine Adresse aber statt dieser Adresse wurde etwas anderes gefunden² | " +
+              str(found_different) + " |")
         print("| | Exceptions | " + str(connection_errors) + " |")
-        print("| | Sum | " + str(no_results + connection_errors) + " |")
+        print("| | Summe| " + str(found_different + connection_errors) + " |")
+        print("| Negative | Testset hatte eine Adresse aber es wurde nichts gefunden | " +
+              str(no_results) + " |")
+        print("| | Summe | " + str(no_results) + " |")
         print("")
-        print("Time: " + '{:5.3f}s'.format(end - start))
+        print("Laufzeit: " + '{:5.3f}s'.format(end - start))
+        print("¹ Treffer können sinnvoll aber auch unbrauchbar sein. Da das Testset hier keinen Vergleichswert hat, ist keine automatisierte Aussage möglich.")
+        print("² Es ist möglich, dass eine neuere Adresse gefunden wurde. Es ist aber auch möglich, dass statt der richtigen Adresse etwas komplett unbrauchbares erfasst wurde. Da das Testset hier keinen Vergleichswert hat, ist keine automatisierte Aussage möglich.")
         loader.cleanup()
     if args.list:
         loader.init()
@@ -402,12 +386,12 @@ def Main():
             split_me = lines[i].split(";")
             url = split_me[0]
             loader.navigate_to_url(url)
-            status, done_urls, emails = crawl(("", url), args.depth, set())
-            print(str(i) + "/" + str(len(lines) - 2)
-                  + "\t" + url + "\t" + str(len(emails)))
+            status, done_urls, emails = crawl(url, args.depth, set())
+            print(str(i) + "/" + str(len(lines) - 2) +
+                  "\t" + url + "\t" + str(len(emails)))
             if len(emails) > 0:
                 hits += 1
-                results = filter_results_from_regex(emails)
+                results = emails
                 for email in sorted(results):
                     print("\t\t" + email)
             else:

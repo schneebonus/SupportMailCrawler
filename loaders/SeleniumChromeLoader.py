@@ -61,6 +61,11 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         target = SeleniumChromeLoader.driver.current_url
         return target
 
+    def get_plain_content(target):
+        html = SeleniumChromeLoader.driver.page_source
+        html_deobfuscated = SeleniumChromeLoader.deobfuscate(html, target)
+        return html_deobfuscated
+
     def load_and_soup(target):
         html = SeleniumChromeLoader.driver.page_source
         html_deobfuscated = SeleniumChromeLoader.deobfuscate(html, target)
@@ -124,21 +129,24 @@ class SeleniumChromeLoader(AbstractBaseClassLoader):
         encryption_functions = [
             "linkTo_UnCryptMailto", "decryptMail", "mailthis"]
         for encryption_function in encryption_functions:
-            m = re.search(encryption_function + r'\(\'(.+?)\'\)', text)
-            while m:
-                js = m.group(0).replace("javascript:", "")
-                original_function = SeleniumChromeLoader.execute_js(
-                    "var t = " + encryption_function + ".toString(); return t")
-                return_function = SeleniumChromeLoader.replace_return(
-                    original_function)
-                email = SeleniumChromeLoader.execute_js(
-                    return_function + "; return " + js)
-                # clean original html and replace js-call with its result
-                text = text.replace("javascript:" + m.group(0), email)
-                text = text.replace(m.group(0), email)
-                m = re.search(
-                    r'javascript:' + encryption_function +
-                    r'\(\'(.+?)\'\);', text)
+            try:
+                m = re.search(encryption_function + r'\(\'(.+?)\'\)', text)
+                while m:
+                    js = m.group(0).replace("javascript:", "")
+                    original_function = SeleniumChromeLoader.execute_js(
+                        "var t = " + encryption_function + ".toString(); return t")
+                    return_function = SeleniumChromeLoader.replace_return(
+                        original_function)
+                    email = SeleniumChromeLoader.execute_js(
+                        return_function + "; return " + js)
+                    # clean original html and replace js-call with its result
+                    text = text.replace("javascript:" + m.group(0), email)
+                    text = text.replace(m.group(0), email)
+                    m = re.search(
+                        r'javascript:' + encryption_function +
+                        r'\(\'(.+?)\'\);', text)
+            except Exception as e:
+                print("Error: Site is using " + encryption_function + " but does not provide function.")
         return text
 
     def replace_return(original_function):
